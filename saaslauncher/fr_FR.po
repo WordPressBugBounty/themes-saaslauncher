@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SaasLauncher 1.0.13\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/saaslauncher\n"
-"POT-Creation-Date: 2024-12-19T05:32:11+00:00\n"
-"PO-Revision-Date: 2024-12-19 11:19+0545\n"
+"POT-Creation-Date: 2024-12-19T06:54:46+00:00\n"
+"PO-Revision-Date: 2024-12-19 12:42+0545\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -124,48 +124,57 @@ msgid "Changelog"
 msgstr "Changelog"
 
 #: inc/admin/pages/changelog.php:5
-msgid "Version 1.0.15"
-msgstr "Version 1.0.15"
+msgid "Version 1.0.16"
+msgstr "Version 1.0.16"
 
-#: inc/admin/pages/changelog.php:6
+#: inc/admin/pages/changelog.php:6 inc/admin/pages/changelog.php:14
 msgid "Released: December 19, 2024"
 msgstr "Publié : 19 décembre 2024"
 
 #: inc/admin/pages/changelog.php:8
+msgid "Fixed single click plugin installer in welcome notice"
+msgstr ""
+"Installateur de plugins à un seul clic corrigé dans l'avis de bienvenue"
+
+#: inc/admin/pages/changelog.php:13
+msgid "Version 1.0.15"
+msgstr "Version 1.0.15"
+
+#: inc/admin/pages/changelog.php:16
 msgid "Improvised dashboard layout"
 msgstr "Disposition de tableau improvisée"
 
-#: inc/admin/pages/changelog.php:9 inc/admin/pages/changelog.php:18
-#: inc/admin/pages/changelog.php:27 inc/admin/pages/changelog.php:36
+#: inc/admin/pages/changelog.php:17 inc/admin/pages/changelog.php:26
+#: inc/admin/pages/changelog.php:35 inc/admin/pages/changelog.php:44
 msgid "Added new demo collection"
 msgstr "Nouvelle collection de démos ajoutée"
 
-#: inc/admin/pages/changelog.php:14
+#: inc/admin/pages/changelog.php:22
 msgid "Version 1.0.14"
 msgstr "Version 1.0.14"
 
-#: inc/admin/pages/changelog.php:15
+#: inc/admin/pages/changelog.php:23
 msgid "Released: December 04, 2024"
 msgstr "Publié : 4 décembre 2024"
 
-#: inc/admin/pages/changelog.php:17 inc/admin/pages/changelog.php:26
-#: inc/admin/pages/changelog.php:35
+#: inc/admin/pages/changelog.php:25 inc/admin/pages/changelog.php:34
+#: inc/admin/pages/changelog.php:43
 msgid "Improved pattern designs"
 msgstr "Designs de motifs améliorés"
 
-#: inc/admin/pages/changelog.php:23
+#: inc/admin/pages/changelog.php:31
 msgid "Version 1.0.13"
 msgstr "Version 1.0.13"
 
-#: inc/admin/pages/changelog.php:24
+#: inc/admin/pages/changelog.php:32
 msgid "Released: December 01, 2024"
 msgstr "Publié : 1 décembre 2024"
 
-#: inc/admin/pages/changelog.php:32
+#: inc/admin/pages/changelog.php:40
 msgid "Version 1.0.12"
 msgstr "Version 1.0.12"
 
-#: inc/admin/pages/changelog.php:33
+#: inc/admin/pages/changelog.php:41
 msgid "Released: November 28, 2024"
 msgstr "Publié : 28 novembre 2024"
 

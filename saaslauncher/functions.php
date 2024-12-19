@@ -62,7 +62,7 @@ add_action( 'wp_enqueue_scripts', 'saaslauncher_styles' );
  */
 function saaslauncher_admin_style() {
 	$hello_notice_current_screen = get_current_screen();
-	if ( ! empty( $_GET['page'] ) && 'about-saaslauncher' === $_GET['page'] || $hello_notice_current_screen->id === 'themes' || $hello_notice_current_screen->id === 'dashboard' || $hello_notice_current_screen->id === 'plugins' ) {
+	if ( ( ! empty( $_GET['page'] ) && 'about-saaslauncher' === $_GET['page'] ) || $hello_notice_current_screen->id === 'themes' || $hello_notice_current_screen->id === 'dashboard' || $hello_notice_current_screen->id === 'plugins' ) {
 		wp_enqueue_style( 'saaslauncher-admin-style', get_template_directory_uri() . '/inc/admin/css/admin-style.css', array(), SAASLAUNCHER_VERSION, 'all' );
 		wp_enqueue_script( 'saaslauncher-admin-scripts', get_template_directory_uri() . '/inc/admin/js/saaslauncher-admin-scripts.js', array(), SAASLAUNCHER_VERSION, true );
 		wp_localize_script(
