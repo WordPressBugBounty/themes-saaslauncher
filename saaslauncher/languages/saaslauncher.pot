@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: SaasLauncher 1.0.14\n"
+"Project-Id-Version: SaasLauncher 1.0.15\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/saaslauncher\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-04T09:48:11+00:00\n"
+"POT-Creation-Date: 2024-12-19T05:32:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: saaslauncher\n"
@@ -26,7 +26,6 @@ msgstr ""
 
 #. Description of the theme
 #: style.css
-#: inc/admin/welcome-notice.php:252
 msgid "SaasLauncher is a cutting-edge Full Site Editing (FSE) WordPress theme tailored for SaaS companies, corporate businesses, and creative agencies. It comes packed with 50+ pre-built sections, 20+ integrated fonts, 15 pre-defined global styles, and pre-built layouts for the Homepage and Blog, along with templates for essential pages like About Us, Contact, Services, and Pricing. Designed for global reach, SaasLauncher supports popular languages such as Spanish, French, and English and is fully translatable into any language. With seamless design flexibility, one-click color scheme switching, and total creative control, it's perfect for crafting SaaS landing pages, corporate websites, personal portfolios, or any business niche. SaasLauncher empowers you to create a visually stunning website effortlessly and with precision. Explore SaasLauncher at https://cozythemes.com/saaslauncher-wordpress-theme/"
 msgstr ""
 
@@ -40,489 +39,645 @@ msgstr ""
 msgid "https://cozythemes.com/"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:49
+#. translators: %s: Theme initial
+#. translators: %s: Theme name
+#. translators: %s: Page label.
+#. translators: %s: Status string
+#. translators: %s: Feature label
+#: inc/admin/dashboard.php:80
+#: inc/admin/dashboard.php:90
+#: inc/admin/dashboard.php:144
+#: inc/admin/pages/free-vs-pro.php:242
+#: inc/admin/pages/free-vs-pro.php:272
+#: inc/admin/pages/recommended-plugins.php:55
+#: inc/admin/pages/recommended-plugins.php:66
+#: inc/admin/pages/recommended-plugins.php:75
+#: inc/admin/pages/recommended-plugins.php:125
+msgid "%s"
+msgstr ""
+
+#: inc/admin/dashboard.php:98
+msgid "Version "
+msgstr ""
+
+#: inc/admin/dashboard.php:182
+msgid "File does not exist or is not readable."
+msgstr ""
+
+#: inc/admin/pages/activate-licence.php:5
+msgid "Got a licence key?"
+msgstr ""
+
+#: inc/admin/pages/activate-licence.php:13
+msgid "Install & Activate Cozy Blocks!"
+msgstr ""
+
+#: inc/admin/pages/activate-licence.php:17
+msgid "Activate Cozy Blocks!"
+msgstr ""
+
+#: inc/admin/pages/activate-licence.php:44
+msgid "Activate Licence"
+msgstr ""
+
+#: inc/admin/pages/activate-licence.php:52
+msgid "Guide to activating the PRO version."
+msgstr ""
+
+#: inc/admin/pages/activate-licence.php:54
+msgid "How to Install and Activate Cozy Blocks for WordPress"
+msgstr ""
+
+#: inc/admin/pages/activate-licence.php:64
+msgid "🎉 Woohoo! PRO version unlocked. You're ready to build! 🚀"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:2
+msgid "Changelog"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:5
+msgid "Version 1.0.15"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:6
+msgid "Released: December 19, 2024"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:8
+msgid "Improvised dashboard layout"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:9
+#: inc/admin/pages/changelog.php:18
+#: inc/admin/pages/changelog.php:27
+#: inc/admin/pages/changelog.php:36
+msgid "Added new demo collection"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:14
+msgid "Version 1.0.14"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:15
+msgid "Released: December 04, 2024"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:17
+#: inc/admin/pages/changelog.php:26
+#: inc/admin/pages/changelog.php:35
+msgid "Improved pattern designs"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:23
+msgid "Version 1.0.13"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:24
+msgid "Released: December 01, 2024"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:32
+msgid "Version 1.0.12"
+msgstr ""
+
+#: inc/admin/pages/changelog.php:33
+msgid "Released: November 28, 2024"
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:250
+msgid "SaasLauncher Free vs. Pro"
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:253
+msgid "Already enjoying our product?"
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:258
+msgid "Feature"
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:259
+msgid "Free"
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:260
+msgid "Pro"
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:299
+msgid "No Risk, 100% Money Back Guarantee!"
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:300
+msgid "Our Refund Policy secures customer satisfaction and protection. If you find our purchased products unusable, despite our team’s support, you can claim a full refund within 30 days."
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:306
+msgid "Ready to take the next step? Let’s get you to"
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:306
+msgid "Checkout!"
+msgstr ""
+
+#: inc/admin/pages/free-vs-pro.php:306
+msgid "🚀"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:5
+#: inc/admin/welcome-notice.php:46
 #: patterns/banner-layout-2.php:44
 #: patterns/header-large-with-banner.php:41
 #: patterns/header-with-banner-light.php:41
 msgid "Welcome to SaasLauncher"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:50
-msgid "Start building your website with the most advanced WordPress theme ever! 🚀 "
+#: inc/admin/pages/getting-started.php:6
+msgid "Welcome to SaasLauncher, a cutting-edge Full Site Editing (FSE) WordPress theme designed specifically for SaaS companies, corporate businesses, and creative agencies. With SaasLauncher, you can effortlessly build a stunning website with features such as:"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:53
-msgid "Please install and activate all recommended plugins to use 40+ advanced blocks, 200+ pre-built sections, and 10+ additional starter site demos. Enhance website building and launch your site within minutes with just a few clicks! - Cozy Addons, Cozy Essential Addons, Advanced Import."
+#: inc/admin/pages/getting-started.php:8
+msgid "50+ pre-built, customizable sections"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:55
-#: inc/admin/welcome-notice.php:298
-msgid "Getting started with a single click"
+#: inc/admin/pages/getting-started.php:9
+msgid "20+ integrated fonts to enhance typography"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:56
-msgid "Explore SaasLauncher"
+#: inc/admin/pages/getting-started.php:10
+msgid "15 pre-defined global styles for a cohesive look"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:124
-msgid "Cozy Blocks"
+#: inc/admin/pages/getting-started.php:11
+msgid "Pre-designed layouts for the Homepage and Blog"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:129
-msgid "Advanced Import"
+#: inc/admin/pages/getting-started.php:12
+msgid "Templates for essential pages like About Us, Contact, Services, and Pricing"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:134
-msgid "Cozy Essential Addons"
+#: inc/admin/pages/getting-started.php:14
+msgid "Optimized for global reach, SaasLauncher is fully translatable, supporting popular languages like Spanish, French, and English, and easily adaptable to any language. You can switch color schemes with just one click, providing total creative control while maintaining seamless design flexibility."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:235
-msgid "About SaasLauncher"
+#: inc/admin/pages/getting-started.php:17
+msgid "Whether you're crafting a landing page for your SaaS product, building a corporate website, or creating a personal portfolio, SaasLauncher gives you the tools you need to bring your vision to life."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:245
-#: patterns/banner-layout-2.php:27
-#: patterns/header-archive.php:28
-#: patterns/header-default.php:24
-#: patterns/header-large-with-banner.php:27
-#: patterns/header-minimal-light.php:24
-#: patterns/header-minimal.php:24
-#: patterns/header-with-banner-light.php:27
-#: patterns/pricing-table-light.php:56
-#: patterns/pricing-table-light.php:118
-#: patterns/pricing-table-light.php:180
-#: patterns/pricing-tables-2.php:45
-#: patterns/pricing-tables-2.php:107
-#: patterns/pricing-tables-2.php:169
-#: patterns/pricing-tables.php:56
-#: patterns/pricing-tables.php:118
-#: patterns/pricing-tables.php:180
-msgid "Get Started"
+#: inc/admin/pages/getting-started.php:20
+msgid "Explore SaasLauncher and start building your next stunning website today!"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:246
-msgid "Setup Instruction"
+#: inc/admin/pages/getting-started.php:20
+msgid "Learn more"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:247
-msgid "FREE VS PRO"
+#: inc/admin/pages/getting-started.php:22
+msgid "Top Features You'll Love"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:251
-msgid "Welcome to the SaasLauncher"
+#: inc/admin/pages/getting-started.php:47
+msgid "Full Site Editing"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:253
-msgid "Required Plugins"
+#: inc/admin/pages/getting-started.php:51
+msgid "Customize all parts of your website — headers, footers, and templates — using a visual editor, with no coding required."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:254
-msgid "Please install and activate all recommended plugin to import the demo with \"one click demo import\" feature and unlock premium features!(for pro version)"
+#: inc/admin/pages/getting-started.php:74
+msgid "Pre-Built Starter Sites"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:258
-msgid "1. Cozy Blocks"
+#: inc/admin/pages/getting-started.php:78
+msgid "Ready-made templates allow quick site launch with one-click import, making it easy to customize and fit your needs."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:261
-#: inc/admin/welcome-notice.php:275
-#: inc/admin/welcome-notice.php:288
-msgid ": Plugin activated!"
+#: inc/admin/pages/getting-started.php:106
+msgid "Pre-Built Innerpage Layout"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:263
-#: inc/admin/welcome-notice.php:277
-msgid ": Plugin deactivated, please activate the plugin to use one click demo import and unlock premium features."
+#: inc/admin/pages/getting-started.php:110
+msgid "Ready-to-use designs for essential pages allow quick setup and easy customization, helping you build a complete website effortlessly."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:265
-#: inc/admin/welcome-notice.php:279
-#: inc/admin/welcome-notice.php:292
-msgid "Install and Activate"
+#: inc/admin/pages/getting-started.php:131
+msgid "Fully Customizable Header"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:272
-msgid "2. Cozy Essential Addons"
+#: inc/admin/pages/getting-started.php:135
+msgid "Design your site’s header with flexible options for layout, style, and content to perfectly match your branding."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:285
-msgid "3. Advanced Import - Needed only to use \"one click demo import\" feature"
+#: inc/admin/pages/getting-started.php:154
+msgid "Fully Customizable Footer"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:290
-msgid ": Plugin deactivated, please activate the plugin to use one click demo import feature."
+#: inc/admin/pages/getting-started.php:158
+msgid "Design your website's footer with flexible options for layout, content, and style, enhancing both its look and functionality."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:301
+#: inc/admin/pages/getting-started.php:180
+msgid "Pre-Built Sections"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:184
+msgid "Ready-to-use design blocks for various page elements make it easy to add and customize content without starting from scratch."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:200
+msgid "Single Click Demo Import"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:204
+msgid "Instantly import a complete demo site with one click, making the setup process quick and easy."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:238
+msgid "Global Styles"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:241
+msgid "Easily switch your site’s look with pre-defined global styles in SaasLauncher. Choose your color scheme with one click to match your brand instantly!"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:266
+msgid "Advanced Color Options"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:270
+msgid "Customize every element of your website's color scheme for a unique and cohesive design with full control over the color options."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:322
+msgid "Advanced Typography"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:326
+msgid "Gain full control over font styles, sizes, line heights, and spacing to create a unique and visually appealing text design."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:353
+msgid "World Class Support"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:356
+msgid "We ensures expert assistance is always available, providing quick solutions and guidance to help you make the most of your theme."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:400
+msgid "Money Back Guarantee"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:403
+msgid "Our 30-Day Money Back Guarantee ensures a full refund within 30 days if you're not satisfied with your purchase."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:446
+msgid "Advanced Blocks"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:449
+msgid "Cozy Blocks integration in SaasLauncher offers 40+ advanced page builder blocks, making site creation faster, easier, and fully compatible with the WordPress Site Editor."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:454
+msgid "Glance into the Premium Features"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:499
+msgid "Slider Builder"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:502
+msgid "Create custom, responsive sliders effortlessly with flexible options for content, style, and animation, enhancing your site's visual appeal and user experience."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:551
+msgid "Carousel Builder"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:555
+msgid "Create stunning, responsive carousels for posts, products, or custom content with customizable slides, controls, and smooth transitions."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:608
+msgid "Testimonials Carousel Builder"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:612
+msgid "Build a responsive testimonials carousel with customizable slides, controls, and smooth transitions to showcase customer feedback."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:693
+msgid "Teams Carousel Builder"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:697
+msgid "Create a responsive teams carousel to showcase team members with customizable slides, controls, and smooth transitions."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:731
+msgid "Popup Builder"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:735
+msgid "Easily create customizable popups with various trigger options, animations, and styles to enhance user engagement on your site."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:776
+msgid "Post & Magazine Blocks"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:780
+msgid "Add stylish post and magazine blocks to your site with customizable layouts, perfect for displaying articles and news content."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:824
+msgid "WooCommerce Blocks"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:828
+msgid "Enhance your online store with customizable WooCommerce blocks, perfect for showcasing products, categories, and offers."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:853
+#: patterns/photo-gallery.php:20
+msgid "Photo Gallery"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:857
+msgid "Create a beautiful photo gallery with customizable layouts, hover effects, and easy navigation for a visually appealing display."
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:880
+msgid "Portfolio Builder"
+msgstr ""
+
+#: inc/admin/pages/getting-started.php:884
+msgid "Build a stunning portfolio with customizable layouts, filters, and animations to showcase your work and projects professionally."
+msgstr ""
+
+#: inc/admin/pages/pre-built-demos.php:28
+#: inc/admin/pages/pre-built-demos.php:93
+msgid "Go to Demo Importer"
+msgstr ""
+
+#: inc/admin/pages/pre-built-demos.php:76
+msgid "Preview"
+msgstr ""
+
+#: inc/admin/pages/recommended-plugins.php:3
+msgid "Recommended Plugins for Smooth Functionality"
+msgstr ""
+
+#: inc/admin/pages/recommended-plugins.php:4
+msgid "To get the most out of your experience with SaasLauncher, we highly recommend the following plugins. These plugins are carefully selected to complement and extend the features of SaasLauncher, offering you a seamless and powerful integration."
+msgstr ""
+
+#: inc/admin/pages/recommended-plugins.php:5
+msgid "Each plugin is tested for compatibility, so you can be sure they will work smoothly with your setup."
+msgstr ""
+
+#: inc/admin/pages/recommended-plugins.php:6
+msgid "Note:"
+msgstr ""
+
+#: inc/admin/pages/recommended-plugins.php:6
+msgid "Always ensure you are using the latest versions of the plugins for optimal performance and security. If you need assistance with any of the recommended plugins, our support team is here to help."
+msgstr ""
+
+#: inc/admin/pages/recommended-plugins.php:83
+msgid "Activated"
+msgstr ""
+
+#: inc/admin/pages/recommended-plugins.php:87
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/pages/recommended-plugins.php:91
+msgid "Install & Activate"
+msgstr ""
+
+#: inc/admin/pages/setup-instructions.php:2
 msgid "Basic Theme Setup"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:305
-msgid "Setup Header Layout:"
+#: inc/admin/pages/setup-instructions.php:5
+msgid "Setup Header Layout"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:307
-msgid "Go to Appearance -> Editor -> Patterns -> Template Parts -> Header:"
+#: inc/admin/pages/setup-instructions.php:7
+#: inc/admin/pages/setup-instructions.php:16
+#: inc/admin/pages/setup-instructions.php:26
+#: inc/admin/pages/setup-instructions.php:35
+#: inc/admin/pages/setup-instructions.php:44
+#: inc/admin/pages/setup-instructions.php:53
+msgid "Go to"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:308
-msgid "click on Header > Click on Edit (Icon) -> Add or Remove Required block/content as your requirement.:"
+#: inc/admin/pages/setup-instructions.php:7
+msgid "Appearance → Editor → Patterns → Header"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:309
-#: inc/admin/welcome-notice.php:320
-#: inc/admin/welcome-notice.php:331
-msgid "Click on save to update your layout"
+#: inc/admin/pages/setup-instructions.php:8
+#: inc/admin/pages/setup-instructions.php:9
+#: inc/admin/pages/setup-instructions.php:27
+#: inc/admin/pages/setup-instructions.php:28
+#: inc/admin/pages/setup-instructions.php:36
+#: inc/admin/pages/setup-instructions.php:37
+#: inc/admin/pages/setup-instructions.php:46
+#: inc/admin/pages/setup-instructions.php:54
+#: inc/admin/pages/setup-instructions.php:56
+msgid "Click on"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:316
-msgid "Setup Footer Layout:"
+#: inc/admin/pages/setup-instructions.php:8
+msgid "Header (You need to edit/update) →"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:318
-msgid "Go to Appearance -> Editor -> Patterns -> Template Parts -> Footer:"
+#: inc/admin/pages/setup-instructions.php:8
+#: inc/admin/pages/setup-instructions.php:27
+#: inc/admin/pages/setup-instructions.php:36
+msgid "Add or Remove Required block/content as your requirement."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:319
-msgid "click on Footer > Click on Edit (Icon) > Add or Remove Required block/content as your requirement.:"
+#: inc/admin/pages/setup-instructions.php:9
+#: inc/admin/pages/setup-instructions.php:28
+#: inc/admin/pages/setup-instructions.php:37
+msgid "Save"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:327
-msgid "Setup Templates like Homepage/404/Search/Page/Single and more templates Layout:"
+#: inc/admin/pages/setup-instructions.php:9
+#: inc/admin/pages/setup-instructions.php:28
+#: inc/admin/pages/setup-instructions.php:37
+msgid "to update your layout."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:329
-#: inc/admin/welcome-notice.php:340
-msgid "Go to Appearance -> Editor -> Templates:"
+#: inc/admin/pages/setup-instructions.php:14
+msgid "Set Up Site Logo"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:330
-msgid "click on Template(You need to edit/update) > Click on Edit (Icon) > Add or Remove Required block/content as your requirement.:"
+#: inc/admin/pages/setup-instructions.php:16
+msgid "Appearance → Editor"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:338
-msgid "Restore/Reset Default Content layout of Template(Like: Frontpage/Blog/Archive etc.)"
+#: inc/admin/pages/setup-instructions.php:17
+msgid "You will see the site logo if it has already been set, or an empty placeholder in the top-left corner of the homepage design."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:341
-msgid "Click on Manage all Templates"
+#: inc/admin/pages/setup-instructions.php:18
+msgid "Click on the empty placeholder to upload or replace the site logo."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:342
-msgid "Click on 3 Dots icon at right side of respective Template"
+#: inc/admin/pages/setup-instructions.php:19
+msgid "Once the logo is set, you can also use it as the favicon. Simply enable the \"Use as Site Icon\" option available in the block’s settings sidebar panel."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:343
-#: inc/admin/welcome-notice.php:355
-msgid "Click on Clear Customization"
+#: inc/admin/pages/setup-instructions.php:24
+msgid "Setup Footer Layout"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:350
-msgid "Restore/Reset Default Content layout of Template Parts(Header/Footer/Sidebar)"
+#: inc/admin/pages/setup-instructions.php:26
+msgid "Appearance → Editor → Patterns → Footer"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:352
-msgid "Go to Appearance -> Editor -> Patterns:"
+#: inc/admin/pages/setup-instructions.php:27
+msgid "Footer (You need to edit/update) →"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:353
-msgid "Click on Manage All Template Parts"
+#: inc/admin/pages/setup-instructions.php:33
+msgid "Setup Templates (Homepage/404/Search/Page/Single and more)"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:354
-msgid "Click on 3 Dots icon at right side of respective Template parts"
+#: inc/admin/pages/setup-instructions.php:35
+#: inc/admin/pages/setup-instructions.php:44
+msgid "Appearance → Editor → Templates"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:365
-msgid "SaasLauncher Features (Free)"
+#: inc/admin/pages/setup-instructions.php:36
+msgid "Template (You need to edit/update) →"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:367
-msgid "SaasLauncher offers 30+ ready-to-use, pre-built sections, designed to streamline your SaaS website building experience."
+#: inc/admin/pages/setup-instructions.php:42
+msgid "Restore/Reset Default Content Layout of Template (Frontpage/Blog/Archive etc.)"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:369
-msgid "Hero/Banner Section"
+#: inc/admin/pages/setup-instructions.php:45
+#: inc/admin/pages/setup-instructions.php:55
+msgid "Click on the"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:370
-msgid "About Us Section"
+#: inc/admin/pages/setup-instructions.php:45
+#: inc/admin/pages/setup-instructions.php:55
+msgid "3 Dots"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:371
-msgid "Services Section"
+#: inc/admin/pages/setup-instructions.php:45
+msgid "icon on the right side of the respective template."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:372
-msgid "Featured Content Section"
+#: inc/admin/pages/setup-instructions.php:46
+#: inc/admin/pages/setup-instructions.php:56
+msgid "Reset"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:373
-msgid "Photo Gallery Section"
+#: inc/admin/pages/setup-instructions.php:46
+#: inc/admin/pages/setup-instructions.php:56
+msgid "Note: The Reset option appears only if there are any edits to the template."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:374
-msgid "Featured Work Section"
+#: inc/admin/pages/setup-instructions.php:51
+msgid "Restore/Reset Default Content Layout of Template Parts (Header/Footer/Sidebar)"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:375
-msgid "Testimonial Section"
+#: inc/admin/pages/setup-instructions.php:53
+msgid "Appearance → Editor → Patterns"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:376
-msgid "Call To Action Section"
+#: inc/admin/pages/setup-instructions.php:54
+msgid "All Template Parts"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:377
-msgid "FAQ Section "
+#: inc/admin/pages/setup-instructions.php:55
+msgid "icon on the right side of the respective template parts."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:378
-msgid "Counter Section"
+#: inc/admin/pages/support.php:3
+msgid "Need Help? We're Here to Assist You!"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:379
-msgid "Latest Post Display Section "
+#: inc/admin/pages/support.php:4
+msgid "If you're experiencing any issues or have questions about our theme, please feel free to reach out. Our support team is ready to assist you."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:380
-msgid "Brands Logo Showcase"
+#: inc/admin/pages/support.php:5
+msgid "To get started, create a support ticket by clicking the button below:"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:381
-msgid "Team Showcase"
+#: inc/admin/pages/support.php:8
+msgid "Create a Support Ticket"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:382
-msgid "Profile Links Card"
+#: inc/admin/pages/support.php:12
+#: inc/admin/pages/support.php:26
+msgid "Note"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:383
-msgid "Features Display Section"
+#: inc/admin/pages/support.php:12
+msgid "The support ticket has usually been replied to within 24 hours."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:384
-msgid "Pricing Tables Section"
+#: inc/admin/pages/support.php:17
+msgid "Enjoying SaasLauncher? We'd Love to Hear Your Feedback!"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:389
-msgid "FSE Templates Ready"
+#: inc/admin/pages/support.php:18
+msgid "If you’ve had a positive experience with SaasLauncher, consider leaving a review. Your feedback helps us improve and assists others in making informed decisions."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:391
-msgid "404 Template"
+#: inc/admin/pages/support.php:19
+msgid "To leave your review, simply click the button below:"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:392
-msgid "Archive Template"
+#: inc/admin/pages/support.php:22
+msgid "Leave a Review"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:393
-msgid "Product Catalog Template"
+#: inc/admin/pages/support.php:26
+msgid "Your review helps us improve the theme and serves as valuable feedback for future updates."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:394
-msgid "Blank Template"
+#: inc/admin/welcome-notice.php:47
+msgid "Start building your website with the most advanced WordPress theme ever! 🚀 "
 msgstr ""
 
-#: inc/admin/welcome-notice.php:395
-msgid "Front Page Template"
+#: inc/admin/welcome-notice.php:50
+msgid "Please install and activate all recommended plugins to use 40+ advanced blocks, 200+ pre-built sections, and 10+ additional starter site demos. Enhance website building and launch your site within minutes with just a few clicks! - Cozy Addons, Cozy Essential Addons, Advanced Import."
 msgstr ""
 
-#: inc/admin/welcome-notice.php:396
-msgid "Blog Home Template"
+#: inc/admin/welcome-notice.php:52
+msgid "Getting started with a single click"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:397
-msgid "Index Page Template"
+#: inc/admin/welcome-notice.php:53
+msgid "Explore SaasLauncher"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:398
-msgid "Search Template"
+#: inc/admin/welcome-notice.php:111
+msgid "Cozy Blocks"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:399
-msgid "Sitemap Template"
+#: inc/admin/welcome-notice.php:116
+msgid "Advanced Import"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:400
-msgid "Page Template"
+#: inc/admin/welcome-notice.php:121
+msgid "Cozy Essential Addons"
 msgstr ""
 
-#: inc/admin/welcome-notice.php:401
-msgid "Left Sidebar Page Template"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:402
-msgid "Right sidebar page  Template"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:403
-msgid "Single Template"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:404
-msgid "Single Product Template"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:405
-msgid "Cart Page Template"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:406
-msgid "Checkout Page Template"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:407
-msgid "Left Sidebar Single Template"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:408
-msgid "Full Width Single Template"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:412
-msgid "Fully Customizable Header Layout"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:413
-msgid "Fully Customizable Footer Layout "
-msgstr ""
-
-#: inc/admin/welcome-notice.php:414
-msgid "12+ Beautiful Fonts Option"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:415
-msgid "On Scroll Animation option"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:416
-msgid "One Click Demo Import Features"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:417
-msgid "Access Cozy Blocks with upto 20+ Advanced Blocks for FSE and Gutenberg Editor"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:421
-msgid "Premium Features"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:422
-msgid "Including all free features, SaasLauncher seamlessly integrates with Cozy Blocks, offering 40+ advanced blocks designed to elevate and empower your SaaS or corporate website. These blocks provide powerful capabilities, enabling you to integrate essential SaaS-specific features effortlessly. By combining these blocks with our ready-to-use patterns, you gain the flexibility to craft a professional and engaging online presence tailored specifically to SaaS and corporate needs."
-msgstr ""
-
-#: inc/admin/welcome-notice.php:423
-msgid "10+ Additional Pre-built Sections, bringing the total to 40+ pre-built sections."
-msgstr ""
-
-#: inc/admin/welcome-notice.php:425
-msgid "Hero Section with Video Popup"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:426
-msgid "Hero/Banner Slider Section"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:427
-msgid "Testimonial Carousel"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:428
-msgid "Team Carousel"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:429
-msgid "Service Grid"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:430
-msgid "Service Carousel"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:431
-msgid "Alternate Image Content Section"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:432
-msgid "Featured Content Section with Sticky Style"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:433
-msgid "FAQ Accordion Section"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:434
-msgid "Pricing Table"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:436
-msgid "40+ Advanced Blocks"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:438
-msgid "Slider Block"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:439
-msgid "Counter Block"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:440
-msgid "Progress Bar Block"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:441
-msgid "Advanced Gallery with Lightbox, filterable and multiple layout"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:442
-msgid "Portfolio Block with Custom Post Type with lightbox, category filterable and multiple layout"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:443
-msgid "Team Block with grid and carousel"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:444
-msgid "Testimonial Block with grid and carousel"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:445
-msgid "15 Post and Magazine Blocks"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:446
-msgid "10 WooCommerce Blocks"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:447
-msgid "Social Shares Blocks"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:448
-msgid "Social Icons Blocks"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:449
-msgid "Breadcrumbs Block"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:450
-msgid "Popup builder Block to display offer and flash sale"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:451
-msgid "and access"
-msgstr ""
-
-#: inc/admin/welcome-notice.php:451
-msgid "Cozy Blocks with more than 40+ advanced block."
-msgstr ""
-
-#: inc/admin/welcome-notice.php:456
-msgid "Upgrade to Pro"
+#: inc/admin/welcome-notice.php:263
+msgid "About SaasLauncher"
 msgstr ""
 
 #: inc/core/block-patterns.php:19
@@ -796,6 +951,25 @@ msgstr ""
 #: patterns/banner-layout-2.php
 msgctxt "Pattern title"
 msgid "Hero and Banner style 2"
+msgstr ""
+
+#: patterns/banner-layout-2.php:27
+#: patterns/header-archive.php:28
+#: patterns/header-default.php:24
+#: patterns/header-large-with-banner.php:27
+#: patterns/header-minimal-light.php:24
+#: patterns/header-minimal.php:24
+#: patterns/header-with-banner-light.php:27
+#: patterns/pricing-table-light.php:56
+#: patterns/pricing-table-light.php:118
+#: patterns/pricing-table-light.php:180
+#: patterns/pricing-tables-2.php:45
+#: patterns/pricing-tables-2.php:107
+#: patterns/pricing-tables-2.php:169
+#: patterns/pricing-tables.php:56
+#: patterns/pricing-tables.php:118
+#: patterns/pricing-tables.php:180
+msgid "Get Started"
 msgstr ""
 
 #: patterns/banner-layout-2.php:53
@@ -1610,10 +1784,6 @@ msgstr ""
 
 #: patterns/photo-gallery.php
 msgctxt "Pattern title"
-msgid "Photo Gallery"
-msgstr ""
-
-#: patterns/photo-gallery.php:20
 msgid "Photo Gallery"
 msgstr ""
 

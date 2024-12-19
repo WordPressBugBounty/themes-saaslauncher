@@ -6,6 +6,7 @@ if ( ! defined( 'SAASLAUNCHER_VERSION' ) ) {
 define( 'SAASLAUNCHER_DEBUG', defined( 'WP_DEBUG' ) && WP_DEBUG === true );
 define( 'SAASLAUNCHER_DIR', trailingslashit( get_template_directory() ) );
 define( 'SAASLAUNCHER_URL', trailingslashit( get_template_directory_uri() ) );
+define( 'SAASLAUNCHER_DEMO_URL', 'https://assets.cozythemes.com/cozy-essential-addons/demos/saaslauncher/' );
 
 if ( ! function_exists( 'saaslauncher_support' ) ) :
 
@@ -61,25 +62,19 @@ add_action( 'wp_enqueue_scripts', 'saaslauncher_styles' );
  */
 function saaslauncher_admin_style() {
 	$hello_notice_current_screen = get_current_screen();
-	if ( ! empty( $_GET['page'] ) && 'about-saaslauncher' === $_GET['page'] || $hello_notice_current_screen->id === 'themes' || $hello_notice_current_screen->id === 'dashboard' ) {
-		wp_enqueue_style( 'saaslauncher-admin-style', get_template_directory_uri() . '/assets/css/admin-style.css', array(), SAASLAUNCHER_VERSION, 'all' );
-		wp_enqueue_script( 'saaslauncher-admin-scripts', get_template_directory_uri() . '/assets/js/saaslauncher-admin-scripts.js', array(), SAASLAUNCHER_VERSION, true );
+	if ( ! empty( $_GET['page'] ) && 'about-saaslauncher' === $_GET['page'] || $hello_notice_current_screen->id === 'themes' || $hello_notice_current_screen->id === 'dashboard' || $hello_notice_current_screen->id === 'plugins' ) {
+		wp_enqueue_style( 'saaslauncher-admin-style', get_template_directory_uri() . '/inc/admin/css/admin-style.css', array(), SAASLAUNCHER_VERSION, 'all' );
+		wp_enqueue_script( 'saaslauncher-admin-scripts', get_template_directory_uri() . '/inc/admin/js/saaslauncher-admin-scripts.js', array(), SAASLAUNCHER_VERSION, true );
 		wp_localize_script(
 			'saaslauncher-admin-scripts',
 			'saaslauncher_admin_localize',
 			array(
-				'ajax_url' => admin_url( 'admin-ajax.php' ),
-				'nonce'    => wp_create_nonce( 'saaslauncher_admin_nonce' ),
-			)
-		);
-		wp_enqueue_script( 'saaslauncher-welcome-notice', get_template_directory_uri() . '/inc/admin/js/saaslauncher-welcome-notice.js', array( 'jquery' ), SAASLAUNCHER_VERSION, true );
-		wp_localize_script(
-			'saaslauncher-welcome-notice',
-			'saaslauncher_localize',
-			array(
 				'ajax_url'     => admin_url( 'admin-ajax.php' ),
-				'nonce'        => wp_create_nonce( 'saaslauncher_welcome_nonce' ),
-				'redirect_url' => admin_url( 'themes.php?page=_cozy_companions' ),
+				'nonce'        => wp_create_nonce( 'saaslauncher_admin_nonce' ),
+				'welcomeNonce' => wp_create_nonce( 'saaslauncher_welcome_nonce' ),
+				'redirect_url' => admin_url( 'themes.php?page=about-saaslauncher' ),
+				'scrollURL'    => admin_url( 'plugins.php?cozy-addons-scroll=true' ),
+				'demoURL'      => admin_url( 'themes.php?page=advanced-import' ),
 			)
 		);
 	}
