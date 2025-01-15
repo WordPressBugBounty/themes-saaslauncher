@@ -1,17 +1,17 @@
 === SaasLauncher ===
 
 Contributors: CozyThemes
-Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, style-variations, featured-images, portfolio, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
 Requires at least: 5.9
 Tested up to: 6.7
 Requires PHP: 7.0
-Stable tag: 1.0.16
+Stable tag: 1.0.17
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-SaasLauncher is a cutting-edge Full Site Editing (FSE) WordPress theme tailored for SaaS companies, corporate businesses, and creative agencies. It comes packed with 50+ pre-built sections, 20+ integrated fonts, 15 pre-defined global styles, and pre-built layouts for the Homepage and Blog, along with templates for essential pages like About Us, Contact, Services, and Pricing. Designed for global reach, SaasLauncher supports popular languages such as Spanish, French, and English and is fully translatable into any language. With seamless design flexibility, one-click color scheme switching, and total creative control, it's perfect for crafting SaaS landing pages, corporate websites, personal portfolios, or any business niche. SaasLauncher empowers you to create a visually stunning website effortlessly and with precision. Explore SaasLauncher at https://cozythemes.com/saaslauncher-wordpress-theme/
+SaasLauncher is a powerful and versatile Full Site Editing (FSE) compatible, block-based WordPress theme, ideal for a wide range of websites. From corporate businesses and creative agencies to niche-specific projects like SaaS landing pages, mobile app landing page, tech startups, and digital agencies, SaasLauncher has you covered. It is designed to serve multiple industries, including software companies, real estate, professional services, consultancy, marketing agencies, hotels, hospitality, and more. With over ########## 50 PRE-BUILT SECTIONS, 30+ STARTER SITE TEMPLATES FOR VARIOUS BUSINESS NICHES WITH ONE CLICK DEMO IMPORTER, 20+ INTEGRATED FONTS ########## SaasLauncher includes pre-built layouts for the homepage and blog, as well as templates for essential pages like About Us, Contact, Services, and Pricing. It offers the perfect blend of functionality and design flexibility. Designed for global reach, it is available in ########## POPULAR LANGUAGES LIKE FRENCH, SPANISH, AND MULTIPLE ENGLISH VARIATIONS, AND IS RTL & TRANSLATION-READY FOR ANY LANGUAGE ########## ensuring accessibility for a worldwide audience. The theme is also ideal for personal blogs, travel blogs, food blogs, health and wellness blogs, lifestyle blogs, and news or magazine websites. For e-commerce stores, it’s WooCommerce compatible and supports online stores, minimal shops, fashion stores, electronics stores, handmade crafts, and more. SaasLauncher also excels for portfolio websites, digital agencies, charity and non-profit organization, pet care and services creative portfolios, graphic designers, photographers, freelancers, Author and writer, travel agency, health care, finance service, AI business, entrepreneur, influencer, bakery and coffee shop, home services, web hosting company, cyber security, constructions agency, HVAC and other professionals by offering creative design options and a minimalist aesthetic with pre-built templates for various niches to simplify website building. Whether you’re creating a product showcase, real estate site, or corporate business or creative and digital agency site, SaasLauncher’s responsive design ensures your site looks great on any device. It allows 100% customization, making it easy to tailor the theme to suit your brand identity. With its one-click demo importer, you can get started quickly, and the one-page theme design provides a streamlined experience. SaasLauncher is fully compatible with popular WordPress plugins like WooCommerce, Elementor, and Yoast SEO, offering seamless website building. SaasLauncher, integrated with ##########COZY BLOCKS' 40+ ADVANCED GUTENBERG BLOCKS ########## takes full site editing to the next level. This powerful integration makes it the most advanced WordPress theme, enabling the effortless creation of functional and stunning websites for any business niche. Explore features and demos at https://cozythemes.com/saaslauncher-wordpress-theme/.
 
 == Installation ==
 
@@ -26,6 +26,10 @@ SaasLauncher is a cutting-edge Full Site Editing (FSE) WordPress theme tailored 
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 1.0.17 - Jan 15, 2021 =
+* Added new starter sites demos
+
+
 = 1.0.16 - December 19, 2024 =
 * Fixed single click plugin installer in welcome notice
 

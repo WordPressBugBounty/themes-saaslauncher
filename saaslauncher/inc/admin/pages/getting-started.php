@@ -5,6 +5,7 @@
 	<h3><?php esc_html_e( 'Welcome to SaasLauncher', 'saaslauncher' ); ?></h3>
 	<p><?php esc_html_e( 'Welcome to SaasLauncher, a cutting-edge Full Site Editing (FSE) WordPress theme designed specifically for SaaS companies, corporate businesses, and creative agencies. With SaasLauncher, you can effortlessly build a stunning website with features such as:', 'saaslauncher' ); ?></p>
 	<ul class="feature-holder">
+		<li><?php esc_html_e( '30+ pre-built starter sites with one click demo importer', 'saaslauncher' ); ?></li>
 		<li><?php esc_html_e( '50+ pre-built, customizable sections', 'saaslauncher' ); ?></li>
 		<li><?php esc_html_e( '20+ integrated fonts to enhance typography', 'saaslauncher' ); ?></li>
 		<li><?php esc_html_e( '15 pre-defined global styles for a cohesive look', 'saaslauncher' ); ?></li>

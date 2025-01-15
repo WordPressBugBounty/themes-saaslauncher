@@ -2,8 +2,8 @@
 $saaslauncher_features = array(
 	array(
 		'label' => 'Pre-built Starter sites',
-		'free'  => '4',
-		'pro'   => '24 (Including free demos)',
+		'free'  => '6',
+		'pro'   => '35 (Including free demos)',
 	),
 	array(
 		'label' => 'Pre-built Sections',
@@ -203,7 +203,8 @@ $saaslauncher_features = array(
  * saaslauncher_get_feature_status_icon( false ); // Outputs a cross icon.
  * saaslauncher_get_feature_status_icon( 'Coming Soon' ); // Outputs "Coming Soon" as a text status.
  */
-function saaslauncher_get_feature_status_icon( $status ) {
+function saaslauncher_get_feature_status_icon($status)
+{
 	$allowed_tags = array(
 		'div'  => array(
 			'class' => true,
@@ -222,68 +223,68 @@ function saaslauncher_get_feature_status_icon( $status ) {
 		),
 	);
 
-	if ( is_bool( $status ) ) {
-		if ( filter_var( $status, FILTER_VALIDATE_BOOLEAN ) ) {
+	if (is_bool($status)) {
+		if (filter_var($status, FILTER_VALIDATE_BOOLEAN)) {
 			$svg = '<div class="comparison-icon__wrapper tick-icon__wrapper"><svg class="tick-icon" width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4.66668 7.11333L10.7947 0.986L11.7373 1.92867L4.66668 8.99933L0.424011 4.75667L1.36668 3.814L4.66668 7.11333Z" />
             </svg></div>';
 
-			echo wp_kses( $svg, $allowed_tags );
+			echo wp_kses($svg, $allowed_tags);
 		} else {
 			$svg = '<div class="comparison-icon__wrapper cross-icon__wrapper"><svg class="cross-icon" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4.99999 4.058L8.29999 0.758003L9.24266 1.70067L5.94266 5.00067L9.24266 8.30067L8.29932 9.24334L4.99932 5.94334L1.69999 9.24334L0.757324 8.3L4.05732 5L0.757324 1.7L1.69999 0.75867L4.99999 4.058Z" />
             </svg></div>';
 
-			echo wp_kses( $svg, $allowed_tags );
+			echo wp_kses($svg, $allowed_tags);
 		}
 	} else {
 		printf(
 			/* translators: %s: Status string */
-			esc_html__( '%s', 'saaslauncher' ),
-			esc_html( $status )
+			esc_html__('%s', 'saaslauncher'),
+			esc_html($status)
 		);
 	}
 }
 ?>
 
 <div class="saaslauncher-page__free-pro">
-	<h3><?php esc_html_e( 'SaasLauncher Free vs. Pro', 'saaslauncher' ); ?></h3>
+	<h3><?php esc_html_e('SaasLauncher Free vs. Pro', 'saaslauncher'); ?></h3>
 
 	<div class="checkout-button-container top">
-	<a href="<?php echo esc_url( 'https://cozythemes.com/pricing-and-plans/' ); ?>" class="checkout-button"><?php esc_html_e( 'Already enjoying our product?', 'saaslauncher' ); ?></a>
+		<a href="<?php echo esc_url('https://cozythemes.com/pricing-and-plans/'); ?>" class="checkout-button"><?php esc_html_e('Already enjoying our product?', 'saaslauncher'); ?></a>
 	</div>
 
 	<table>
 		<tr>
-			<th><?php esc_html_e( 'Feature', 'saaslauncher' ); ?></th>
-			<th><?php esc_html_e( 'Free', 'saaslauncher' ); ?></th>
-			<th><?php esc_html_e( 'Pro', 'saaslauncher' ); ?></th>
+			<th><?php esc_html_e('Feature', 'saaslauncher'); ?></th>
+			<th><?php esc_html_e('Free', 'saaslauncher'); ?></th>
+			<th><?php esc_html_e('Pro', 'saaslauncher'); ?></th>
 		</tr>
 
 		<?php
-		if ( isset( $saaslauncher_features ) && ! empty( $saaslauncher_features ) ) :
-			foreach ( $saaslauncher_features as $feature ) {
-				?>
+		if (isset($saaslauncher_features) && ! empty($saaslauncher_features)) :
+			foreach ($saaslauncher_features as $feature) {
+		?>
 				<tr>
 					<td>
 						<?php
 						printf(
 							/* translators: %s: Feature label */
-							esc_html__( '%s', 'saaslauncher' ),
-							esc_html( $feature['label'] )
+							esc_html__('%s', 'saaslauncher'),
+							esc_html($feature['label'])
 						)
 						?>
 					</td>
 
 					<td>
-						<?php saaslauncher_get_feature_status_icon( $feature['free'] ); ?>
+						<?php saaslauncher_get_feature_status_icon($feature['free']); ?>
 					</td>
 
 					<td>
-						<?php saaslauncher_get_feature_status_icon( $feature['pro'] ); ?>
+						<?php saaslauncher_get_feature_status_icon($feature['pro']); ?>
 					</td>
 				</tr>
-				<?php
+		<?php
 			}
 		endif;
 		?>
@@ -292,18 +293,18 @@ function saaslauncher_get_feature_status_icon( $status ) {
 	<!-- Refund Policy Section -->
 	<div class="refund-policy">
 		<figure class="policy-image">
-			<img src="<?php echo esc_url( 'https://cozythemes.com/wp-content/uploads/2024/09/guarantee-2.png' ); ?>" loading="lazy" />
+			<img src="<?php echo esc_url('https://cozythemes.com/wp-content/uploads/2024/09/guarantee-2.png'); ?>" loading="lazy" />
 		</figure>
 
 		<div class="policy">
-			<h3><?php esc_html_e( 'No Risk, 100% Money Back Guarantee!', 'saaslauncher' ); ?></h3>
-			<p><?php esc_html_e( 'Our Refund Policy secures customer satisfaction and protection. If you find our purchased products unusable, despite our team’s support, you can claim a full refund within 30 days.', 'saaslauncher' ); ?></p>
+			<h3><?php esc_html_e('No Risk, 100% Money Back Guarantee!', 'saaslauncher'); ?></h3>
+			<p><?php esc_html_e('Our Refund Policy secures customer satisfaction and protection. If you find our purchased products unusable, despite our team’s support, you can claim a full refund within 30 days.', 'saaslauncher'); ?></p>
 		</div>
 	</div>
 
 	<!-- Checkout Button Section -->
 	<div class="checkout-button-container bottom">
-	<?php esc_html_e( 'Ready to take the next step? Let’s get you to', 'saaslauncher' ); ?>  <a href="<?php echo esc_url( 'https://cozythemes.com/pricing-and-plans/' ); ?>" class="checkout-button"><?php esc_html_e( 'Checkout!', 'saaslauncher' ); ?></a> <?php esc_html_e( '🚀', 'saaslauncher' ); ?>
+		<?php esc_html_e('Ready to take the next step? Let’s get you to', 'saaslauncher'); ?> <a href="<?php echo esc_url('https://cozythemes.com/pricing-and-plans/'); ?>" class="checkout-button"><?php esc_html_e('Checkout!', 'saaslauncher'); ?></a> <?php esc_html_e('🚀', 'saaslauncher'); ?>
 	</div>
 </div>
 <?php
