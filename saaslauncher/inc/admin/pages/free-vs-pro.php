@@ -2,8 +2,8 @@
 $saaslauncher_features = array(
 	array(
 		'label' => 'Pre-built Starter sites',
-		'free'  => '6',
-		'pro'   => '35 (Including free demos)',
+		'free'  => '9',
+		'pro'   => '41 (Including free demos)',
 	),
 	array(
 		'label' => 'Pre-built Sections',

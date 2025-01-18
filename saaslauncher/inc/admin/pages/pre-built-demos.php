@@ -33,10 +33,10 @@ $saaslauncher_demos = array(
 		if (isset($saaslauncher_demos) && ! empty($saaslauncher_demos)) {
 			// Iterate through the demo types (free, pro).
 			foreach ($saaslauncher_demos as $demo_type => $demo_data) {
-				$upper_limit = 6; // Default to 1 for free demo.
+				$upper_limit = 9; // Default to 1 for free demo.
 
 				if ('pro' === $demo_type) {
-					$upper_limit = 29; // 20 demos for pro.
+					$upper_limit = 32; // 20 demos for pro.
 				}
 
 				// Loop through the demo range (1 to upper_limit).
