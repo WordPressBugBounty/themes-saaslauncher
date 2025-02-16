@@ -315,6 +315,13 @@ if (function_exists('register_block_style')) {
         register_block_style(
             'core/list',
             array(
+                'name'  => 'list-style-check-circle-fade',
+                'label' => __('Check Circle Fade', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/list',
+            array(
                 'name'  => 'list-style-check-circle-white',
                 'label' => __('Check Circle white', 'saaslauncher')
             )

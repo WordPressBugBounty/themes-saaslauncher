@@ -2,8 +2,8 @@
 $saaslauncher_features = array(
 	array(
 		'label' => 'Pre-built Starter sites',
-		'free'  => '9',
-		'pro'   => '41 (Including free demos)',
+		'free'  => '10',
+		'pro'   => '52 (Including free demos)',
 	),
 	array(
 		'label' => 'Pre-built Sections',
@@ -48,7 +48,7 @@ $saaslauncher_features = array(
 	array(
 		'label' => 'Advanced blocks',
 		'free'  => '20+',
-		'pro'   => '40+',
+		'pro'   => '50+',
 	),
 	array(
 		'label' => 'Slider',
@@ -174,6 +174,31 @@ $saaslauncher_features = array(
 		'label' => 'Advertisement Block',
 		'free'  => 'Basic',
 		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'Pricing Table',
+		'free'  => 'Basic',
+		'pro'   => 'Advanced',
+	),
+	array(
+		'label' => 'Toggle Switcher',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Contact Form 7 Styler',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Before/After Image',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Countdown Timer',
+		'free'  => false,
+		'pro'   => true,
 	),
 	array(
 		'label' => 'World Class Support',

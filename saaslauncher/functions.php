@@ -6,7 +6,6 @@ if ( ! defined( 'SAASLAUNCHER_VERSION' ) ) {
 define( 'SAASLAUNCHER_DEBUG', defined( 'WP_DEBUG' ) && WP_DEBUG === true );
 define( 'SAASLAUNCHER_DIR', trailingslashit( get_template_directory() ) );
 define( 'SAASLAUNCHER_URL', trailingslashit( get_template_directory_uri() ) );
-define( 'SAASLAUNCHER_DEMO_URL', 'https://assets.cozythemes.com/cozy-essential-addons/demos/saaslauncher/' );
 
 if ( ! function_exists( 'saaslauncher_support' ) ) :
 

@@ -352,16 +352,19 @@ figure.wp-block-image.saaslauncher-service-icon {
   margin-left: 12px;
 }
 ul.wp-block-list.is-style-list-style-check-circle,
-ul.wp-block-list.is-style-list-style-check-circle-white {
+ul.wp-block-list.is-style-list-style-check-circle-white,
+ul.wp-block-list.is-style-list-style-check-circle-fade {
   list-style: none;
 }
 ul.wp-block-list.is-style-list-style-check-circle li,
-ul.wp-block-list.is-style-list-style-check-circle-white li {
+ul.wp-block-list.is-style-list-style-check-circle-white li,
+ul.wp-block-list.is-style-list-style-check-circle-fade li {
   position: relative;
   padding-left: 24px;
 }
 ul.wp-block-list.is-style-list-style-check-circle li:before,
-ul.wp-block-list.is-style-list-style-check-circle-white li:before {
+ul.wp-block-list.is-style-list-style-check-circle-white li:before,
+ul.wp-block-list.is-style-list-style-check-circle-fade li:before {
   content: "";
   position: absolute;
   width: 16px;
@@ -375,8 +378,12 @@ ul.wp-block-list.is-style-list-style-check-circle-white li:before {
 ul.wp-block-list.is-style-list-style-check-circle-white li:before {
   background-color: var(--wp--preset--color--light-color);
 }
+ul.wp-block-list.is-style-list-style-check-circle-fade li:before {
+  opacity: 0.2;
+}
 ul.wp-block-list.is-style-list-style-check-circle li:after,
-ul.wp-block-list.is-style-list-style-check-circle-white li:after {
+ul.wp-block-list.is-style-list-style-check-circle-white li:after,
+ul.wp-block-list.is-style-list-style-check-circle-fade li:after {
   content: "";
   width: 10px;
   height: 10px;
@@ -389,7 +396,7 @@ ul.wp-block-list.is-style-list-style-check-circle-white li:after {
   -webkit-mask-position: center center;
   display: inline-block;
   left: 0;
-  top: 50%;
+  top: 50% !important;
   border-radius: 50px;
   transition: all ease 0.23s;
   position: absolute;
@@ -397,7 +404,8 @@ ul.wp-block-list.is-style-list-style-check-circle-white li:after {
   mask-size: contain;
   margin-left: 3px;
 }
-ul.wp-block-list.is-style-list-style-check-circle-white li:after {
+ul.wp-block-list.is-style-list-style-check-circle-white li:after,
+ul.wp-block-list.is-style-list-style-check-circle-fade li:after {
   background-color: var(--wp--preset--color--primary);
 }
 figure.wp-block-image.is-style-saaslauncher-image-hover-zoom img {
