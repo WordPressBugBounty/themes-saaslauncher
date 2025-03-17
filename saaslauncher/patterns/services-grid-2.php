@@ -133,7 +133,7 @@ $saaslauncher_images = array(
     <!-- wp:columns {"verticalAlignment":"top","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"48px"},"margin":{"top":"64px"}}}} -->
     <div class="wp-block-columns are-vertically-aligned-top" style="margin-top:64px"><!-- wp:column {"verticalAlignment":"top","width":"50%"} -->
         <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%"><!-- wp:cover {"url":"<?php echo esc_url($saaslauncher_images[3]) ?>","id":8714,"dimRatio":0,"customOverlayColor":"#9fa1ae","isUserOverlayColor":true,"minHeight":310,"contentPosition":"bottom left","isDark":false,"layout":{"type":"constrained"}} -->
-            <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left" style="min-height:310px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#9fa1ae"></span><img class="wp-block-cover__image-background wp-image-8714" alt="" src="<?php echo esc_url($saaslauncher_images[0]) ?>" data-object-fit="cover" />
+            <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left" style="min-height:310px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#9fa1ae"></span><img class="wp-block-cover__image-background wp-image-8714" alt="" src="<?php echo esc_url($saaslauncher_images[3]) ?>" data-object-fit="cover" />
                 <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
                     <p class="has-text-align-center has-large-font-size"></p>
                     <!-- /wp:paragraph -->
@@ -163,7 +163,7 @@ $saaslauncher_images = array(
 
         <!-- wp:column {"verticalAlignment":"top","width":"50%"} -->
         <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%"><!-- wp:cover {"url":"<?php echo esc_url($saaslauncher_images[4]) ?>","id":8744,"dimRatio":0,"customOverlayColor":"#7455b0","isUserOverlayColor":true,"minHeight":310,"contentPosition":"bottom left","layout":{"type":"constrained"}} -->
-            <div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:310px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#7455b0"></span><img class="wp-block-cover__image-background wp-image-8744" alt="" src="<?php echo esc_url($saaslauncher_images[1]) ?>" data-object-fit="cover" />
+            <div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:310px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#7455b0"></span><img class="wp-block-cover__image-background wp-image-8744" alt="" src="<?php echo esc_url($saaslauncher_images[4]) ?>" data-object-fit="cover" />
                 <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
                     <p class="has-text-align-center has-large-font-size"></p>
                     <!-- /wp:paragraph -->
@@ -193,7 +193,7 @@ $saaslauncher_images = array(
 
         <!-- wp:column {"verticalAlignment":"top","width":"50%"} -->
         <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%"><!-- wp:cover {"url":"<?php echo esc_url($saaslauncher_images[5]) ?>","id":8744,"dimRatio":0,"customOverlayColor":"#7455b0","isUserOverlayColor":true,"minHeight":310,"contentPosition":"bottom left","layout":{"type":"constrained"}} -->
-            <div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:310px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#7455b0"></span><img class="wp-block-cover__image-background wp-image-8744" alt="" src="<?php echo esc_url($saaslauncher_images[2]) ?>" data-object-fit="cover" />
+            <div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:310px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#7455b0"></span><img class="wp-block-cover__image-background wp-image-8744" alt="" src="<?php echo esc_url($saaslauncher_images[5]) ?>" data-object-fit="cover" />
                 <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
                     <p class="has-text-align-center has-large-font-size"></p>
                     <!-- /wp:paragraph -->
