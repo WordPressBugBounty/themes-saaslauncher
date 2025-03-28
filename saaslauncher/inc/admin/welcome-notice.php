@@ -50,7 +50,7 @@ if (! function_exists('saaslauncher_welcome_notice')) :
 						<h2><?php esc_html_e('Start building your website with the most advanced WordPress theme ever! 🚀 ', 'saaslauncher'); ?></h2>
 						</h3>
 						<div class="notice-text">
-							<p><?php esc_html_e('Please install and activate all recommended plugins to use 50+ advanced blocks, 50+ pre-builts sections, 50+ pre-built starter site demos with one click demo importer. Enhance website building and launch your site within minutes with just a few clicks! - Cozy Blocks, Cozy Essential Addons, Advanced Import.', 'saaslauncher'); ?></p>
+							<p><?php esc_html_e('Please install and activate all recommended plugins to use 50+ advanced blocks, 70+ pre-builts sections, 50+ pre-built starter site demos with one click demo importer. Enhance website building and launch your site within minutes with just a few clicks! - Cozy Blocks, Cozy Essential Addons, Advanced Import.', 'saaslauncher'); ?></p>
 						</div>
 						<a href="#" id="install-activate-button" class="button admin-button info-button"><?php esc_html_e('Getting started with a single click', 'saaslauncher'); ?></a>
 						<a href="<?php echo admin_url(); ?>themes.php?page=about-saaslauncher" class="button admin-button info-button"><?php esc_html_e('Explore SaasLauncher', 'saaslauncher'); ?></a>

@@ -1,10 +1,16 @@
-<!-- wp:template-part {"slug":"header-archive","theme":"saaslauncher","area":"header","className":"saaslauncher-cart-button"} /-->
+<!-- wp:template-part {"slug":"header","theme":"saaslauncher","area":"header"} /-->
 
-<!-- wp:group {"tagName":"main","className":"saaslauncher-cart-button","style":{"spacing":{"margin":{"top":"10px","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"background-alt","textColor":"light-color","fontSize":"small","layout":{"inherit":true,"type":"constrained","contentSize":"100%"}} -->
-<main class="wp-block-group saaslauncher-cart-button has-light-color-color has-background-alt-background-color has-text-color has-background has-small-font-size" style="margin-top: 10px; margin-right: 0; margin-bottom: 0; margin-left: 0">
-  <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
-  <div class="wp-block-group" style="padding-right: var(--wp--preset--spacing--40); padding-left: var(--wp--preset--spacing--40)">
-    <!-- wp:woocommerce/breadcrumbs {"textColor":"foreground-alt","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}}} /-->
+<!-- wp:group {"tagName":"main","className":"saaslauncher-cart-button","style":{"spacing":{"margin":{"top":"10px","bottom":"0","left":"0","right":"0"}}},"textColor":"light-color","gradient":"center-top-gradient","fontSize":"small","layout":{"inherit":true,"type":"constrained","contentSize":"100%"}} -->
+<main class="wp-block-group saaslauncher-cart-button has-light-color-color has-center-top-gradient-gradient-background has-text-color has-background has-small-font-size" style="margin-top: 10px; margin-right: 0; margin-bottom: 0; margin-left: 0">
+  <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
+  <div class="wp-block-group" style="padding-right: var(--wp--preset--spacing--40); padding-bottom: var(--wp--preset--spacing--70); padding-left: var(--wp--preset--spacing--40)">
+    <!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|70","top":"var:preset|spacing|60"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+    <div class="wp-block-group" style="padding-top: var(--wp--preset--spacing--60); padding-bottom: var(--wp--preset--spacing--70)">
+      <!-- wp:query-title {"type":"archive","showPrefix":false,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} /-->
+
+      <!-- wp:woocommerce/breadcrumbs {"textColor":"foreground-alt","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}}} /-->
+    </div>
+    <!-- /wp:group -->
 
     <!-- wp:woocommerce/store-notices /-->
 
@@ -23,7 +29,7 @@
       <div class="wp-block-group saaslauncher-product-box">
         <!-- wp:group {"className":"saaslauncher-product-image","style":{"spacing":{"margin":{"bottom":"14px"}}},"layout":{"type":"constrained"}} -->
         <div class="wp-block-group saaslauncher-product-image" style="margin-bottom: 14px">
-          <!-- wp:woocommerce/product-image {"saleBadgeAlign":"left","imageSizing":"thumbnail","isDescendentOfQueryLoop":true,"height":"380px","style":{"border":{"radius":"0px"}}} /-->
+          <!-- wp:woocommerce/product-image {"saleBadgeAlign":"left","imageSizing":"thumbnail","isDescendentOfQueryLoop":true,"height":"380px","style":{"border":{"radius":"20px"}}} /-->
 
           <!-- wp:columns {"className":"saaslauncher-product-buttons","style":{"spacing":{"blockGap":{"left":"1px"}}}} -->
           <div class="wp-block-columns saaslauncher-product-buttons">

@@ -7,9 +7,9 @@
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
-    $saaslauncher_url . 'assets/images/team_21.jpg',
-    $saaslauncher_url . 'assets/images/team_22.jpg',
-    $saaslauncher_url . 'assets/images/team_23.jpg',
+    $saaslauncher_url . 'assets/images/team_1.jpg',
+    $saaslauncher_url . 'assets/images/team_2.jpg',
+    $saaslauncher_url . 'assets/images/team_3.jpg',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/team-with-details","name":"Team Section"},"style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1180px"}} -->

@@ -10,20 +10,10 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/about.jpg',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/highlight-features","name":"Highlight Features"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|40","bottom":"6rem"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"1180px"}} -->
-<div class="wp-block-group has-dark-shade-background-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:6rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"48px"},"margin":{"top":"0","bottom":"0"}}}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/highlight-features","name":"Highlight Features"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"6rem","bottom":"6rem"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"1180px"}} -->
+<div class="wp-block-group has-dark-shade-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:6rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:6rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":{"left":"84px"}}}} -->
     <div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0;margin-bottom:0"><!-- wp:column {"verticalAlignment":"center"} -->
-        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-            <div class="wp-block-group"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"8px","bottom":"8px","left":"24px","right":"24px"},"margin":{"bottom":"16px"}},"border":{"radius":"60px","top":{"radius":"60px","width":"1px"},"right":{"radius":"60px","width":"1px"},"bottom":{"radius":"60px","width":"0px","style":"none"},"left":{"radius":"60px","width":"1px"}}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
-                <div class="wp-block-group is-style-saaslauncher-gradient-border has-background-alt-background-color has-background" style="border-radius:60px;border-top-width:1px;border-right-width:1px;border-bottom-style:none;border-bottom-width:0px;border-left-width:1px;margin-bottom:16px;padding-top:8px;padding-right:24px;padding-bottom:8px;padding-left:24px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"normal"} -->
-                    <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color has-normal-font-size"><?php esc_html_e('Features Highlights', 'saaslauncher') ?></h5>
-                    <!-- /wp:heading -->
-                </div>
-                <!-- /wp:group -->
-            </div>
-            <!-- /wp:group -->
-
-            <!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.2"},"spacing":{"margin":{"top":"10px","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"xx-large"} -->
+        <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.2"},"spacing":{"margin":{"top":"10px","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"xx-large"} -->
             <h1 class="wp-block-heading has-light-color-color has-text-color has-link-color has-xx-large-font-size" style="margin-top:10px;margin-bottom:0;font-style:normal;font-weight:700;line-height:1.2"><?php esc_html_e('Scalable Solutions for Every Stage', 'saaslauncher') ?></h1>
             <!-- /wp:heading -->
 
@@ -40,7 +30,7 @@ $saaslauncher_images = array(
                 <!-- /wp:list -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|meta-color"}}}},"textColor":"meta-color"} -->
-                <p class="has-meta-color-color has-text-color has-link-color"><?php esc_html_e('Ability to scale your SaaS solutions based on business growth. Whether you\'re a startup or an enterprise, the platform adjusts to your needs seamlessly.', 'saaslauncher') ?></p>
+                <p class="has-meta-color-color has-text-color has-link-color"><?php esc_html_e('Ability to scale your SaaS solutions based on business growth. Whether you\'re a startup or an enterprise seamlessly.', 'saaslauncher') ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -54,7 +44,7 @@ $saaslauncher_images = array(
                 <!-- /wp:list -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|meta-color"}}}},"textColor":"meta-color"} -->
-                <p class="has-meta-color-color has-text-color has-link-color"><?php esc_html_e('Access to powerful, real-time data analytics and custom reporting tools that help you make informed business decisions and track performance effortlessly.', 'saaslauncher') ?></p>
+                <p class="has-meta-color-color has-text-color has-link-color"><?php esc_html_e('Access to powerful, real-time data analytics and custom reporting tools that help you make informed business decisions effortlessly.', 'saaslauncher') ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -68,15 +58,15 @@ $saaslauncher_images = array(
                 <!-- /wp:list -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|meta-color"}}}},"textColor":"meta-color"} -->
-                <p class="has-meta-color-color has-text-color has-link-color"><?php esc_html_e('Intuitive and easy-to-use interface, designed for non-technical users while providing advanced features for power users. Perfect for teams of all sizes.', 'saaslauncher') ?></p>
+                <p class="has-meta-color-color has-text-color has-link-color"><?php esc_html_e('Intuitive and easy-to-use interface, designed for non-technical users while providing advanced features for power users.', 'saaslauncher') ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
         </div>
         <!-- /wp:column -->
 
-        <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
-        <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:cover {"url":"<?php echo esc_url($saaslauncher_images[0]) ?>","id":5979,"dimRatio":0,"customOverlayColor":"#706f72","isUserOverlayColor":true,"minHeight":720,"style":{"color":{"duotone":"var:preset|duotone|secondary-light"}},"layout":{"type":"constrained"}} -->
+        <!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
+        <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:cover {"url":"<?php echo esc_url($saaslauncher_images[0]) ?>","id":5979,"dimRatio":0,"customOverlayColor":"#706f72","isUserOverlayColor":true,"minHeight":720,"style":{"color":{"duotone":"unset"}},"layout":{"type":"constrained"}} -->
             <div class="wp-block-cover" style="min-height:720px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#706f72"></span><img class="wp-block-cover__image-background wp-image-5979" alt="" src="<?php echo esc_url($saaslauncher_images[0]) ?>" data-object-fit="cover" />
                 <div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
                     <p class="has-text-align-center has-large-font-size"></p>

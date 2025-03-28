@@ -11,7 +11,7 @@
       "palette": [
         {
           "slug": "primary",
-          "color": "#04D4BE",
+          "color": "#0ECA7F",
           "name": "Primary"
         },
         {
@@ -21,12 +21,12 @@
         },
         {
           "slug": "primary-shade-one",
-          "color": "#07887B",
+          "color": "#018A53",
           "name": "Primary Shade 1"
         },
         {
           "slug": "primary-shade-2",
-          "color": "#01574F",
+          "color": "#04673F",
           "name": "Primary Shade 2"
         },
         {
@@ -47,12 +47,12 @@
         },
         {
           "slug": "black-color",
-          "color": "#101010",
+          "color": "#000000",
           "name": "Black Color"
         },
         {
           "slug": "dark-shade",
-          "color": "#0A0A0A",
+          "color": "#101010",
           "name": "Dark Shade"
         },
 
@@ -68,7 +68,7 @@
         },
         {
           "slug": "background-alt",
-          "color": "#050909",
+          "color": "#171717",
           "name": "Background Alt"
         },
         {
@@ -78,7 +78,7 @@
         },
         {
           "slug": "foreground-alt",
-          "color": "#C0C0C0",
+          "color": "#ADADAD",
           "name": "Foreground Alternative"
         },
         {
@@ -88,7 +88,7 @@
         },
         {
           "slug": "border-color",
-          "color": "#1E2D2C",
+          "color": "#292929",
           "name": "Border Color"
         },
         {
@@ -99,32 +99,32 @@
       ],
       "duotone": [
         {
-          "colors": ["#04D4BE", "#2C1FE3"],
+          "colors": ["#0ECA7F", "#2C1FE3"],
           "slug": "primary-secondary",
           "name": "Duo 1"
         },
         {
-          "colors": ["#2C1FE3", "#04D4BE"],
+          "colors": ["#2C1FE3", "#0ECA7F"],
           "slug": "secondary-primary",
           "name": "Duo 2"
         },
         {
-          "colors": ["#04D4BE", "#000000"],
+          "colors": ["#0ECA7F", "#000000"],
           "slug": "primary-dark",
           "name": "Duo 3"
         },
         {
-          "colors": ["#000000", "#04D4BE"],
+          "colors": ["#000000", "#0ECA7F"],
           "slug": "dark-primary",
           "name": "Duo 4"
         },
         {
-          "colors": ["#04D4BE", "#ffffff"],
+          "colors": ["#0ECA7F", "#ffffff"],
           "slug": "primary-light",
           "name": "Duo 5"
         },
         {
-          "colors": ["#ffffff", "#04D4BE"],
+          "colors": ["#ffffff", "#0ECA7F"],
           "slug": "light-primary",
           "name": "Duo 6"
         },
@@ -171,7 +171,7 @@
           "slug": "gradient-four"
         },
         {
-          "gradient": "radial-gradient(34.34% 48.21% at 50% 4.44%, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--primary-shade-one) 22%, var(--wp--preset--color--primary-shade-2) 44%, var(--wp--preset--color--dark-shade) 100%)",
+          "gradient": "radial-gradient(34.34% 24.21% at 50% -11%, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--primary-shade-one) 20%, var(--wp--preset--color--primary-shade-2) 22%, var(--wp--preset--color--black-color) 100%)",
           "name": "Gradient 05",
           "slug": "gradient-five"
         },
@@ -269,6 +269,21 @@
           "gradient": "radial-gradient(31.54% 48.32% at -4.42% 50%, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--primary-shade-one) 15%, rgba(0, 0, 0, 0) 100%), radial-gradient(41.4% 65.45% at 86.92% 82.5%, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--primary-shade-one) 22%, var(--wp--preset--color--primary-shade-2) 44%, var(--wp--preset--color--dark-shade) 100%)",
           "name": "Gradient 24",
           "slug": "gradient-twentyfour"
+        },
+        {
+          "gradient": "radial-gradient(50% 50% at 50% 50%, var(--wp--preset--color--primary-shade-2) 0%, var(--wp--preset--color--black-color) 78%)",
+          "name": "Center Gradient",
+          "slug": "center-gradient"
+        },
+        {
+          "gradient": "radial-gradient(35.48% 50.52% at 50% 105.04%, var(--wp--preset--color--primary-shade-2) 0%, var(--wp--preset--color--black-color) 100%)",
+          "name": "Center Bottom Gradient",
+          "slug": "center-bottom-gradient"
+        },
+        {
+          "gradient": "radial-gradient(50% 50% at 50% 30%, var(--wp--preset--color--primary-shade-2) 0%, var(--wp--preset--color--black-color) 60%)",
+          "name": "Center top Gradient",
+          "slug": "center-top-gradient"
         }
       ]
     },
@@ -679,7 +694,7 @@
       },
       "heading": {
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--manrope)",
+          "fontFamily": "var(--wp--preset--font-family--inter)",
           "fontStyle": "normal",
           "fontWeight": "var(--wp--preset--font-weight--semi-bold)",
           "lineHeight": "1.5"
@@ -767,6 +782,16 @@
     {
       "name": "checkout",
       "title": "WooCommerce Checkout Page",
+      "postTypes": ["product"]
+    },
+    {
+      "name": "single-product",
+      "title": "WooCommerce Product Page",
+      "postTypes": ["product"]
+    },
+    {
+      "name": "archive-product",
+      "title": "WooCommerce Shop Page",
       "postTypes": ["product"]
     }
   ]

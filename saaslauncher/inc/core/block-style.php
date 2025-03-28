@@ -91,6 +91,13 @@ if (function_exists('register_block_style')) {
             )
         );
         register_block_style(
+            'core/group',
+            array(
+                'name'  => 'saaslauncher-sticky-navigation',
+                'label' => __('Sticky Navigation', 'saaslauncher')
+            )
+        );
+        register_block_style(
             'core/image',
             array(
                 'name'  => 'saaslauncher-boxshadow',
@@ -364,6 +371,20 @@ if (function_exists('register_block_style')) {
             )
         );
         register_block_style(
+            'core/cover',
+            array(
+                'name'  => 'saaslauncher-cover-hover-effect',
+                'label' => __('Hover Effect', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/cover',
+            array(
+                'name'  => 'saaslauncher-cover-hover-effect-with-shadow',
+                'label' => __('Hover Effect with Shadow', 'saaslauncher')
+            )
+        );
+        register_block_style(
             'core/post-author-name',
             array(
                 'name'  => 'author-name-with-icon',
@@ -389,6 +410,41 @@ if (function_exists('register_block_style')) {
             array(
                 'name'  => 'post-date-with-white-icon',
                 'label' => __('With White Icon', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/details',
+            array(
+                'name'  => 'block-details-round-corner',
+                'label' => __('Round Corner', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/query-pagination',
+            array(
+                'name'  => 'pagination-with-background-round',
+                'label' => __('Background with round Corner', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/query-pagination',
+            array(
+                'name'  => 'pagination-with-background-square',
+                'label' => __('Background with square corner', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/post-comments-form',
+            array(
+                'name'  => 'post-comments-form-dark-scheme',
+                'label' => __('Enable dark scheme', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'woocommerce/product-details',
+            array(
+                'name'  => 'product-details-dark-scheme',
+                'label' => __('Enable dark scheme', 'saaslauncher')
             )
         );
     }

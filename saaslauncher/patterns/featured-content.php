@@ -25,8 +25,8 @@ $saaslauncher_images = array(
             </div>
             <!-- /wp:group -->
 
-            <!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"800","lineHeight":"1.2"}},"textColor":"light-color"} -->
-            <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color" style="font-style:normal;font-weight:800;line-height:1.2"><?php esc_html_e('Our Newest', 'saaslauncher') ?> <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color"><?php esc_html_e('Ventures with Leading', 'saaslauncher') ?></mark> <?php esc_html_e('Companies', 'saaslauncher') ?></h1>
+            <!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"600","lineHeight":"1.2"}},"textColor":"light-color"} -->
+            <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color" style="font-style:normal;font-weight:600;line-height:1.2"><?php esc_html_e('Our Newest', 'saaslauncher') ?> <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color"><?php esc_html_e('Ventures with Leading', 'saaslauncher') ?></mark> <?php esc_html_e('Companies', 'saaslauncher') ?></h1>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
@@ -60,8 +60,8 @@ $saaslauncher_images = array(
                     </div>
                     <!-- /wp:group -->
 
-                    <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"lineHeight":"1.3"}},"textColor":"light-color"} -->
-                    <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color" style="line-height:1.3"><?php esc_html_e('Next-Generation Mobile Apps Development', 'saaslauncher') ?></h3>
+                    <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"lineHeight":"1.3","fontStyle":"normal","fontWeight":"600"}},"textColor":"light-color"} -->
+                    <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color" style="font-style:normal;font-weight:600;line-height:1.3"><?php esc_html_e('Next-Generation Mobile Apps Development', 'saaslauncher') ?></h3>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"spacing":{"margin":{"bottom":"28px"}}},"textColor":"light-color"} -->

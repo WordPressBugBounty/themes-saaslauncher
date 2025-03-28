@@ -10,7 +10,7 @@
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
     <!-- wp:pattern {"slug":"saaslauncher/about-2"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/mission-vision"} /-->
-    <!-- wp:pattern {"slug":"saaslauncher/team-2"} /-->
+    <!-- wp:pattern {"slug":"saaslauncher/team-section"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/number-stats"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/cta-block"} /-->
 </div>

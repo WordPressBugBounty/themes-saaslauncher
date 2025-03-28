@@ -1,6 +1,15 @@
 <div class="saaslauncher-page__changelog">
 	<h2><?php esc_html_e('Changelog', 'saaslauncher'); ?></h2>
 	<div class="version">
+		<h3><?php esc_html_e('Version 1.1.0', 'saaslauncher'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: Mar 28, 2025', 'saaslauncher'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e('20+ New pre-built sections added', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('2 New Homepage Templates Added', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('FSE Templates and inner page layout improved', 'saaslauncher'); ?></li>
+		</ul>
+	</div>
+	<div class="version">
 		<h3><?php esc_html_e('Version 1.0.20', 'saaslauncher'); ?></h3>
 		<p class="date"><?php esc_html_e('Released: Mar 17, 2025', 'saaslauncher'); ?></p>
 		<ul class="changes">
