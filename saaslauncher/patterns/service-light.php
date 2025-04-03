@@ -9,7 +9,7 @@ $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/icon_1.png',
     $saaslauncher_url . 'assets/images/icon_2.png',
-    $saaslauncher_url . 'assets/images/con_3.png',
+    $saaslauncher_url . 'assets/images/icon_3.png',
     $saaslauncher_url . 'assets/images/icon_4.png',
 );
 ?>

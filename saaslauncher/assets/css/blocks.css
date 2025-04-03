@@ -515,7 +515,7 @@ nav.is-style-pagination-with-background-square a.wp-block-query-pagination-next:
     position: fixed;
     top: -15px;
     width: 100%;
-    z-index: 99999;
+    z-index: 2;
   }
   body.logged-in .is-style-saaslauncher-sticky-navigation.sticky-enabled {
     top: 20px;
