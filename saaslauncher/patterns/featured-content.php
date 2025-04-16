@@ -3,7 +3,7 @@
 /**
  * Title: Featured Content
  * Slug: saaslauncher/featured-content
- * Categories: saaslauncher
+ * Categories: saaslauncher-about
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

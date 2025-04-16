@@ -3,7 +3,7 @@
 /**
  * Title: Footer Light
  * Slug: saaslauncher/footer-light-v2
- * Categories: saaslauncher, footer
+ * Categories: footer
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

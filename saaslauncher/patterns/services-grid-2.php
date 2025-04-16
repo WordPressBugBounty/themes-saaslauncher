@@ -3,7 +3,7 @@
 /**
  * Title: Services Grid 2
  * Slug: saaslauncher/services-grid-2
- * Categories: saaslauncher
+ * Categories: saaslauncher-service
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

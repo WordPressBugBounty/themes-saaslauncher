@@ -3,7 +3,7 @@
 /**
  * Title: Simple Text Section
  * Slug: saaslauncher/simple-text
- * Categories: saaslauncher
+ * Categories: saaslauncher-about
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"120px","bottom":"120px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"gradient":"gradient-five","layout":{"type":"constrained","contentSize":"740px"}} -->

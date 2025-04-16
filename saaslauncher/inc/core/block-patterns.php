@@ -16,10 +16,23 @@
 function saaslauncher_register_pattern_category()
 {
 	$block_pattern_categories = array(
-		'saaslauncher' => array('label' => __('SaasLauncher Sections', 'saaslauncher')),
+		'saaslauncher' => array('label' => __('SaasLauncher Extra', 'saaslauncher')),
 		'saaslauncher-homes' => array('label' => __('Homepage Templates', 'saaslauncher')),
 		'saaslauncher-pages' => array('label' => __('Page Templates', 'saaslauncher')),
 		'saaslauncher-blogs' => array('label' => __('Blog Templates', 'saaslauncher')),
+		'saaslauncher-hero' => array('label' => __('Hero', 'saaslauncher')),
+		'saaslauncher-about' => array('label' => __('About / Content Blocks', 'saaslauncher')),
+		'saaslauncher-service' => array('label' => __('Features/Services', 'saaslauncher')),
+		'saaslauncher-team' => array('label' => __('Teams', 'saaslauncher')),
+		'saaslauncher-testimonial' => array('label' => __('Testimonials', 'saaslauncher')),
+		'saaslauncher-faqs' => array('label' => __('FAQs', 'saaslauncher')),
+		'saaslauncher-number' => array('label' => __('Numbers/Counter', 'saaslauncher')),
+		'saaslauncher-contact' => array('label' => __('Contacts', 'saaslauncher')),
+		'saaslauncher-cta' => array('label' => __('Call To Action', 'saaslauncher')),
+		'saaslauncher-pricing' => array('label' => __('Pricing Tables', 'saaslauncher')),
+		'saaslauncher-gallery' => array('label' => __('Portfolio/Gallery', 'saaslauncher')),
+		'saaslauncher-logos' => array('label' => __('Logo Showcase', 'saaslauncher')),
+		'saaslauncher-post' => array('label' => __('Posts', 'saaslauncher')),
 	);
 
 	$block_pattern_categories = apply_filters('saaslauncher_block_pattern_categories', $block_pattern_categories);

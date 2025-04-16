@@ -3,7 +3,7 @@
 /**
  * Title: Features and Benefits
  * Slug: saaslauncher/features-and-benefits
- * Categories: saaslauncher
+ * Categories: saaslauncher-service
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

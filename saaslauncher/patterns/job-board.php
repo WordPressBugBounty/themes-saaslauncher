@@ -3,7 +3,7 @@
 /**
  * Title: Job Board / Vacancy Opening
  * Slug: saaslauncher/job-board
- * Categories: saaslauncher
+ * Categories: saaslauncher,saaslauncher-about
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"1260px"}} -->

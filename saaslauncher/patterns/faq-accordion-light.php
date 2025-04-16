@@ -3,7 +3,7 @@
 /**
  * Title: FAQ Accordion Light
  * Slug: saaslauncher/faq-accordion-light
- * Categories: saaslauncher
+ * Categories: saaslauncher-faqs
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/faq-accordion-light","name":"FAQ Accordion Light"},"style":{"spacing":{"padding":{"top":"6rem","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"780px"}} -->

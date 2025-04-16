@@ -3,7 +3,7 @@
 /**
  * Title: FAQ Accordion 2
  * Slug: saaslauncher/faq-accordion-2
- * Categories: saaslauncher
+ * Categories: saaslauncher-faqs
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"860px"}} -->

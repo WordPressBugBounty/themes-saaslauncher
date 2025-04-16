@@ -3,7 +3,7 @@
 /**
  * Title: Why Choose Us
  * Slug: saaslauncher/why-choose-us
- * Categories: saaslauncher
+ * Categories: saaslauncher-about,saaslauncher-service
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

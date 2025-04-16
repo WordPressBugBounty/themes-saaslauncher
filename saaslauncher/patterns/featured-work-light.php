@@ -3,7 +3,7 @@
 /**
  * Title: Featured Work Light
  * Slug: saaslauncher/featured-work-light
- * Categories: saaslauncher
+ * Categories: saaslauncher-gallery
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

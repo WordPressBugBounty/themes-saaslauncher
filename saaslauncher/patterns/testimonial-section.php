@@ -3,7 +3,7 @@
 /**
  * Title: Testimonial Section
  * Slug: saaslauncher/testimonial-section
- * Categories: saaslauncher
+ * Categories: saaslauncher-testimonial
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

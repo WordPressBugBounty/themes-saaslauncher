@@ -3,7 +3,7 @@
 /**
  * Title: Logos Showcase Dark
  * Slug: saaslauncher/logo-showcase-dark
- * Categories: saaslauncher
+ * Categories: saaslauncher-logos
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

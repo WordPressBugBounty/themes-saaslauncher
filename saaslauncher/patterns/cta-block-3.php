@@ -3,7 +3,7 @@
 /**
  * Title: Call to Action 3
  * Slug: saaslauncher/cta-block-3
- * Categories: saaslauncher
+ * Categories: saaslauncher-cta
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

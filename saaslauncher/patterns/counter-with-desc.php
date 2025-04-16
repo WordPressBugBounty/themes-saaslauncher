@@ -3,7 +3,7 @@
 /**
  * Title: Counter Block with Description
  * Slug: saaslauncher/counter-with-desc
- * Categories: saaslauncher
+ * Categories: saaslauncher-number
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/counter-with-desc","name":"Counter Block with Description"},"style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"gradient":"gradient-three","layout":{"type":"constrained","contentSize":"1180px"}} -->

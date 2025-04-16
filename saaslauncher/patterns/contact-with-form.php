@@ -3,7 +3,7 @@
 /**
  * Title: Contact with Form
  * Slug: saaslauncher/contact-with-form
- * Categories: saaslauncher
+ * Categories: saaslauncher-contact
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/contact-with-form","name":"Contact with Form"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":"1180px"}} -->

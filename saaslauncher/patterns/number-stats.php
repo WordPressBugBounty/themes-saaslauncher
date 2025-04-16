@@ -3,7 +3,7 @@
 /**
  * Title: Counter Stats with Sticky Section
  * Slug: saaslauncher/number-stats
- * Categories: saaslauncher
+ * Categories: saaslauncher-number
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/counter-with-desc","name":"Counter Block with Description"},"style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"1180px"}} -->

@@ -3,7 +3,7 @@
 /**
  * Title: Section Header Slant Style
  * Slug: saaslauncher/section-header-slant
- * Categories: saaslauncher
+ * Categories: saaslauncher,header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/section-header-slant","name":"Section Header Slant Style"},"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->

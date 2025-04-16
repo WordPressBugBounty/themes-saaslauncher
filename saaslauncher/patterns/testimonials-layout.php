@@ -3,7 +3,7 @@
 /**
  * Title: Testimonials Card Layout
  * Slug: saaslauncher/testimonial-card-layout
- * Categories: saaslauncher
+ * Categories: saaslauncher-testimonial
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

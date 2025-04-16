@@ -3,7 +3,7 @@
 /**
  * Title: Features Section 2
  * Slug: saaslauncher/features-section-2
- * Categories: saaslauncher
+ * Categories:  saaslauncher-service
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/features-section-2","name":"Features Section 2"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"1180px"}} -->

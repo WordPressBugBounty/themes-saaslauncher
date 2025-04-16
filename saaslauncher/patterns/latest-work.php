@@ -3,7 +3,7 @@
 /**
  * Title: Latest Works Section
  * Slug: saaslauncher/latest-work
- * Categories: saaslauncher
+ * Categories: saaslauncher-gallery
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

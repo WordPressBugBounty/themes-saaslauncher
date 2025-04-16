@@ -3,7 +3,7 @@
 /**
  * Title: Profile Links Card
  * Slug: saaslauncher/profile-links-card
- * Categories: saaslauncher
+ * Categories: saaslauncher,saaslauncher-about
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

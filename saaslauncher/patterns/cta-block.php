@@ -3,7 +3,7 @@
 /**
  * Title: Call to Action
  * Slug: saaslauncher/cta-block
- * Categories: saaslauncher
+ * Categories: saaslauncher-cta
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/cta-block","name":"Call to Action"},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->

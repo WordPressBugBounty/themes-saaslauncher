@@ -3,7 +3,7 @@
 /**
  * Title: Latest News and Articles
  * Slug: saaslauncher/latest-post-grid
- * Categories: saaslauncher
+ * Categories: saaslauncher-post
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/latest-post","name":"Latest News and Articles"},"style":{"spacing":{"padding":{"top":"6rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"1260px"}} -->

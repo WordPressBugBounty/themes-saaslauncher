@@ -3,7 +3,7 @@
 /**
  * Title: Counter Blocks
  * Slug: saaslauncher/counter-block
- * Categories: saaslauncher
+ * Categories: saaslauncher-number
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/counter-block","name":"Counter Blocks"},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"backgroundColor":"light-shade","layout":{"type":"constrained","contentSize":"100%"}} -->

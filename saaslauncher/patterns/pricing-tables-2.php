@@ -3,7 +3,7 @@
 /**
  * Title: Pricing Tables 2
  * Slug: saaslauncher/pricing-tables-2
- * Categories: saaslauncher
+ * Categories: saaslauncher-pricing
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/pricing-tables-2","name":"Pricing Tables"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|70","bottom":"7rem"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"1260px"}} -->

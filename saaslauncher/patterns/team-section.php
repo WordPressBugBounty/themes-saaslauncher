@@ -3,7 +3,7 @@
 /**
  * Title: Team Section
  * Slug: saaslauncher/team-section
- * Categories: saaslauncher
+ * Categories: saaslauncher-team
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

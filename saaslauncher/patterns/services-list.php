@@ -3,7 +3,7 @@
 /**
  * Title: Services List
  * Slug: saaslauncher/services-list
- * Categories: saaslauncher
+ * Categories: saaslauncher-service
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/services-list","name":"Services List"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"1260px"}} -->

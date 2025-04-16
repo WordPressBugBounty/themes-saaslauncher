@@ -3,7 +3,7 @@
 /**
  * Title: Header Minimal Light
  * Slug: saaslauncher/header-minimal-light
- * Categories: saaslauncher, header
+ * Categories: header
  */
 ?>
 <!-- wp:cover {"overlayColor":"light-color","isUserOverlayColor":true,"minHeight":100,"isDark":false,"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/header-minimal-light","name":"Header Minimal Light"},"className":"is-style-saaslauncher-cover-unset-overflow","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->

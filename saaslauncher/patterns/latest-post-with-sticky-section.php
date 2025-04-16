@@ -3,7 +3,7 @@
 /**
  * Title: Latest News and Articles with Sticky Section
  * Slug: saaslauncher/latest-post-with-sticky-section
- * Categories: saaslauncher
+ * Categories: saaslauncher-post
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/latest-post","name":"Latest News and Articles"},"style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"gradient":"gradient-ten","layout":{"type":"constrained","contentSize":"1180px"}} -->

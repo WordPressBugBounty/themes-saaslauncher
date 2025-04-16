@@ -3,7 +3,7 @@
 /**
  * Title: Hero Section Dark
  * Slug: saaslauncher/hero-section-dark
- * Categories: saaslauncher
+ * Categories: saaslauncher-hero
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
