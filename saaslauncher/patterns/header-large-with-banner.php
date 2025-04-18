@@ -4,6 +4,10 @@
  * Title: Header Large with Banner
  * Slug: saaslauncher/header-large-with-banner
  * Categories: header
+ * Keywords: header, nav, links, button
+ * Block Types: core/template-part/header
+ * Post Types: wp_template
+ * Inserter: true
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(

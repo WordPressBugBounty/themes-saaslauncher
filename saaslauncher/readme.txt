@@ -5,7 +5,7 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ SaasLauncher is a powerful and versatile Full Site Editing (FSE) compatible, blo
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 1.1.3 - April 18, 2025 =
+* Header and Footer Patterns registered for header/footer location
+
 = 1.1.2 - April 16, 2025 =
 * Patterns are organized categorically.
 * Tested up to 6.8

@@ -4,6 +4,10 @@
  * Title: Header Default
  * Slug: saaslauncher/header-default
  * Categories: header
+ * Keywords: header, nav, links, button
+ * Block Types: core/template-part/header
+ * Post Types: wp_template
+ * Inserter: true
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"100%"}} -->

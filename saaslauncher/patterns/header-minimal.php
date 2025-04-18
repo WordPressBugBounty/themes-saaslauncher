@@ -4,6 +4,10 @@
  * Title: Header Minimal
  * Slug: saaslauncher/header-minimal
  * Categories: header
+ * Keywords: header, nav, links, button
+ * Block Types: core/template-part/header
+ * Post Types: wp_template
+ * Inserter: true
  */
 ?>
 <!-- wp:cover {"isUserOverlayColor":true,"minHeight":100,"gradient":"gradient-one","metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/header-minimal","name":"Header Minimal Light"},"className":"is-style-saaslauncher-cover-unset-overflow","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
@@ -17,7 +21,7 @@
                 </div>
                 <!-- /wp:group -->
 
-                <!-- wp:navigation {"ref":4450,"textColor":"light-color","overlayBackgroundColor":"secondary-bg","overlayTextColor":"heading-color","className":"saaslauncher-navigation","style":{"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"500","lineHeight":"2"},"spacing":{"blockGap":"24px"}},"fontSize":"normal","layout":{"type":"flex","justifyContent":"center"}} /-->
+                <!-- wp:navigation {"textColor":"light-color","overlayBackgroundColor":"secondary-bg","overlayTextColor":"heading-color","className":"saaslauncher-navigation","style":{"typography":{"textTransform":"none","fontStyle":"normal","fontWeight":"500","lineHeight":"2"},"spacing":{"blockGap":"24px"}},"fontSize":"normal","layout":{"type":"flex","justifyContent":"center"}} /-->
 
                 <!-- wp:buttons {"className":"is-style-button-zoom-on-hover"} -->
                 <div class="wp-block-buttons is-style-button-zoom-on-hover"><!-- wp:button {"gradient":"gradient-twelve","style":{"border":{"radius":"60px"},"spacing":{"padding":{"left":"40px","right":"40px","top":"16px","bottom":"16px"}},"typography":{"fontSize":"18px"}}} -->

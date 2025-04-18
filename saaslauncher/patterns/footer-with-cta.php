@@ -4,6 +4,9 @@
  * Title: Footer with CTA
  * Slug: saaslauncher/footer-with-cta
  * Categories: footer
+ * Block Types: core/template-part/footer
+ * Post Types: wp_template
+ * Inserter: true
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/footer-with-cta","name":"Footer With CTA"},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"100%"}} -->

@@ -4,6 +4,9 @@
  * Title: Footer Light with CTA
  * Slug: saaslauncher/footer-light
  * Categories: footer
+ * Block Types: core/template-part/footer
+ * Post Types: wp_template
+ * Inserter: true
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/footer-light","name":"Footer Light With CTA"},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"light-color","layout":{"type":"constrained","contentSize":"100%"}} -->

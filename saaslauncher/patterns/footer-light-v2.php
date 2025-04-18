@@ -4,6 +4,9 @@
  * Title: Footer Light
  * Slug: saaslauncher/footer-light-v2
  * Categories: footer
+ * Block Types: core/template-part/footer
+ * Post Types: wp_template
+ * Inserter: true
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
@@ -159,7 +162,7 @@ $saaslauncher_images = array(
 
     <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"32px","bottom":"32px"},"margin":{"top":"0","bottom":"0"}},"border":{"top":{"color":"#e4e9e7","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
     <div class="wp-block-group" style="border-top-color:#e4e9e7;border-top-width:1px;margin-top:0;margin-bottom:0;padding-top:32px;padding-right:var(--wp--preset--spacing--40);padding-bottom:32px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"lineHeight":"1.5"}},"textColor":"heading-color","fontSize":"normal"} -->
-        <p class="has-text-align-center has-heading-color-color has-text-color has-link-color has-normal-font-size" style="line-height:1.5"><?php esc_html_e('Proudly powered by WordPress | Theme: SaasLauncher by', 'saaslauncher') ?> <a href="https://cozythemes.com/" target="_blank" rel="noreferrer noopener"><?php esc_html_e('CozyThemes', 'saaslauncher') ?></a>.</p>
+        <p class="has-text-align-center has-heading-color-color has-text-color has-link-color has-normal-font-size" style="line-height:1.5"><?php esc_html_e('Proudly powered by WordPress | Theme: SaasLauncher by CozyThemes', 'saaslauncher') ?>.</p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
