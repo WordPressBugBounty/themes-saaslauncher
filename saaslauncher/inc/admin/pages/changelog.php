@@ -1,7 +1,7 @@
 <div class="saaslauncher-page__changelog">
 	<h2><?php esc_html_e('Changelog', 'saaslauncher'); ?></h2>
 	<div class="version">
-		<h3><?php esc_html_e('Version 1.1.5', 'saaslauncher'); ?></h3>
+		<h3><?php esc_html_e('Version 1.1.7', 'saaslauncher'); ?></h3>
 		<p class="date"><?php esc_html_e('Released: May 02, 2025', 'saaslauncher'); ?></p>
 		<ul class="changes">
 			<li><?php esc_html_e('Demo and homepage Improved for v1 layout', 'saaslauncher'); ?></li>
