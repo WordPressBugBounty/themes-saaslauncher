@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Title: Homepage v2: Light
+ * Title: Homepage Light
  * Slug: saaslauncher/homepage-light
  * Categories: saaslauncher-homes
  */

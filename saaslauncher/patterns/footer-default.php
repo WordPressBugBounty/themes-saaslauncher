@@ -18,16 +18,16 @@ $saaslauncher_images = array(
 );
 ?>
 <!-- wp:group {"className":"saaslauncher-footer","style":{"spacing":{"padding":{"top":"0px","right":"0","left":"0","bottom":"0px"},"margin":{"top":"0","bottom":"0"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"100%"}} -->
-<div class="wp-block-group saaslauncher-footer has-dark-shade-background-color has-background" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0;padding-bottom:0px;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"80px","bottom":"80px"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
-    <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:80px;padding-right:var(--wp--preset--spacing--40);padding-bottom:80px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"40px"},"margin":{"top":"0px"}}}} -->
-        <div class="wp-block-columns" style="margin-top:0px"><!-- wp:column {"width":"45%"} -->
-            <div class="wp-block-column" style="flex-basis:45%"><!-- wp:group {"layout":{"type":"constrained","contentSize":"380px","justifyContent":"left"}} -->
+<div class="wp-block-group saaslauncher-footer has-dark-shade-background-color has-background" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0;padding-bottom:0px;padding-left:0"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"80px","bottom":"80px"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1260px"}} -->
+    <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:80px;padding-right:var(--wp--preset--spacing--40);padding-bottom:80px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"40px"},"margin":{"top":"0px"}}}} -->
+        <div class="wp-block-columns" style="margin-top:0px"><!-- wp:column {"width":"40%","style":{"border":{"width":"0px","style":"none"}}} -->
+            <div class="wp-block-column" style="border-style:none;border-width:0px;flex-basis:40%"><!-- wp:group {"layout":{"type":"constrained","contentSize":"380px","justifyContent":"left"}} -->
                 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-                    <div class="wp-block-group"><!-- wp:image {"id":11884,"width":"40px","height":"40px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-                        <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-11884" style="object-fit:cover;width:40px;height:40px" /></figure>
+                    <div class="wp-block-group"><!-- wp:image {"id":325,"width":"40px","height":"40px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+                        <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-325" style="object-fit:cover;width:40px;height:40px" /></figure>
                         <!-- /wp:image -->
 
-                        <!-- wp:site-title {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"},":hover":{"color":{"text":"var:preset|color|primary"}}}},"typography":{"fontSize":"28px"}}} /-->
+                        <!-- wp:site-title {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"},":hover":{"color":{"text":"var:preset|color|primary"}}}},"typography":{"fontSize":"28px","fontStyle":"normal","fontWeight":"500"}}} /-->
                     </div>
                     <!-- /wp:group -->
 
@@ -218,7 +218,7 @@ $saaslauncher_images = array(
 
     <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"32px","bottom":"32px"},"margin":{"top":"0","bottom":"0"}},"border":{"top":{"color":"#ffffff12","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
     <div class="wp-block-group" style="border-top-color:#ffffff12;border-top-width:1px;margin-top:0;margin-bottom:0;padding-top:32px;padding-right:var(--wp--preset--spacing--40);padding-bottom:32px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"lineHeight":"1.5"}},"textColor":"light-color","fontSize":"normal"} -->
-        <p class="has-text-align-center has-light-color-color has-text-color has-link-color has-normal-font-size" style="line-height:1.5"><?php esc_html_e('Proudly powered by WordPress | Theme: SaasLauncher by CozyThemes', 'saaslauncher') ?>.</p>
+        <p class="has-text-align-center has-light-color-color has-text-color has-link-color has-normal-font-size" style="line-height:1.5"><?php esc_html_e('Proudly powered by WordPress | Theme: SaasLauncher by CozyThemes.', 'saaslauncher') ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->

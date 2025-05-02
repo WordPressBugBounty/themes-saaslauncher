@@ -513,7 +513,6 @@ nav.is-style-pagination-with-background-square a.wp-block-query-pagination-next:
   }
   .is-style-saaslauncher-sticky-navigation.sticky-enabled {
     position: fixed;
-    top: -15px;
     width: 100%;
     z-index: 2;
   }
