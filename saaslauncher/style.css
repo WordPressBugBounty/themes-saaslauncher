@@ -5,7 +5,7 @@ Author: CozyThemes
 Author URI: https://cozythemes.com/
 Description: SaasLauncher is a modern, block-based WordPress theme crafted specifically for SaaS products, startups, agencies, and businesses. Built with Full Site Editing (FSE), it gives you complete control to fully customize every corner of your site—from headers and footers to every page template. With 70+ ready-to-use pre-built sections and 50+ professionally designed starter templates, you can launch your site effortlessly and tailor it to your brand in minutes. Whether you're building a product landing page, SaaS landing page, agency portfolio, or corporate website, SaasLauncher offers a seamless, flexible, and fast design experience. It's WooCommerce-ready, responsive, and compatible with popular plugins like Contact Form 7, Rankmath, WPForms, Yoast SEO and more. Plus, it comes with Cozy Blocks’ 50+ advanced Gutenberg blocks, giving you all the tools you need to build stunning websites—your way. Explore features and demos at https://cozythemes.com/saaslauncher-wordpress-theme/.
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, style-variations, featured-images, portfolio, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
-Version: 1.1.7
+Version: 1.1.9
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 7.0
@@ -108,17 +108,17 @@ form.comment-form .form-submit.wp-block-button {
 }
 .wp-block-comment-template li {
   margin-top: 50px;
+  border-bottom: 1px solid var(--wp--preset--color--border-color);
 }
 .wp-block-comment-template li li {
   margin-top: 10px;
   padding-left: 60px;
+  border-bottom: 0;
 }
 a.comment-reply-link {
-  border: 1px solid;
-  padding: 5px 13px;
-  border-radius: 40px;
-  font-size: 13px;
-  opacity: 0.6;
+  background: var(--wp--preset--color--background-alt);
+  padding: 5px 12px;
+  border-radius: 5px;
 }
 .wp-block-post-comments-form {
   margin-top: 30px;
@@ -399,26 +399,30 @@ figure.wp-block-gallery.saaslauncher-brands figure.wp-block-image img:hover {
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
   background-color: transparent;
   border: 0;
-  margin: 0 30px 0 0;
+  margin: 0 24px 0 0 !important;
   padding: 0;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs::before {
   display: none;
+}
+html body .wp-block-woocommerce-product-details.is-style-minimal ul.tabs.wc-tabs {
+  border-bottom: 1px solid;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs {
   padding: 0;
   border-width: 0;
   position: relative;
 }
-
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
-  color: var(--wp--preset--color--heading-color);
-  font-weight: 600;
+  color: var(--wp--preset--color--primary) !important;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li a {
-  padding: 16px 0;
+  padding: 6px 0 !important;
   font-weight: 400;
   position: relative;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+  border-bottom: 0 !important;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active a:after,
 .woocommerce div.product .woocommerce-tabs ul.tabs:after {
@@ -426,9 +430,9 @@ figure.wp-block-gallery.saaslauncher-brands figure.wp-block-image img:hover {
   width: 100%;
   height: 3px;
   left: 0;
-  bottom: 0;
+  bottom: -3px;
   position: absolute;
-  background: var(--wp--preset--color--heading-color);
+  background: var(--wp--preset--color--primary);
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs:after {
   background-color: var(--wp--preset--color--border-color);
@@ -464,26 +468,11 @@ a.components-button.wc-block-components-button.wp-element-button.wp-block-woocom
 .wc-block-cart__submit.wp-block-woocommerce-proceed-to-checkout-block {
   margin-top: 24px;
 }
-.wc-block-cart-item__wrap a.wc-block-components-product-name {
-  color: var(--wp--preset--color--heading-color);
-  font-weight: 600;
-  font-size: 16px;
-}
 .wc-block-cart-item__wrap a.wc-block-components-product-name:hover {
   color: var(--wp--preset--color--secondary);
 }
-span.wc-block-formatted-money-amount.wc-block-components-formatted-money-amount.wc-block-components-product-price__value,
-.wc-block-components-totals-item.wc-block-mini-cart__footer-subtotal span.wc-block-components-totals-item__label,
-.wc-block-components-totals-item.wc-block-mini-cart__footer-subtotal span.wc-block-formatted-money-amount.wc-block-components-formatted-money-amount.wc-block-components-totals-item__value {
-  font-weight: 600;
-  color: var(--wp--preset--color--heading-color);
-}
 .wc-block-components-totals-wrapper {
   border-top: 0;
-}
-.wc-block-components-order-summary .wc-block-components-order-summary-item__quantity {
-  background: #000;
-  color: #fff;
 }
 figure.wp-block-image.saaslauncher-app-image img {
   margin-top: -105px;
@@ -524,6 +513,9 @@ form.comment-form .form-submit.wp-block-button input#submit {
   position: absolute;
   left: 16px;
   top: 14px;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__quantity {
+  border: 0 !important;
 }
 .wp-block-button.saaslauncher-cat-more a.wp-block-button__link:hover:after {
   border-color: transparent transparent transparent var(--wp--preset--color--light-color);
@@ -587,8 +579,15 @@ body.logged-in .wp-block-group.saaslauncher-sticky-menu.sticky-menu-enabled {
   display: inline-block;
   z-index: 999;
   text-indent: -5000px;
-  display: none;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.089);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 .wp-block-button.saaslauncher-scrollto-top .wp-block-button__link.wp-element-button:after {
   content: "";
@@ -670,9 +669,7 @@ body.logged-in .wp-block-group.saaslauncher-sticky-menu.sticky-menu-enabled {
   padding: 10px 0;
   border-bottom: 1px solid #ebefef;
 }
-.woocommerce-account .woocommerce-MyAccount-navigation li a {
-  color: var(--wp--preset--color--heading-color);
-}
+
 .woocommerce-account .woocommerce-MyAccount-navigation li a:hover {
   color: var(--wp--preset--color--secondary);
 }
@@ -874,11 +871,19 @@ figure.wp-block-gallery.saaslauncher-gallery figure.wp-block-image {
 }
 .wp-block-buttons a.wp-block-button__link.has-gradient-twelve-gradient-background:hover,
 a.wp-block-read-more.has-gradient-twelve-gradient-background:hover {
-  background: linear-gradient(90deg, var(--wp--preset--color--primary) 65%, var(--wp--preset--color--secondary) 100%) !important;
+  background: #fff !important;
+  color: var(--wp--preset--color--primary) !important;
+}
+.wp-block-buttons .wp-block-button.is-style-button-with-uparrow-icon a.wp-element-button.wp-block-button__link.has-gradient-twelve-gradient-background:hover:after {
+  background-color: var(--wp--preset--color--primary);
 }
 .wp-block-buttons a.wp-block-button__link.has-gradient-thirteen-gradient-background:hover,
 a.wp-block-read-more.has-gradient-thirteen-gradient-background:hover {
-  background: linear-gradient(90deg, var(--wp--preset--color--secondary) 65%, var(--wp--preset--color--primary) 100%) !important;
+  background: #fff !important;
+  color: var(--wp--preset--color--secondary) !important;
+}
+.wp-block-buttons .wp-block-button.is-style-button-with-uparrow-icon a.wp-element-button.wp-block-button__link.has-gradient-thirteen-gradient-background:hover:after {
+  background-color: var(--wp--preset--color--secondary);
 }
 .wp-block-contact-form-7-contact-form-selector.saaslauncher-newsletter-1 input.wpcf7-form-control.wpcf7-submit {
   width: 100%;

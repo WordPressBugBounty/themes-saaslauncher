@@ -1,6 +1,14 @@
 <div class="saaslauncher-page__changelog">
 	<h2><?php esc_html_e('Changelog', 'saaslauncher'); ?></h2>
 	<div class="version">
+		<h3><?php esc_html_e('Version 1.1.9', 'saaslauncher'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: May 06, 2025', 'saaslauncher'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e('Minor Patterns Improved: Header and Banner section', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Minor script (jQuery) enquee fixed as review feedback', 'saaslauncher'); ?></li>
+		</ul>
+	</div>
+	<div class="version">
 		<h3><?php esc_html_e('Version 1.1.7', 'saaslauncher'); ?></h3>
 		<p class="date"><?php esc_html_e('Released: May 02, 2025', 'saaslauncher'); ?></p>
 		<ul class="changes">

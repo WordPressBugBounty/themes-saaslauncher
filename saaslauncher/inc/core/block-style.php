@@ -243,6 +243,13 @@ if (function_exists('register_block_style')) {
         register_block_style(
             'core/button',
             array(
+                'name'  => 'button-hover-light-bgcolor',
+                'label' => __('Hover: Light color fill', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/button',
+            array(
                 'name'  => 'button-with-arrow-icon',
                 'label' => __('Arrow Icon', 'saaslauncher')
             )

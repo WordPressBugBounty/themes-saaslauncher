@@ -23,13 +23,13 @@ $saaslauncher_images = array(
             </div>
             <!-- /wp:group -->
 
-            <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"top":"20px","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"860px"}} -->
-            <div class="wp-block-group" style="margin-top:20px;margin-bottom:0"><!-- wp:heading {"textAlign":"center","level":1,"className":"saaslauncher-big-title","style":{"typography":{"fontStyle":"normal","fontWeight":"500","fontSize":"74px","lineHeight":"1.3"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                <h1 class="wp-block-heading has-text-align-center saaslauncher-big-title has-light-color-color has-text-color has-link-color" style="font-size:74px;font-style:normal;font-weight:500;line-height:1.3"><?php esc_html_e('Launch Fast. Grow Faster! No Coding Required', 'saaslauncher') ?></h1>
+            <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50","margin":{"top":"20px","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"940px"}} -->
+            <div class="wp-block-group" style="margin-top:20px;margin-bottom:0"><!-- wp:heading {"textAlign":"center","level":1,"className":"saaslauncher-big-title","style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"84px","lineHeight":"1.3"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+                <h1 class="wp-block-heading has-text-align-center saaslauncher-big-title has-light-color-color has-text-color has-link-color" style="font-size:84px;font-style:normal;font-weight:600;line-height:1.3"><?php esc_html_e('Launch Fast. Grow Faster! No Coding Required', 'saaslauncher') ?></h1>
                 <!-- /wp:heading -->
 
-                <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"lineHeight":"1.5"}},"textColor":"light-color","fontSize":"medium"} -->
-                <p class="has-text-align-center has-light-color-color has-text-color has-link-color has-medium-font-size" style="line-height:1.5"><?php esc_html_e('Get your website up and running quickly with powerful, scalable SaaS solutions designed to boost performance and drive business growth effortlessly.', 'saaslauncher') ?></p>
+                <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"typography":{"lineHeight":"1.5"}},"textColor":"foreground-alt","fontSize":"medium"} -->
+                <p class="has-text-align-center has-foreground-alt-color has-text-color has-link-color has-medium-font-size" style="line-height:1.5"><?php esc_html_e('Get your website up and running quickly with powerful, scalable SaaS solutions designed to boost performance and drive business growth effortlessly.', 'saaslauncher') ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

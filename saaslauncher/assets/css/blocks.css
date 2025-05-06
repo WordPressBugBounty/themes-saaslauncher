@@ -522,31 +522,38 @@ nav.is-style-pagination-with-background-square a.wp-block-query-pagination-next:
   .wp-block-group.saaslauncher-header.is-style-saaslauncher-sticky-navigation .wp-block-group.is-style-saaslauncher-boxshadow {
     transition: all ease 0.23s;
   }
-  .wp-block-group.saaslauncher-header.is-style-saaslauncher-sticky-navigation.sticky-enabled .wp-block-group.is-style-saaslauncher-boxshadow {
-    box-shadow: 0 5px 21px rgba(0, 0, 0, 0.11);
-    transform: scale(0.9);
-    -webkit-transform: scale(0.9);
-    -moz-webkit-transform: scale(0.9);
+  .wp-block-group.saaslauncher-header.is-style-saaslauncher-sticky-navigation {
+    transition: all ease 0.23s;
+  }
+  .wp-block-group.saaslauncher-header.is-style-saaslauncher-sticky-navigation.sticky-enabled {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background: #000000eb;
   }
 }
 .is-style-post-comments-form-dark-scheme.wp-block-post-comments-form .comment-reply-title {
   color: var(--wp--preset--color--light-color);
+  font-weight: 500;
 }
 .is-style-post-comments-form-dark-scheme.wp-block-post-comments-form textarea#comment,
 .is-style-post-comments-form-dark-scheme.wp-block-post-comments-form input[type="text"],
 .is-style-post-comments-form-dark-scheme.wp-block-post-comments-form input[type="email"],
 .is-style-post-comments-form-dark-scheme.wp-block-post-comments-form input[type="url"] {
-  background: var(--wp--preset--color--background-alt);
-  border-radius: 20px;
+  background: transparent;
+  border-radius: 0;
   border-color: var(--wp--preset--color--border-color);
   color: var(--wp--preset--color--foreground-alt);
 }
 .is-style-post-comments-form-dark-scheme.wp-block-post-comments-form input[type="text"],
 .is-style-post-comments-form-dark-scheme.wp-block-post-comments-form input[type="email"],
 .is-style-post-comments-form-dark-scheme.wp-block-post-comments-form input[type="url"] {
-  border-radius: 7px;
+  border-radius: 0;
 }
 .wp-block-woocommerce-product-details.is-style-product-details-dark-scheme #tab-description h2,
-.wp-block-woocommerce-product-details.is-style-product-details-dark-scheme .woocommerce-Reviews-title {
+.wp-block-woocommerce-product-details.is-style-product-details-dark-scheme .woocommerce-Reviews-title,
+.wp-block-woocommerce-product-details.is-style-product-details-dark-scheme #tab-additional_information h2 {
+  color: #fff;
+}
+.wc-block-components-sidebar-layout.wc-block-checkout.has-dark-controls .wc-block-components-title.wc-block-components-checkout-step__title {
   color: #fff;
 }

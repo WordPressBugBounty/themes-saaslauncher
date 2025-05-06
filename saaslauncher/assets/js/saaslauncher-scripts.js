@@ -167,9 +167,9 @@
   });
   jQuery(window).scroll(function () {
     if (jQuery(this).scrollTop() > 100) {
-      jQuery(".saaslauncher-scrollto-top a").fadeIn();
+      jQuery(".saaslauncher-scrollto-top a").addClass("show");
     } else {
-      jQuery(".saaslauncher-scrollto-top a").fadeOut();
+      jQuery(".saaslauncher-scrollto-top a").removeClass("show");
     }
   });
   jQuery(".saaslauncher-scrollto-top a").click(function () {

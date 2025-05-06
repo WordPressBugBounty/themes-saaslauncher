@@ -53,7 +53,7 @@ $saaslauncher_images = array(
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Fitness Coach', 'saaslauncher') ?></p>
+                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Founder - Potmen Technology', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -81,7 +81,7 @@ $saaslauncher_images = array(
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Fitness Coach', 'saaslauncher') ?></p>
+                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('CEO - RM Growth', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -108,11 +108,11 @@ $saaslauncher_images = array(
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
                     <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"big"} -->
-                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Liam Walker', 'saaslauncher') ?></h5>
+                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Peter Brandson', 'saaslauncher') ?></h5>
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Fitness Coach', 'saaslauncher') ?></p>
+                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Owner - Brandson Industry', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -136,11 +136,11 @@ $saaslauncher_images = array(
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
                     <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"big"} -->
-                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('John doe', 'saaslauncher') ?></h5>
+                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Aliana Lorel', 'saaslauncher') ?></h5>
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Fitness Coach', 'saaslauncher') ?></p>
+                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Founder - Lorel Technology', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
