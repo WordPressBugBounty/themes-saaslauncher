@@ -8,10 +8,10 @@
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/about.jpg',
-    $saaslauncher_url . 'assets/images/icon_1.png',
-    $saaslauncher_url . 'assets/images/icon_2.png',
-    $saaslauncher_url . 'assets/images/icon_3.png',
-    $saaslauncher_url . 'assets/images/icon_4.png',
+    $saaslauncher_url . 'assets/images/icon_101.png',
+    $saaslauncher_url . 'assets/images/icon_102.png',
+    $saaslauncher_url . 'assets/images/icon_103.png',
+    $saaslauncher_url . 'assets/images/icon_104.png',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/about-features-light","name":"About with Features"},"style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1180px"}} -->
@@ -39,7 +39,7 @@ $saaslauncher_images = array(
 
                 <!-- wp:column {"verticalAlignment":"top","width":"","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
                 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":4,"fontSize":"big"} -->
-                    <h4 class="wp-block-heading has-big-font-size"><?php esc_html_e('Lifetime Updates', 'saaslauncher') ?></h4>
+                    <h4 class="wp-block-heading has-big-font-size"><?php esc_html_e('Scalability & Flexibility', 'saaslauncher') ?></h4>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph -->
@@ -60,7 +60,7 @@ $saaslauncher_images = array(
 
                 <!-- wp:column {"verticalAlignment":"top","width":"","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
                 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":4,"fontSize":"big"} -->
-                    <h4 class="wp-block-heading has-big-font-size"><?php esc_html_e('Native Interface', 'saaslauncher') ?></h4>
+                    <h4 class="wp-block-heading has-big-font-size"><?php esc_html_e('Smart Alerts & Notifications', 'saaslauncher') ?></h4>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph -->
@@ -81,7 +81,7 @@ $saaslauncher_images = array(
 
                 <!-- wp:column {"verticalAlignment":"top","width":"","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
                 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":4,"fontSize":"big"} -->
-                    <h4 class="wp-block-heading has-big-font-size"><?php esc_html_e('Mobile first Approach', 'saaslauncher') ?></h4>
+                    <h4 class="wp-block-heading has-big-font-size"><?php esc_html_e('Seamless Integration', 'saaslauncher') ?></h4>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph -->
@@ -102,7 +102,7 @@ $saaslauncher_images = array(
 
                 <!-- wp:column {"verticalAlignment":"top","width":"","style":{"spacing":{"blockGap":"var:preset|spacing|30"}}} -->
                 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":4,"fontSize":"big"} -->
-                    <h4 class="wp-block-heading has-big-font-size"><?php esc_html_e('E-Commerce Ready', 'saaslauncher') ?></h4>
+                    <h4 class="wp-block-heading has-big-font-size"><?php esc_html_e('Workflow Automation', 'saaslauncher') ?></h4>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph -->

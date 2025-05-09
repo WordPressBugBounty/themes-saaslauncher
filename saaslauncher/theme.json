@@ -717,16 +717,6 @@
       "area": "header"
     },
     {
-      "name": "header-large-with-banner",
-      "title": "Header Large With Banner",
-      "area": "header"
-    },
-    {
-      "name": "header-archive",
-      "title": "Header for Archives",
-      "area": "header"
-    },
-    {
       "name": "footer",
       "title": "Footer",
       "area": "footer"

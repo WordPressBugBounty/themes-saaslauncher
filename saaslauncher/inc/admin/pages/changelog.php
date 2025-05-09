@@ -1,11 +1,20 @@
 <div class="saaslauncher-page__changelog">
 	<h2><?php esc_html_e('Changelog', 'saaslauncher'); ?></h2>
 	<div class="version">
+		<h3><?php esc_html_e('Version 1.2.0', 'saaslauncher'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: May 09, 2025', 'saaslauncher'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e('Header navigation sticky layout fixed', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Scroll to top button minor fixed', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Inner page layout and patterns layout improved', 'saaslauncher'); ?></li>
+		</ul>
+	</div>
+	<div class="version">
 		<h3><?php esc_html_e('Version 1.1.9', 'saaslauncher'); ?></h3>
 		<p class="date"><?php esc_html_e('Released: May 06, 2025', 'saaslauncher'); ?></p>
 		<ul class="changes">
 			<li><?php esc_html_e('Minor Patterns Improved: Header and Banner section', 'saaslauncher'); ?></li>
-			<li><?php esc_html_e('Minor script (jQuery) enquee fixed as review feedback', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Minor script (jQuery) enqueue fixed as review feedback', 'saaslauncher'); ?></li>
 		</ul>
 	</div>
 	<div class="version">
