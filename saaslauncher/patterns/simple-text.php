@@ -6,8 +6,8 @@
  * Categories: saaslauncher-about
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"120px","bottom":"120px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"gradient":"gradient-five","layout":{"type":"constrained","contentSize":"740px"}} -->
-<div class="wp-block-group has-gradient-five-gradient-background has-background" style="padding-top:120px;padding-right:var(--wp--preset--spacing--40);padding-bottom:120px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"lineHeight":"1.3"}},"textColor":"light-color","fontSize":"xxx-large"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"120px","bottom":"120px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"gradient":"gradient-five","layout":{"type":"constrained","contentSize":"740px"}} -->
+<div class="wp-block-group alignfull has-gradient-five-gradient-background has-background" style="padding-top:120px;padding-right:var(--wp--preset--spacing--40);padding-bottom:120px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"lineHeight":"1.3"}},"textColor":"light-color","fontSize":"xxx-large"} -->
     <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-xxx-large-font-size" style="line-height:1.3"><?php esc_html_e('Core Values – What Drives Us Forward', 'saaslauncher') ?></h1>
     <!-- /wp:heading -->
 

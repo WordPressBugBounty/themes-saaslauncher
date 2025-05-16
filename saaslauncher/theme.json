@@ -310,8 +310,8 @@
       "width": true
     },
     "layout": {
-      "contentSize": "980px",
-      "wideSize": "1960"
+      "contentSize": "1180px",
+      "wideSize": "1960px"
     },
     "typography": {
       "dropCap": false,

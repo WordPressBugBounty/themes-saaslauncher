@@ -10,8 +10,8 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/google-map.jpg',
 );
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"gradient":"gradient-six","layout":{"type":"constrained","contentSize":"100%"}} -->
-<div class="wp-block-group has-gradient-six-gradient-background has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"gradient":"gradient-six","layout":{"type":"constrained","contentSize":"100%"}} -->
+<div class="wp-block-group alignfull has-gradient-six-gradient-background has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
     <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40)"><!-- wp:image {"id":10027,"sizeSlug":"large","linkDestination":"none","align":"wide"} -->
         <figure class="wp-block-image alignwide size-large"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-10027" /></figure>
         <!-- /wp:image -->

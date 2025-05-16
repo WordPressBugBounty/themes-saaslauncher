@@ -14,8 +14,8 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/icon_104.png',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/about-features-light","name":"About with Features"},"style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1180px"}} -->
-<div class="wp-block-group has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
+<!-- wp:group {"align":"full","metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/about-features-light","name":"About with Features"},"style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1180px"}} -->
+<div class="wp-block-group alignfull has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"64px"}}}} -->
     <div class="wp-block-columns"><!-- wp:column {"width":"","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
         <div class="wp-block-column"><!-- wp:heading {"level":1,"style":{"typography":{"lineHeight":"1.3"}}} -->
             <h1 class="wp-block-heading" style="line-height:1.3"><?php esc_html_e('Pioneers in Simplifying Business Operations', 'saaslauncher') ?></h1>

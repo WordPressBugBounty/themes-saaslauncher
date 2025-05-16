@@ -13,8 +13,8 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/icon_104.png',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/features-section","name":"Features Section"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"7rem"}}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"1180px"}} -->
-<div class="wp-block-group has-black-color-background-color has-background" style="padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px"},"blockGap":{"left":"64px"}}}} -->
+<!-- wp:group {"align":"full","metadata":{"categories":["saaslauncher"],"patternName":"saaslauncher/features-section","name":"Features Section"},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"7rem"}}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"1180px"}} -->
+<div class="wp-block-group alignfull has-black-color-background-color has-background" style="padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px"},"blockGap":{"left":"64px"}}}} -->
     <div class="wp-block-columns" style="margin-top:0px"><!-- wp:column -->
         <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
             <div class="wp-block-group"><!-- wp:image {"id":12334,"width":"60px","height":"60px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
