@@ -7,6 +7,7 @@
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
+    $saaslauncher_url . 'assets/images/rating_star.png',
     $saaslauncher_url . 'assets/images/team_2.jpg',
     $saaslauncher_url . 'assets/images/testimonial_1.jpg',
     $saaslauncher_url . 'assets/images/testimonial_3.jpg',
@@ -37,56 +38,64 @@ $saaslauncher_images = array(
 
     <!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px"},"blockGap":{"left":"28px"}}}} -->
     <div class="wp-block-columns" style="margin-top:0px"><!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"className":"saaslauncher-hover-box","style":{"border":{"radius":"12px","width":"1px"},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|60"}},"borderColor":"border-color","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group saaslauncher-hover-box has-border-color has-border-color-border-color" style="border-width:1px;border-radius:12px;margin-top:0;margin-bottom:0;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt","fontSize":"medium"} -->
-                <p class="has-foreground-alt-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e('We switched to this SaaS a few months ago, and the difference has been huge. Our team works faster, collaboration is smoother, and having everything in one place has saved us time, reduced confusion, and helped us hit deadlines more consistently.', 'saaslauncher') ?></p>
-                <!-- /wp:paragraph -->
-
-                <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+        <div class="wp-block-column"><!-- wp:group {"className":"saaslauncher-hover-box","style":{"border":{"radius":"12px","width":"1px"},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"borderColor":"border-color","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group saaslauncher-hover-box has-border-color has-border-color-border-color" style="border-width:1px;border-radius:12px;margin-top:0;margin-bottom:0;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group"><!-- wp:image {"id":2415,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}}} -->
-                    <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-2415" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
+                    <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[1]) ?>" alt="" class="wp-image-2415" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-                    <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"big"} -->
-                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Liana Potmen', 'saaslauncher') ?></h5>
+                    <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"medium"} -->
+                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Liana Potmen', 'saaslauncher') ?></h5>
                         <!-- /wp:heading -->
 
-                        <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Founder - Potmen Technology', 'saaslauncher') ?></p>
+                        <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt","fontSize":"small"} -->
+                        <p class="has-foreground-alt-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('Founder - Potmen Technology', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
                 </div>
                 <!-- /wp:group -->
+
+                <!-- wp:image {"id":1070,"width":"100px","height":"20px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"16px","bottom":"0"}}}} -->
+                <figure class="wp-block-image size-full is-resized" style="margin-top:16px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-1070" style="object-fit:contain;width:100px;height:20px" /></figure>
+                <!-- /wp:image -->
+
+                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"typography":{"fontSize":"18px"}},"textColor":"foreground-alt"} -->
+                <p class="has-foreground-alt-color has-text-color has-link-color" style="font-size:18px"><?php esc_html_e('We switched to this SaaS a few months ago, and the difference has been huge. Our team works faster, collaboration is smoother, and having everything in one place has saved us time, reduced confusion, and helped us hit deadlines more consistently.', 'saaslauncher') ?></p>
+                <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"className":"saaslauncher-hover-box","style":{"border":{"radius":"12px","width":"1px"},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|60"}},"borderColor":"border-color","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group saaslauncher-hover-box has-border-color has-border-color-border-color" style="border-width:1px;border-radius:12px;margin-top:0;margin-bottom:0;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt","fontSize":"medium"} -->
-                <p class="has-foreground-alt-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e('The features are great, but the support team truly sets this SaaS apart. From onboarding to daily use, their quick responses and helpful guidance made the whole experience smooth and stress-free. It feels like we have a real partner, not just a service.', 'saaslauncher') ?></p>
-                <!-- /wp:paragraph -->
-
-                <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+        <div class="wp-block-column"><!-- wp:group {"className":"saaslauncher-hover-box","style":{"border":{"radius":"12px","width":"1px"},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"borderColor":"border-color","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group saaslauncher-hover-box has-border-color has-border-color-border-color" style="border-width:1px;border-radius:12px;margin-top:0;margin-bottom:0;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group"><!-- wp:image {"id":2415,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}}} -->
-                    <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[1]) ?>" alt="" class="wp-image-2415" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
+                    <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[2]) ?>" alt="" class="wp-image-2415" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-                    <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"big"} -->
-                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Robert Mathew', 'saaslauncher') ?></h5>
+                    <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"medium"} -->
+                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Robert Mathew', 'saaslauncher') ?></h5>
                         <!-- /wp:heading -->
 
-                        <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('CEO - RM Growth', 'saaslauncher') ?></p>
+                        <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt","fontSize":"small"} -->
+                        <p class="has-foreground-alt-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('CEO - RM Growth', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
                 </div>
                 <!-- /wp:group -->
+
+                <!-- wp:image {"id":1070,"width":"100px","height":"20px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"16px","bottom":"0"}}}} -->
+                <figure class="wp-block-image size-full is-resized" style="margin-top:16px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-1070" style="object-fit:contain;width:100px;height:20px" /></figure>
+                <!-- /wp:image -->
+
+                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"typography":{"fontSize":"18px"}},"textColor":"foreground-alt"} -->
+                <p class="has-foreground-alt-color has-text-color has-link-color" style="font-size:18px"><?php esc_html_e('The features are great, but the support team truly sets this SaaS apart. From onboarding to daily use, their quick responses and helpful guidance made the whole experience smooth and stress-free. It feels like we have a real partner, not just a service.', 'saaslauncher') ?></p>
+                <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
         </div>
@@ -96,56 +105,64 @@ $saaslauncher_images = array(
 
     <!-- wp:columns {"style":{"spacing":{"margin":{"top":"28px"},"blockGap":{"left":"28px"}}}} -->
     <div class="wp-block-columns" style="margin-top:28px"><!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"className":"saaslauncher-hover-box","style":{"border":{"radius":"12px","width":"1px"},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|60"}},"borderColor":"border-color","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group saaslauncher-hover-box has-border-color has-border-color-border-color" style="border-width:1px;border-radius:12px;margin-top:0;margin-bottom:0;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt","fontSize":"medium"} -->
-                <p class="has-foreground-alt-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e('The interface is clean and easy to use, even for non-tech team members. Automations work flawlessly, and we’ve eliminated hours of repetitive tasks. Our projects now move forward without bottlenecks, and our entire workflow feels lighter and faster.', 'saaslauncher') ?></p>
-                <!-- /wp:paragraph -->
-
-                <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+        <div class="wp-block-column"><!-- wp:group {"className":"saaslauncher-hover-box","style":{"border":{"radius":"12px","width":"1px"},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"borderColor":"border-color","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group saaslauncher-hover-box has-border-color has-border-color-border-color" style="border-width:1px;border-radius:12px;margin-top:0;margin-bottom:0;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group"><!-- wp:image {"id":2415,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}}} -->
-                    <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[2]) ?>" alt="" class="wp-image-2415" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
+                    <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[3]) ?>" alt="" class="wp-image-2415" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-                    <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"big"} -->
-                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Peter Brandson', 'saaslauncher') ?></h5>
+                    <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"medium"} -->
+                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Peter Brandson', 'saaslauncher') ?></h5>
                         <!-- /wp:heading -->
 
-                        <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Owner - Brandson Industry', 'saaslauncher') ?></p>
+                        <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt","fontSize":"small"} -->
+                        <p class="has-foreground-alt-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('Owner - Brandson Industry', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
                 </div>
                 <!-- /wp:group -->
+
+                <!-- wp:image {"id":1070,"width":"100px","height":"20px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"16px","bottom":"0"}}}} -->
+                <figure class="wp-block-image size-full is-resized" style="margin-top:16px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-1070" style="object-fit:contain;width:100px;height:20px" /></figure>
+                <!-- /wp:image -->
+
+                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"typography":{"fontSize":"18px"}},"textColor":"foreground-alt"} -->
+                <p class="has-foreground-alt-color has-text-color has-link-color" style="font-size:18px"><?php esc_html_e('The interface is clean and easy to use, even for non-tech team members. Automations work flawlessly, and we’ve eliminated hours of repetitive tasks. Our projects now move forward without bottlenecks, and our entire workflow feels lighter and faster.', 'saaslauncher') ?></p>
+                <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
         </div>
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"className":"saaslauncher-hover-box","style":{"border":{"radius":"12px","width":"1px"},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|60"}},"borderColor":"border-color","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group saaslauncher-hover-box has-border-color has-border-color-border-color" style="border-width:1px;border-radius:12px;margin-top:0;margin-bottom:0;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt","fontSize":"medium"} -->
-                <p class="has-foreground-alt-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e('We needed something reliable, fast, and able to grow with us—this SaaS checked every box. It’s intuitive, powerful, and fits teams of any size. We streamlined our operations and finally feel confident scaling without worrying about our systems.', 'saaslauncher') ?></p>
-                <!-- /wp:paragraph -->
-
-                <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+        <div class="wp-block-column"><!-- wp:group {"className":"saaslauncher-hover-box","style":{"border":{"radius":"12px","width":"1px"},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"40px","right":"40px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"borderColor":"border-color","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group saaslauncher-hover-box has-border-color has-border-color-border-color" style="border-width:1px;border-radius:12px;margin-top:0;margin-bottom:0;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group"><!-- wp:image {"id":2415,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"}}} -->
-                    <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[3]) ?>" alt="" class="wp-image-2415" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
+                    <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[4]) ?>" alt="" class="wp-image-2415" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
                     <!-- /wp:image -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-                    <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"big"} -->
-                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Aliana Lorel', 'saaslauncher') ?></h5>
+                    <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"medium"} -->
+                        <h5 class="wp-block-heading has-background-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Aliana Lorel', 'saaslauncher') ?></h5>
                         <!-- /wp:heading -->
 
-                        <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Founder - Lorel Technology', 'saaslauncher') ?></p>
+                        <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt","fontSize":"small"} -->
+                        <p class="has-foreground-alt-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('Founder - Lorel Technology', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
                 </div>
                 <!-- /wp:group -->
+
+                <!-- wp:image {"id":1070,"width":"100px","height":"20px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"16px","bottom":"0"}}}} -->
+                <figure class="wp-block-image size-full is-resized" style="margin-top:16px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-1070" style="object-fit:contain;width:100px;height:20px" /></figure>
+                <!-- /wp:image -->
+
+                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}},"typography":{"fontSize":"18px"}},"textColor":"foreground-alt"} -->
+                <p class="has-foreground-alt-color has-text-color has-link-color" style="font-size:18px"><?php esc_html_e('We needed something reliable, fast, and able to grow with us—this SaaS checked every box. It’s intuitive, powerful, and fits teams of any size. We streamlined our operations and finally feel confident scaling without worrying about our systems.', 'saaslauncher') ?></p>
+                <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
         </div>

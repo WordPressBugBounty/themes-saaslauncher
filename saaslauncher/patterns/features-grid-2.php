@@ -6,37 +6,37 @@
  * Categories: saaslauncher-service
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"black-color","layout":{"type":"constrained","contentSize":"1260px"}} -->
-<div class="wp-block-group alignfull has-black-color-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"60px"}}},"layout":{"type":"constrained","contentSize":"860px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-service"],"patternName":"saaslauncher/features-grid-2","name":"Features Grid 2"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"6rem"},"margin":{"top":"0","bottom":"0"}}},"gradient":"center-bottom-gradient","layout":{"type":"constrained","contentSize":"1180px"}} -->
+<div class="wp-block-group alignfull has-center-bottom-gradient-gradient-background has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:6rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"60px"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
     <div class="wp-block-group" style="margin-bottom:60px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-        <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"5px","bottom":"5px","left":"10px","right":"10px"}},"border":{"radius":"60px","width":"1px"}},"borderColor":"border-color","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-border-color has-border-color-border-color" style="border-width:1px;border-radius:60px;padding-top:5px;padding-right:10px;padding-bottom:5px;padding-left:10px"><!-- wp:heading {"textAlign":"center","level":5,"style":{"typography":{"textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"small"} -->
-                <h5 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-small-font-size" style="text-transform:uppercase"><?php esc_html_e('Our Features', 'saaslauncher') ?></h5>
+        <div class="wp-block-group"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"3px","bottom":"3px","left":"8px","right":"8px"}},"border":{"radius":"60px","width":"1px"}},"backgroundColor":"dark-shade","fontSize":"small","borderColor":"border-color","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-border-color-border-color has-dark-shade-background-color has-background has-small-font-size" style="border-width:1px;border-radius:60px;padding-top:3px;padding-right:8px;padding-bottom:3px;padding-left:8px"><!-- wp:heading {"textAlign":"center","level":5,"style":{"typography":{"textTransform":"none"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"small"} -->
+                <h5 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-small-font-size" style="text-transform:none"><?php esc_html_e('Services', 'saaslauncher') ?></h5>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
 
-        <!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-        <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color"><?php esc_html_e('Unlock the true power of the Full Site Editing', 'saaslauncher') ?></h1>
+        <!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"textColor":"light-color","fontSize":"xxx-large"} -->
+        <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-xxx-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3"><?php esc_html_e('Ensure You Receive High-Quality Services', 'saaslauncher') ?></h1>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-        <p class="has-text-align-center has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage.', 'saaslauncher') ?></p>
+        <p class="has-text-align-center has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores', 'saaslauncher') ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
 
     <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"28px"},"margin":{"top":"0","bottom":"0"}}}} -->
     <div class="wp-block-columns" style="margin-top:0;margin-bottom:0"><!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"dark-shade","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-dark-shade-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group has-background-alt-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
                 <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color"><?php esc_html_e('01', 'saaslauncher') ?></h5>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"big"} -->
-                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-big-font-size"><?php esc_html_e('Site Editor', 'saaslauncher') ?></h3>
+                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"light-color","fontSize":"medium"} -->
+                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Security &amp; Compliance Services', 'saaslauncher') ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
@@ -55,13 +55,13 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"dark-shade","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-dark-shade-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group has-background-alt-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
                 <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color"><?php esc_html_e('02', 'saaslauncher') ?></h5>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"big"} -->
-                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-big-font-size"><?php esc_html_e('Global Styles', 'saaslauncher') ?></h3>
+                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"light-color","fontSize":"medium"} -->
+                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Data Migration &amp; Management', 'saaslauncher') ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
@@ -80,13 +80,13 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"dark-shade","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-dark-shade-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group has-background-alt-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
                 <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color"><?php esc_html_e('03', 'saaslauncher') ?></h5>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"big"} -->
-                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-big-font-size"><?php esc_html_e('Block Patterns', 'saaslauncher') ?></h3>
+                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"light-color","fontSize":"medium"} -->
+                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Performance Optimization &amp; Scalability', 'saaslauncher') ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
@@ -108,13 +108,13 @@
 
     <!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"28px"},"margin":{"top":"28px","bottom":"0"}}}} -->
     <div class="wp-block-columns" style="margin-top:28px;margin-bottom:0"><!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"dark-shade","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-dark-shade-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group has-background-alt-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
                 <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color"><?php esc_html_e('04', 'saaslauncher') ?></h5>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"big"} -->
-                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-big-font-size"><strong><?php esc_html_e('Reusable Blocks', 'saaslauncher') ?></strong></h3>
+                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"light-color","fontSize":"medium"} -->
+                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Consulting &amp; Strategy Services', 'saaslauncher') ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
@@ -133,13 +133,13 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"dark-shade","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-dark-shade-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group has-background-alt-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
                 <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color"><?php esc_html_e('05', 'saaslauncher') ?></h5>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"big"} -->
-                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-big-font-size"><?php esc_html_e('Style Variations', 'saaslauncher') ?></h3>
+                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"light-color","fontSize":"medium"} -->
+                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Automation &amp; Integration Services', 'saaslauncher') ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
@@ -158,13 +158,13 @@
         <!-- /wp:column -->
 
         <!-- wp:column -->
-        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"dark-shade","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group has-dark-shade-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
+        <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"28px","bottom":"28px","left":"28px","right":"28px"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":"12px"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group has-background-alt-background-color has-background" style="border-radius:12px;margin-top:0;margin-bottom:0;padding-top:28px;padding-right:28px;padding-bottom:28px;padding-left:28px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
                 <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color"><?php esc_html_e('06', 'saaslauncher') ?></h5>
                 <!-- /wp:heading -->
 
-                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"big"} -->
-                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-big-font-size"><strong><strong><?php esc_html_e('Custom Block', 'saaslauncher') ?></strong></strong>s</h3>
+                <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"light-color","fontSize":"medium"} -->
+                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Training &amp; Support Services', 'saaslauncher') ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->

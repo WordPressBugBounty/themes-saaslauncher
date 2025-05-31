@@ -11,7 +11,7 @@
       "palette": [
         {
           "slug": "primary",
-          "color": "#A554FD",
+          "color": "#B247F9",
           "name": "Primary"
         },
         {
@@ -68,7 +68,7 @@
         },
         {
           "slug": "background-alt",
-          "color": "#171717",
+          "color": "#191919",
           "name": "Background Alt"
         },
         {
@@ -88,7 +88,7 @@
         },
         {
           "slug": "border-color",
-          "color": "#2F2F2F",
+          "color": "#3E3244",
           "name": "Border Color"
         },
         {
@@ -104,27 +104,27 @@
           "name": "Duo 1"
         },
         {
-          "colors": ["#3346FF", "#A554FD"],
+          "colors": ["#3346FF", "#B247F9"],
           "slug": "secondary-primary",
           "name": "Duo 2"
         },
         {
-          "colors": ["#A554FD", "#000000"],
+          "colors": ["#B247F9", "#000000"],
           "slug": "primary-dark",
           "name": "Duo 3"
         },
         {
-          "colors": ["#000000", "#A554FD"],
+          "colors": ["#000000", "#B247F9"],
           "slug": "dark-primary",
           "name": "Duo 4"
         },
         {
-          "colors": ["#A554FD", "#ffffff"],
+          "colors": ["#B247F9", "#ffffff"],
           "slug": "primary-light",
           "name": "Duo 5"
         },
         {
-          "colors": ["#ffffff", "#A554FD"],
+          "colors": ["#ffffff", "#B247F9"],
           "slug": "light-primary",
           "name": "Duo 6"
         },

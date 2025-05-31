@@ -32,7 +32,7 @@ function saaslauncher_register_pattern_category()
 		'saaslauncher-pricing' => array('label' => __('Pricing Tables', 'saaslauncher')),
 		'saaslauncher-gallery' => array('label' => __('Portfolio/Gallery', 'saaslauncher')),
 		'saaslauncher-logos' => array('label' => __('Logo Showcase', 'saaslauncher')),
-		'saaslauncher-post' => array('label' => __('Posts', 'saaslauncher')),
+		'saaslauncher-post' => array('label' => __('Posts & Blogs', 'saaslauncher')),
 	);
 
 	$block_pattern_categories = apply_filters('saaslauncher_block_pattern_categories', $block_pattern_categories);

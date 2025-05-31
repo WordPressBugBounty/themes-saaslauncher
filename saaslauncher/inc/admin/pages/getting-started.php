@@ -6,11 +6,12 @@
 	<p><?php esc_html_e( 'Welcome to SaasLauncher, a cutting-edge Full Site Editing (FSE) WordPress theme designed specifically for SaaS companies, corporate businesses, and creative agencies. With SaasLauncher, you can effortlessly build a stunning website with features such as:', 'saaslauncher' ); ?></p>
 	<ul class="feature-holder">
 		<li><?php esc_html_e( '50+ pre-built starter sites with one click demo importer', 'saaslauncher' ); ?></li>
+		<li><?php esc_html_e( '17 pre-built (with 13 Pro), essential pre-built page tempates like About, Services, Features, team, pricing, affiliate page, team and more', 'saaslauncher' ); ?></li>
 		<li><?php esc_html_e( '100+ pre-built (with 50+ Pro), customizable sections', 'saaslauncher' ); ?></li>
 		<li><?php esc_html_e( 'Advanced typography options', 'saaslauncher' ); ?></li>
 		<li><?php esc_html_e( '15 pre-defined global styles for a cohesive look', 'saaslauncher' ); ?></li>
 		<li><?php esc_html_e( 'Pre-designed layouts for the Homepage and Blog', 'saaslauncher' ); ?></li>
-		<li><?php esc_html_e( 'Templates for essential pages like About Us, Contact, Services, and Pricing', 'saaslauncher' ); ?></li>
+		
 	</ul>
 	<p><?php esc_html_e( 'Optimized for global reach, SaasLauncher is fully translatable, supporting popular languages like Spanish, French, and English, and easily adaptable to any language. You can switch color schemes with just one click, providing total creative control while maintaining seamless design flexibility.', 'saaslauncher' ); ?></p>
 	<p>

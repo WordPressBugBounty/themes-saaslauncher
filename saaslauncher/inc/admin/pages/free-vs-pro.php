@@ -7,7 +7,107 @@ $saaslauncher_features = array(
 	),
 	array(
 		'label' => 'Pre-built Sections',
+		'free'  => '50+',
+		'pro'   => '100+',
+	),
+	array(
+		'label' => 'Pre-built Home page Templates',
+		'free'  => '2',
+		'pro'   => '3 (Including Free)',
+	),
+	array(
+		'label' => 'Pre-built Page Templates',
+		'free'  => '4',
+		'pro'   => '17 (Including Free)',
+	),
+	array(
+		'label' => 'Default Archive Layout',
 		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Default Post Layout',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Default Page Layout',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => '404 Page Layout',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Sitemap Page Layout',
+		'free'  => true,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'About Page Layout',
+		'free'  => '1',
+		'pro'   => '2',
+	),
+	array(
+		'label' => 'Services Page Layout',
+		'free'  => '1',
+		'pro'   => '2',
+	),
+	array(
+		'label' => 'Contact Page Layout',
+		'free'  => '1',
+		'pro'   => '2',
+	),
+	array(
+		'label' => 'Pricing Page Layout',
+		'free'  => '1',
+		'pro'   => '2',
+	),
+	array(
+		'label' => 'Affiliate Page Layout',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Features and Benefits Page Layout',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Career Page Layout',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Case Study Page Layout',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Integration Page Layout',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Privacy Policy Page Layout',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Terms and Conditions Page Layout',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Teams Page Layout',
+		'free'  => false,
+		'pro'   => true,
+	),
+	array(
+		'label' => 'Testimonials Page Layout',
+		'free'  => false,
 		'pro'   => true,
 	),
 	array(
