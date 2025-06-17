@@ -5,7 +5,7 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ SaasLauncher is a modern, block-based WordPress theme crafted specifically for S
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 1.2.3 - Jun 17, 2025 =
+* Sticky Header Background Color Option Added
+
 = 1.2.2 - May 31, 2025 =
 * Minor layout improvements for Patterns
 

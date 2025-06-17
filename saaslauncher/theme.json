@@ -92,6 +92,11 @@
           "name": "Border Color"
         },
         {
+          "slug": "sticky-bg-color",
+          "color": "#000000eb",
+          "name": "Sticky Background Color"
+        },
+        {
           "color": "#ffffff00",
           "name": "Transparent",
           "slug": "transparent"

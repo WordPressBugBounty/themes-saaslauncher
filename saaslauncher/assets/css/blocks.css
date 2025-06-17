@@ -528,7 +528,7 @@ nav.is-style-pagination-with-background-square a.wp-block-query-pagination-next:
   .wp-block-group.saaslauncher-header.is-style-saaslauncher-sticky-navigation.sticky-enabled {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    background: #000000eb;
+    background: var(--wp--preset--color--sticky-bg-color);
   }
 }
 .is-style-post-comments-form-dark-scheme.wp-block-post-comments-form .comment-reply-title {
