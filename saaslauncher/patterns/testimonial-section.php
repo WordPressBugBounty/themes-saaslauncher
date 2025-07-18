@@ -18,7 +18,7 @@ $saaslauncher_images = array(
     <div class="wp-block-group" style="margin-bottom:60px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
         <div class="wp-block-group"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"3px","bottom":"3px","left":"8px","right":"8px"}},"border":{"radius":"60px","width":"1px"}},"backgroundColor":"dark-shade","fontSize":"small","layout":{"type":"constrained"}} -->
             <div class="wp-block-group is-style-saaslauncher-gradient-border has-dark-shade-background-color has-background has-small-font-size" style="border-width:1px;border-radius:60px;padding-top:3px;padding-right:8px;padding-bottom:3px;padding-left:8px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"normal"} -->
-                <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color has-normal-font-size">Testimonials &amp; Reviews</h5>
+                <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color has-normal-font-size"><?php esc_html_e('Testimonials &amp; Reviews', 'saaslauncher') ?></h5>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
@@ -26,11 +26,11 @@ $saaslauncher_images = array(
         <!-- /wp:group -->
 
         <!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"lineHeight":"1.3","fontStyle":"normal","fontWeight":"500"}},"textColor":"light-color","fontSize":"xxx-large"} -->
-        <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-xxx-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3">Hear From Our Happy Clients: Their Stories</h1>
+        <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-xxx-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3"><?php esc_html_e('Hear From Our Happy Clients: Their Stories', 'saaslauncher') ?></h1>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-        <p class="has-text-align-center has-foreground-alt-color has-text-color has-link-color">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <p class="has-text-align-center has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.', 'saaslauncher') ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
@@ -43,7 +43,7 @@ $saaslauncher_images = array(
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                <p class="has-light-color-color has-text-color has-link-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <p class="has-light-color-color has-text-color has-link-color"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.', 'saaslauncher') ?></p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -53,11 +53,11 @@ $saaslauncher_images = array(
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
                     <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                        <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color" style="font-style:normal;font-weight:600">Henry Benzamin Clark</h5>
+                        <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color" style="font-style:normal;font-weight:600"><?php esc_html_e('Henry Benzamin Clark', 'saaslauncher') ?></h5>
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color">Fitness Coach</p>
+                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Fitness Coach', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -75,7 +75,7 @@ $saaslauncher_images = array(
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                <p class="has-light-color-color has-text-color has-link-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <p class="has-light-color-color has-text-color has-link-color"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.', 'saaslauncher') ?></p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -85,11 +85,11 @@ $saaslauncher_images = array(
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
                     <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                        <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color" style="font-style:normal;font-weight:600">Lexy Coxtera</h5>
+                        <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color" style="font-style:normal;font-weight:600"><?php esc_html_e('Lexy Coxtera', 'saaslauncher') ?></h5>
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color">Content Writer</p>
+                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Content Writer', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -107,7 +107,7 @@ $saaslauncher_images = array(
                 <!-- /wp:image -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                <p class="has-light-color-color has-text-color has-link-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <p class="has-light-color-color has-text-color has-link-color"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.', 'saaslauncher') ?></p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -117,11 +117,11 @@ $saaslauncher_images = array(
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
                     <div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                        <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color" style="font-style:normal;font-weight:600">Robert Mathew</h5>
+                        <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color" style="font-style:normal;font-weight:600"><?php esc_html_e('Robert Mathew', 'saaslauncher') ?></h5>
                         <!-- /wp:heading -->
 
                         <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
-                        <p class="has-foreground-alt-color has-text-color has-link-color">Product Owner</p>
+                        <p class="has-foreground-alt-color has-text-color has-link-color"><?php esc_html_e('Product Owner', 'saaslauncher') ?></p>
                         <!-- /wp:paragraph -->
                     </div>
                     <!-- /wp:group -->
@@ -136,7 +136,7 @@ $saaslauncher_images = array(
 
     <!-- wp:buttons {"className":"is-style-button-zoom-on-hover","style":{"spacing":{"margin":{"top":"64px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons is-style-button-zoom-on-hover" style="margin-top:64px"><!-- wp:button {"gradient":"gradient-twelve","style":{"border":{"radius":"60px"},"spacing":{"padding":{"left":"28px","right":"28px","top":"16px","bottom":"16px"}},"typography":{"fontSize":"16px"}}} -->
-        <div class="wp-block-button"><a class="wp-block-button__link has-gradient-twelve-gradient-background has-background has-custom-font-size wp-element-button" style="border-radius:60px;padding-top:16px;padding-right:28px;padding-bottom:16px;padding-left:28px;font-size:16px">View All Reviews</a></div>
+        <div class="wp-block-button"><a class="wp-block-button__link has-gradient-twelve-gradient-background has-background has-custom-font-size wp-element-button" style="border-radius:60px;padding-top:16px;padding-right:28px;padding-bottom:16px;padding-left:28px;font-size:16px"><?php esc_html_e('View All Reviews', 'saaslauncher') ?></a></div>
         <!-- /wp:button -->
     </div>
     <!-- /wp:buttons -->

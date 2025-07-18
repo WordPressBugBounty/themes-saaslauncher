@@ -80,14 +80,14 @@ if (function_exists('register_block_style')) {
             'core/group',
             array(
                 'name'  => 'saaslauncher-gradient-border',
-                'label' => __('Gradient Border Primary', 'saaslauncher')
+                'label' => __('Gradient Border', 'saaslauncher')
             )
         );
         register_block_style(
             'core/group',
             array(
-                'name'  => 'saaslauncher-gradient-border',
-                'label' => __('Gradient Border Style', 'saaslauncher')
+                'name'  => 'saaslauncher-animated-border',
+                'label' => __('Animated Border', 'saaslauncher')
             )
         );
         register_block_style(
@@ -95,6 +95,13 @@ if (function_exists('register_block_style')) {
             array(
                 'name'  => 'saaslauncher-sticky-navigation',
                 'label' => __('Sticky Navigation', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/columns',
+            array(
+                'name'  => 'saaslauncher-folumns-fade-style',
+                'label' => __('Fade Style', 'saaslauncher')
             )
         );
         register_block_style(
@@ -151,6 +158,13 @@ if (function_exists('register_block_style')) {
             array(
                 'name'  => 'saaslauncher-image-hover-zoom',
                 'label' => __('Zoom On Hover', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/image',
+            array(
+                'name'  => 'saaslauncher-image-grayscale',
+                'label' => __('Grayscale', 'saaslauncher')
             )
         );
         register_block_style(
@@ -266,6 +280,20 @@ if (function_exists('register_block_style')) {
             array(
                 'name'  => 'button-with-gradient-border',
                 'label' => __('Gradient Border', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/button',
+            array(
+                'name'  => 'button-with-shadow-style-one',
+                'label' => __('Shadow Style 1', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/button',
+            array(
+                'name'  => 'button-with-shadow-style-two',
+                'label' => __('Shadow Style 2', 'saaslauncher')
             )
         );
         register_block_style(
@@ -452,6 +480,13 @@ if (function_exists('register_block_style')) {
             array(
                 'name'  => 'product-details-dark-scheme',
                 'label' => __('Enable dark scheme', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/heading',
+            array(
+                'name'  => 'heading-text-gradient-effect',
+                'label' => __('Gradient Effect', 'saaslauncher')
             )
         );
     }

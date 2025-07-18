@@ -7,22 +7,22 @@
       "palette": [
         {
           "slug": "primary",
-          "color": "#49D7FA",
+          "color": "#01ADF7",
           "name": "Primary"
         },
         {
           "slug": "secondary",
-          "color": "#FF6EB4",
+          "color": "#4938FE",
           "name": "Secondary"
         },
         {
           "slug": "primary-shade-one",
-          "color": "#0D85A3",
+          "color": "#7BD4FA",
           "name": "Primary Shade 1"
         },
         {
           "slug": "primary-shade-2",
-          "color": "#025468",
+          "color": "#033E57",
           "name": "Primary Shade 2"
         },
         {
@@ -48,33 +48,33 @@
         },
         {
           "slug": "dark-shade",
-          "color": "#0A0A0A",
+          "color": "#00090D",
           "name": "Dark Shade"
         },
 
         {
           "slug": "heading-color",
-          "color": "#1E262A",
+          "color": "#FFFFFD",
           "name": "Heading Color"
         },
         {
           "slug": "background",
-          "color": "#FFFFFF",
+          "color": "#000507",
           "name": "Background"
         },
         {
           "slug": "background-alt",
-          "color": "#19161C",
+          "color": "#172227",
           "name": "Background Alt"
         },
         {
           "slug": "foreground",
-          "color": "#6C6C6C",
+          "color": "#F3F9FB",
           "name": "Foreground"
         },
         {
           "slug": "foreground-alt",
-          "color": "#C0C0C0",
+          "color": "#E5EFF2",
           "name": "Foreground Alternative"
         },
         {
@@ -84,8 +84,13 @@
         },
         {
           "slug": "border-color",
-          "color": "#453E4D",
+          "color": "#32393C",
           "name": "Border Color"
+        },
+        {
+          "slug": "sticky-bg-color",
+          "color": "#000000eb",
+          "name": "Sticky Background Color"
         },
         {
           "color": "#ffffff00",
@@ -95,56 +100,74 @@
       ],
       "duotone": [
         {
-          "colors": ["#025468", "#ffffff"],
+          "colors": ["#01ADF7", "#ffffff"],
           "slug": "primary-secondary",
           "name": "Duo 1"
         },
         {
-          "colors": ["#FF6EB4", "#49D7FA"],
+          "colors": ["#4938FE", "#01ADF7"],
           "slug": "secondary-primary",
           "name": "Duo 2"
         },
         {
-          "colors": ["#49D7FA", "#000000"],
+          "colors": ["#01ADF7", "#000000"],
           "slug": "primary-dark",
           "name": "Duo 3"
         },
         {
-          "colors": ["#000000", "#49D7FA"],
+          "colors": ["#000000", "#01ADF7"],
           "slug": "dark-primary",
           "name": "Duo 4"
         },
         {
-          "colors": ["#49D7FA", "#ffffff"],
+          "colors": ["#01ADF7", "#ffffff"],
           "slug": "primary-light",
           "name": "Duo 5"
         },
         {
-          "colors": ["#ffffff", "#49D7FA"],
+          "colors": ["#ffffff", "#01ADF7"],
           "slug": "light-primary",
           "name": "Duo 6"
         },
         {
-          "colors": ["#FF6EB4", "#000000"],
+          "colors": ["#4938FE", "#000000"],
           "slug": "secondary-dark",
           "name": "Duo 7"
         },
         {
-          "colors": ["#000000", "#FF6EB4"],
+          "colors": ["#000000", "#4938FE"],
           "slug": "dark-secondary",
           "name": "Duo 8"
         },
         {
-          "colors": ["#FF6EB4", "#ffffff"],
+          "colors": ["#4938FE", "#ffffff"],
           "slug": "secondary-light",
           "name": "Duo 9"
         },
         {
-          "colors": ["#ffffff", "#FF6EB4"],
+          "colors": ["#ffffff", "#4938FE"],
           "slug": "light-secondary",
           "name": "Duo 10"
         }
       ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "h1": { "typography": { "fontWeight": "600" } },
+      "h2": { "typography": { "fontWeight": "600" } },
+      "h3": { "typography": { "fontWeight": "600" } },
+      "h4": { "typography": { "fontWeight": "600" } },
+      "h5": { "typography": { "fontWeight": "500" } },
+      "h6": { "typography": { "fontWeight": "500" } },
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--host-grotesk)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--inter)"
     }
   }
 }

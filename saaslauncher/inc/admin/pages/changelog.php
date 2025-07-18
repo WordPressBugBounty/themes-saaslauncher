@@ -1,6 +1,17 @@
 <div class="saaslauncher-page__changelog">
 	<h2><?php esc_html_e('Changelog', 'saaslauncher'); ?></h2>
 	<div class="version">
+		<h3><?php esc_html_e('Version 1.3.0', 'saaslauncher'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: July 18, 2025', 'saaslauncher'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e('Theme patterns improved', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Global Styles Variations Added', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Color Palette Improved', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Added Global Typography Option', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Added New Button Styles and Group Styles', 'saaslauncher'); ?></li>
+		</ul>
+	</div>
+	<div class="version">
 		<h3><?php esc_html_e('Version 1.2.3', 'saaslauncher'); ?></h3>
 		<p class="date"><?php esc_html_e('Released: Jun 17, 2025', 'saaslauncher'); ?></p>
 		<ul class="changes">

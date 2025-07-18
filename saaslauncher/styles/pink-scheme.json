@@ -7,32 +7,32 @@
       "palette": [
         {
           "slug": "primary",
-          "color": "#FD6C7F",
+          "color": "#FD6289",
           "name": "Primary"
         },
         {
           "slug": "secondary",
-          "color": "#1F4DF4",
+          "color": "#AA1037",
           "name": "Secondary"
         },
         {
           "slug": "primary-shade-one",
-          "color": "#A44653",
+          "color": "#FEA5BA",
           "name": "Primary Shade 1"
         },
         {
           "slug": "primary-shade-2",
-          "color": "#6F2B33",
+          "color": "#4C0C1A",
           "name": "Primary Shade 2"
         },
         {
           "slug": "secondary-shade-1",
-          "color": "#1F46D6",
+          "color": "#7A0623",
           "name": "Secodnary Shade 1"
         },
         {
           "slug": "secondary-shade-2",
-          "color": "#1A3491",
+          "color": "#590218",
           "name": "Secodnary Shade 2"
         },
         {
@@ -47,33 +47,33 @@
         },
         {
           "slug": "dark-shade",
-          "color": "#0A0A0A",
+          "color": "#190307",
           "name": "Dark Shade"
         },
 
         {
           "slug": "heading-color",
-          "color": "#1E262A",
+          "color": "#FFFFFD",
           "name": "Heading Color"
         },
         {
           "slug": "background",
-          "color": "#FFFFFF",
+          "color": "#050001",
           "name": "Background"
         },
         {
           "slug": "background-alt",
-          "color": "#19161C",
+          "color": "#2D2020",
           "name": "Background Alt"
         },
         {
           "slug": "foreground",
-          "color": "#6C6C6C",
+          "color": "#FBF5F5",
           "name": "Foreground"
         },
         {
           "slug": "foreground-alt",
-          "color": "#C0C0C0",
+          "color": "#EDE5E5",
           "name": "Foreground Alternative"
         },
         {
@@ -83,8 +83,13 @@
         },
         {
           "slug": "border-color",
-          "color": "#453E4D",
+          "color": "#3C3333",
           "name": "Border Color"
+        },
+        {
+          "slug": "sticky-bg-color",
+          "color": "#000000eb",
+          "name": "Sticky Background Color"
         },
         {
           "color": "#ffffff00",
@@ -94,56 +99,74 @@
       ],
       "duotone": [
         {
-          "colors": ["#6F2B33", "#ffffff"],
+          "colors": ["#FD6289", "#ffffff"],
           "slug": "primary-secondary",
           "name": "Duo 1"
         },
         {
-          "colors": ["#1F4DF4", "#FD6C7F"],
+          "colors": ["#AA1037", "#FD6289"],
           "slug": "secondary-primary",
           "name": "Duo 2"
         },
         {
-          "colors": ["#FD6C7F", "#000000"],
+          "colors": ["#FD6289", "#000000"],
           "slug": "primary-dark",
           "name": "Duo 3"
         },
         {
-          "colors": ["#000000", "#FD6C7F"],
+          "colors": ["#000000", "#FD6289"],
           "slug": "dark-primary",
           "name": "Duo 4"
         },
         {
-          "colors": ["#FD6C7F", "#ffffff"],
+          "colors": ["#FD6289", "#ffffff"],
           "slug": "primary-light",
           "name": "Duo 5"
         },
         {
-          "colors": ["#ffffff", "#FD6C7F"],
+          "colors": ["#ffffff", "#FD6289"],
           "slug": "light-primary",
           "name": "Duo 6"
         },
         {
-          "colors": ["#1F4DF4", "#000000"],
+          "colors": ["#AA1037", "#000000"],
           "slug": "secondary-dark",
           "name": "Duo 7"
         },
         {
-          "colors": ["#000000", "#1F4DF4"],
+          "colors": ["#000000", "#AA1037"],
           "slug": "dark-secondary",
           "name": "Duo 8"
         },
         {
-          "colors": ["#1F4DF4", "#ffffff"],
+          "colors": ["#AA1037", "#ffffff"],
           "slug": "secondary-light",
           "name": "Duo 9"
         },
         {
-          "colors": ["#ffffff", "#1F4DF4"],
+          "colors": ["#ffffff", "#AA1037"],
           "slug": "light-secondary",
           "name": "Duo 10"
         }
       ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "h1": { "typography": { "fontWeight": "600" } },
+      "h2": { "typography": { "fontWeight": "600" } },
+      "h3": { "typography": { "fontWeight": "600" } },
+      "h4": { "typography": { "fontWeight": "600" } },
+      "h5": { "typography": { "fontWeight": "500" } },
+      "h6": { "typography": { "fontWeight": "500" } },
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--space-mono)"
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--inter)"
     }
   }
 }

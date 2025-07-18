@@ -6,20 +6,20 @@
  * Categories: saaslauncher-service
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-service"],"patternName":"saaslauncher/features-grid-2","name":"Features Grid 2"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"6rem"},"margin":{"top":"0","bottom":"0"}}},"gradient":"center-bottom-gradient","layout":{"type":"constrained","contentSize":"1180px"}} -->
-<div class="wp-block-group alignfull has-center-bottom-gradient-gradient-background has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:6rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"60px"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-service"],"patternName":"saaslauncher/features-grid-2","name":"Features Grid 2"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"6rem"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"1180px"}} -->
+<div class="wp-block-group alignfull has-dark-shade-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:6rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"60px"}}},"layout":{"type":"constrained","contentSize":"640px"}} -->
     <div class="wp-block-group" style="margin-bottom:60px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-        <div class="wp-block-group"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"3px","bottom":"3px","left":"8px","right":"8px"}},"border":{"radius":"60px","width":"1px"}},"backgroundColor":"dark-shade","fontSize":"small","borderColor":"border-color","layout":{"type":"constrained"}} -->
-            <div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-border-color-border-color has-dark-shade-background-color has-background has-small-font-size" style="border-width:1px;border-radius:60px;padding-top:3px;padding-right:8px;padding-bottom:3px;padding-left:8px"><!-- wp:heading {"textAlign":"center","level":5,"style":{"typography":{"textTransform":"none"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color","fontSize":"small"} -->
-                <h5 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-small-font-size" style="text-transform:none"><?php esc_html_e('Services', 'saaslauncher') ?></h5>
+        <div class="wp-block-group"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"3px","bottom":"3px","left":"12px","right":"12px"}},"border":{"radius":"60px","width":"1px"}},"backgroundColor":"primary-shade-2","borderColor":"border-color","layout":{"type":"constrained"}} -->
+            <div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-border-color-border-color has-primary-shade-2-background-color has-background" style="border-width:1px;border-radius:60px;padding-top:3px;padding-right:12px;padding-bottom:3px;padding-left:12px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"textTransform":"none"}},"textColor":"light-color","fontSize":"small"} -->
+                <h5 class="wp-block-heading has-light-color-color has-text-color has-link-color has-small-font-size" style="text-transform:none"><?php esc_html_e('Services &amp; Features', 'saaslauncher') ?></h5>
                 <!-- /wp:heading -->
             </div>
             <!-- /wp:group -->
         </div>
         <!-- /wp:group -->
 
-        <!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500","lineHeight":"1.3"}},"textColor":"light-color","fontSize":"xxx-large"} -->
-        <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-xxx-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3"><?php esc_html_e('Ensure You Receive High-Quality Services', 'saaslauncher') ?></h1>
+        <!-- wp:heading {"textAlign":"center","level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"lineHeight":"1.3"}},"textColor":"light-color","fontSize":"xxx-large"} -->
+        <h1 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color has-xxx-large-font-size" style="line-height:1.3"><?php esc_html_e('Ensure You Receive High-Quality Services', 'saaslauncher') ?></h1>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
@@ -44,8 +44,8 @@
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"primary","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-primary-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
+                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"light-color","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}}} -->
+                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->
@@ -69,8 +69,8 @@
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"primary","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-primary-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
+                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"light-color","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}}} -->
+                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->
@@ -86,7 +86,7 @@
                 <!-- /wp:heading -->
 
                 <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"light-color","fontSize":"medium"} -->
-                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Performance Optimization &amp; Scalability', 'saaslauncher') ?></h3>
+                <h3 class="wp-block-heading has-light-color-color has-text-color has-link-color has-medium-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e('Performance Optimization', 'saaslauncher') ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt"} -->
@@ -94,8 +94,8 @@
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"primary","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-primary-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
+                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"light-color","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}}} -->
+                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->
@@ -122,8 +122,8 @@
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"primary","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-primary-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
+                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"light-color","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}}} -->
+                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->
@@ -147,8 +147,8 @@
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"primary","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-primary-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
+                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"light-color","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}}} -->
+                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->
@@ -172,8 +172,8 @@
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"primary","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
-                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-primary-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
+                <div class="wp-block-buttons" style="margin-top:10px"><!-- wp:button {"backgroundColor":"transparent","textColor":"light-color","className":"is-style-button-hover-secondary-color","style":{"spacing":{"padding":{"left":"0","right":"0","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"border":{"bottom":{"width":"1px"},"top":[],"right":[],"left":[],"radius":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}}} -->
+                    <div class="wp-block-button is-style-button-hover-secondary-color"><a class="wp-block-button__link has-light-color-color has-transparent-background-color has-text-color has-background has-link-color wp-element-button" style="border-radius:0px;border-bottom-width:1px;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0"><?php esc_html_e('Learn More', 'saaslauncher') ?></a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->

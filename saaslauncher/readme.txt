@@ -5,7 +5,7 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 7.0
-Stable tag: 1.2.3
+Stable tag: 1.3.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,13 @@ SaasLauncher is a modern, block-based WordPress theme crafted specifically for S
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 1.3.0 - July 18, 2025 =
+* Theme patterns improved
+* Global Styles Variations Added
+* Color Palette Improved
+* Added Global Typography Option
+* Added New Button Styles and Group Styles
+
 = 1.2.3 - Jun 17, 2025 =
 * Sticky Header Background Color Option Added
 
@@ -222,40 +229,100 @@ Source: https://stocksnap.io/photo/man-work-LR22HMETWM
 
 Fonts credit and license:
 
-Font :Poppins
-Copyright 2020 The Poppins Project Authors
+Font :Allura
+Copyright 2010 The Allura Project Authors
 License: https://openfontlicense.org
-Source: https://github.com/itfoundry/Poppins
+Source: https://github.com/googlefonts/allura
 
-Font: DM Sans,
-Copyright 2014 The DM Sans Project Authors
+Font :Archivo
+Copyright 2020 The Archivo Project Authors
+License: https://openfontlicense.org
+Source: https://github.com/Omnibus-Type/Archivo
+
+Font :Barlow
+Copyright 2017 The Barlow Project Authors
+License: https://openfontlicense.org
+Source: https://github.com/jpt/barlow
+
+Font :Big Shoulders
+Copyright 2019 The Big Shoulders Project Authors
+License: https://openfontlicense.org
+Source: https://github.com/xotypeco/big_shoulders
+
+Font :Bricolage Grotesque
+Copyright 2022 The Bricolage Grotesque Project Authors
+License: https://openfontlicense.org
+Source:  https://github.com/ateliertriay/bricolage
+
+Font: DM Serif Display,
+Copyright 2014-2018 Adobe (http://www.adobe.com/)
 License: http://scripts.sil.org/OFL
 Source: https://github.com/googlefonts/dm-fonts
 
 Font: DM Serif Display,
 Copyright 2014-2018 Adobe
 License: http://scripts.sil.org/OFL
-Source:http://www.adobe.com/
+Source:https://github.com/google/fonts/tree/main/ofl/dmserifdisplay
+
+font: Faculty Glyphic,
+Copyright 2024 The Faculty Glyphic Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/DylanYoungKoto/FacultyGlyphic
+
+font: Funnel Display,
+Copyright 2024 The Funnel Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/Dicotype/Funnel
+
+font: Giest,
+Copyright 2024 The Geist Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/vercel/geist-font.git
+
+font: Host Grotesk,
+Copyright 2023 The Host Grotesk Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/Element-Type/HostGrotesk
+
+font: Hubot Sans,
+Copyright 2021 The Hubot Sans Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/github/hubot-sans
+
+font: IBM Plex Serif,
+Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
+License: http://scripts.sil.org/OFL
+Source: https://github.com/google/fonts/tree/main/ofl/ibmplexserif
 
 font: Inter,
 Copyright 2020 The Inter Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/rsms/inter
 
-Font: Montserrat,
-Copyright 2011 The Montserrat Project Authors
+font: Libre Franklin,
+Copyright 2020 The Libre Franklin Project Authors
 License: http://scripts.sil.org/OFL
-Source: https://github.com/JulietaUla/Montserrat
+Source: https://github.com/googlefonts/Libre-Franklin
 
 Font: Manrope,
 Copyright 2018 The Manrope Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/sharanda/manrope
 
-Font: nunito,
-Copyright 2014 The Nunito Project Authors
+Font: Michroma,
+Copyright 2011 The Michroma Project Authors
 License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/nunito
+Source: https://github.com/googlefonts/Michroma-font
+
+Font: Mona Sans,
+Copyright 2022 The Mona Sans Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/github/mona-sans
+
+Font: Montagu Slab,
+Copyright 2020 The Montagu Slab Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/floriankarsten/montagu-slab
 
 Font: Open Sans,
 Copyright 2020 The Open Sans Project Authors
@@ -277,35 +344,50 @@ Copyright 2017 The Playfair Display Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/clauseggers/Playfair-Display
 
+Font: Plus Jakarta Sans,
+Copyright 2020 The Plus Jakarta Sans Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/tokotype/PlusJakartaSans
+
+Font: Public Sans,
+Copyright 2015 The Public Sans Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/uswds/public-sans
+
 Font: Quicksand,
 Copyright 2011 The Quicksand Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/andrew-paglinawan/QuicksandFamily
 
-Font: Work Sans,
-Copyright 2019 The Work Sans Project Authors
+Font: Rethink Sans,
+Copyright 2022 The Rethink Sans Project Authors
 License: http://scripts.sil.org/OFL
-Source: https://github.com/weiweihuanghuang/Work-Sans
-
-Font: Syne,
-Copyright 2017 The Syne Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://gitlab.com/bonjour-monde/fonderie/syne-typeface
-
-Font: Onest,
-Copyright 2021 The Onest Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/onest
+Source: https://github.com/hans-thiessen/Rethink-Sans
 
 Font: Roboto, Roboto Condensed,
 Copyright 2011 The Roboto Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/googlefonts/roboto-classic
 
-Font: Jost,
-Copyright 2020 The Jost Project Authors
+Font: Rubik,
+Copyright 2015 The Rubik Project Authors
 License: http://scripts.sil.org/OFL
-Source: https://github.com/indestructible-type
+Source: https://github.com/googlefonts/rubik
+
+Font: Space Mono,
+Copyright 2016 The Space Mono Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://github.com/googlefonts/spacemono
+
+Font: Syne,
+Copyright 2017 The Syne Project Authors
+License: http://scripts.sil.org/OFL
+Source: https://gitlab.com/bonjour-monde/fonderie/syne-typeface
+
+Font: Tenor Sans,
+Copyright (c) 2011, Denis Masharov
+License: http://scripts.sil.org/OFL
+Source: https://github.com/google/fonts/tree/main/ofl/tenorsans
 
 Animation Scripts Credit and License
 AOS - Animation on Scroll
