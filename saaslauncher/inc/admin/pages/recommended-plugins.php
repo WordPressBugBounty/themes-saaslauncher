@@ -88,7 +88,7 @@
 					<?php
 				} else {
 					?>
-					<a href="<?php echo esc_url( get_admin_url() . 'plugin-install.php?tab=plugin-information&plugin=' . rawurlencode( $slug ) . '&TB_iframe=true&width=600&height=550' ); ?>" class="plugin-button plugin-install-activate" data-name="<?php echo esc_html( $name ); ?>" data-slug="<?php echo esc_html( $slug ); ?>" data-filename="<?php echo esc_html( $filename ); ?>"><?php esc_html_e( 'Install & Activate', 'saaslauncher' ); ?></a>
+					<a href="#" class="plugin-button plugin-activate" data-name="<?php echo esc_html( $name ); ?>" data-slug="<?php echo esc_html( $slug ); ?>" data-filename="<?php echo esc_html( $filename ); ?>"><?php esc_html_e( 'Install & Activate', 'saaslauncher' ); ?></a>
 					<?php
 				}
 				?>
