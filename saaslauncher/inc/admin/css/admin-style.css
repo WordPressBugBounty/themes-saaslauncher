@@ -12,7 +12,7 @@
   color: #2271b1;
 }
 .saaslauncher-admin-notice .info-content .notice-holder h2 {
-  font-size: 24px;
+  font-size: 20px;
   margin: 10px 0px 5px;
 }
 .saaslauncher-admin-notice .notice-text p {
@@ -119,6 +119,7 @@
   width: 65%;
   display: flex;
   align-items: center;
+  padding: 15px 0;
 }
 .saaslauncher-admin-notice .theme-hero-screens {
   text-align: right;

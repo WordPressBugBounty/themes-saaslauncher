@@ -47,14 +47,14 @@ if (! function_exists('saaslauncher_welcome_notice')) :
 				<div class="info-content">
 					<div class="notice-holder">
 						<h5><span class="theme-name"><span><?php esc_html_e('Welcome to SaasLauncher', 'saaslauncher'); ?></span></h5>
-						<h2><?php esc_html_e('Launch Your Website Instantly with SaasLauncher! 🚀 ', 'saaslauncher'); ?></h2>
+						<h2><?php esc_html_e('Start building your website with the most advanced WordPress theme ever! 🚀 ', 'saaslauncher'); ?></h2>
 						</h3>
 						<div class="notice-text">
-							<p><?php esc_html_e('Get your site live in minutes! Access 100+ ready-to-use sections, 50+ pre-built starter site demos, and one-click demo import. Launch a professional, conversion-focused website quickly — no coding required!', 'saaslauncher'); ?></p>
+							<p><?php esc_html_e('Please install and activate all recommended plugins to use 50+ advanced blocks, 70+ pre-builts sections, 50+ pre-built starter site demos with one click demo importer. Enhance website building and launch your site within minutes with just a few clicks! - Cozy Blocks, Cozy Essential Addons, Advanced Import.', 'saaslauncher'); ?></p>
 						</div>
-						<!-- <a href="#" id="install-activate-button" class="button admin-button info-button"><?php //esc_html_e( 'Getting started with a single click', 'saaslauncher' ); 
+						<!-- <a href="#" id="install-activate-button" class="button admin-button info-button"><?php // esc_html_e( 'Getting started with a single click', 'saaslauncher' ); 
 																												?></a> -->
-						<a href="<?php echo admin_url(); ?>themes.php?page=about-saaslauncher" class="button admin-button info-button"><?php esc_html_e('Let’s Get Started', 'saaslauncher'); ?></a>
+						<a href="<?php echo admin_url(); ?>themes.php?page=about-saaslauncher" class="button admin-button info-button"><?php esc_html_e('Explore SaasLauncher', 'saaslauncher'); ?></a>
 
 					</div>
 				</div>
@@ -89,17 +89,6 @@ add_action('wp_ajax_saaslauncher_install_and_activate_plugins', 'saaslauncher_in
 add_action('wp_ajax_nopriv_saaslauncher_install_and_activate_plugins', 'saaslauncher_install_and_activate_plugins');
 add_action('wp_ajax_saaslauncher_rplugin_activation', 'saaslauncher_rplugin_activation');
 add_action('wp_ajax_nopriv_saaslauncher_rplugin_activation', 'saaslauncher_rplugin_activation');
-
-function check_plugin_installed_status($pugin_slug, $plugin_file)
-{
-	return file_exists(ABSPATH . 'wp-content/plugins/' . $pugin_slug . '/' . $plugin_file) ? true : false;
-}
-
-/* Check if plugin is activated */
-function check_plugin_active_status($pugin_slug, $plugin_file)
-{
-	return is_plugin_active($pugin_slug . '/' . $plugin_file) ? true : false;
-}
 
 require_once ABSPATH . 'wp-admin/includes/plugin-install.php';
 require_once ABSPATH . 'wp-admin/includes/file.php';
@@ -152,7 +141,7 @@ function saaslauncher_install_and_activate_plugins()
 
 		// Check if the plugin is installed but not active
 		if (is_saaslauncher_plugin_installed($plugin_slug . '/' . $plugin_file)) {
-			$activate = activate_plugin($plugin_slug . '/' . $plugin_file, $redirect_url, false, true);
+			$activate = activate_plugin($plugin_slug . '/' . $plugin_file, '', false, true);
 			if (is_wp_error($activate)) {
 				// saaslauncher_update_install_and_activate_progress( $plugin_name, 'Error' );
 				continue; // Skip to the next plugin
@@ -186,7 +175,7 @@ function saaslauncher_install_and_activate_plugins()
 		// Check if installation is successful
 		if ($install) {
 			// Activate the plugin
-			$activate = activate_plugin($plugin_slug . '/' . $plugin_file, $redirect_url, false, true);
+			$activate = activate_plugin($plugin_slug . '/' . $plugin_file, '', false, true);
 
 			// Check if activation is successful
 			if (is_wp_error($activate)) {
@@ -270,7 +259,7 @@ function saaslauncher_update_install_and_activate_progress($plugin_name, $status
  */
 function saaslauncher_dashboard_menu()
 {
-	add_theme_page(esc_html__('Explore SaasLauncher', 'saaslauncher'), esc_html__('Explore SaasLauncher', 'saaslauncher'), 'edit_theme_options', 'about-saaslauncher', 'saaslauncher_theme_info_display');
+	add_theme_page(esc_html__('About SaasLauncher', 'saaslauncher'), esc_html__('About SaasLauncher', 'saaslauncher'), 'edit_theme_options', 'about-saaslauncher', 'saaslauncher_theme_info_display');
 }
 add_action('admin_menu', 'saaslauncher_dashboard_menu');
 /**
@@ -317,15 +306,13 @@ function saaslauncher_rplugin_activation()
 
 	check_ajax_referer('saaslauncher_admin_nonce', 'nonce', true);
 
-	$redirect_url = admin_url('themes.php?page=about-saaslauncher');
-
 	if (isset($_POST['pluginSlug'], $_POST['pluginFilename'], $_POST['pluginName'])) {
 		$plugin_slug     = sanitize_text_field(wp_unslash($_POST['pluginSlug']));
 		$plugin_filename = sanitize_text_field(wp_unslash($_POST['pluginFilename']));
 		$plugin_name     = sanitize_text_field(wp_unslash($_POST['pluginName']));
 
 		if (file_exists(trailingslashit(WP_PLUGIN_DIR) . $plugin_filename)) {
-			$activate = activate_plugin($plugin_filename, $redirect_url, false, true);
+			$activate = activate_plugin($plugin_filename, '', false, true);
 		} else {
 			// Fetch plugin information
 			$api = plugins_api(
@@ -340,7 +327,7 @@ function saaslauncher_rplugin_activation()
 			$install  = $upgrader->install($api->download_link);
 
 			if ($install) {
-				$activate = activate_plugin($plugin_filename, $redirect_url, false, true);
+				$activate = activate_plugin($plugin_filename, '', false, true);
 			}
 		}
 
