@@ -468,7 +468,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/big_shoulders/BigShoulders-VariableFont_wght.woff2"]
+              "src": [
+                "file:./assets/fonts/big_shoulders/BigShoulders-VariableFont_wght.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Big Shoulders\", sans-serif",
@@ -482,7 +484,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/bricolage_grotesque/BricolageGrotesque-VariableFont.woff2"]
+              "src": [
+                "file:./assets/fonts/bricolage_grotesque/BricolageGrotesque-VariableFont.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Bricolage Grotesque\", sans-serif",
@@ -496,7 +500,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "400",
-              "src": ["file:./assets/fonts/dm_serif_display/DMSerifDisplay-Regular.woff2"]
+              "src": [
+                "file:./assets/fonts/dm_serif_display/DMSerifDisplay-Regular.woff2"
+              ]
             }
           ],
           "fontFamily": "\"DM Serif Display\", sans-serif",
@@ -510,7 +516,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "400",
-              "src": ["file:./assets/fonts/faculty_glyphic/FacultyGlyphic-Regular.woff2"]
+              "src": [
+                "file:./assets/fonts/faculty_glyphic/FacultyGlyphic-Regular.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Faculty Glyphic\", sans-serif",
@@ -524,7 +532,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/funnel_display/FunnelDisplay-VariableFont_wght.woff2"]
+              "src": [
+                "file:./assets/fonts/funnel_display/FunnelDisplay-VariableFont_wght.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Funnel Display\", sans-serif",
@@ -552,7 +562,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/host_grotesk/HostGrotesk-VariableFont.woff2"]
+              "src": [
+                "file:./assets/fonts/host_grotesk/HostGrotesk-VariableFont.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Host Grotesk\", sans-serif",
@@ -566,7 +578,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/hubot_sans/HubotSans-VariableFont_wght.ttf"]
+              "src": [
+                "file:./assets/fonts/hubot_sans/HubotSans-VariableFont_wght.ttf"
+              ]
             }
           ],
           "fontFamily": "\"Hubot Sans\", sans-serif",
@@ -580,28 +594,36 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300",
-              "src": ["file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Light.woff2"]
+              "src": [
+                "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Light.woff2"
+              ]
             },
             {
               "fontFamily": "IBM Plex Serif",
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "400",
-              "src": ["file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Regular.woff2"]
+              "src": [
+                "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Regular.woff2"
+              ]
             },
             {
               "fontFamily": "IBM Plex Serif",
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "500",
-              "src": ["file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Medium.woff2"]
+              "src": [
+                "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Medium.woff2"
+              ]
             },
             {
               "fontFamily": "IBM Plex Serif",
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "700",
-              "src": ["file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Bold.woff2"]
+              "src": [
+                "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Bold.woff2"
+              ]
             }
           ],
           "fontFamily": "\"IBM Plex Serif\", sans-serif",
@@ -629,7 +651,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700",
-              "src": ["file:./assets/fonts/libre_franklin/LibreFranklin-VariableFont.woff2"]
+              "src": [
+                "file:./assets/fonts/libre_franklin/LibreFranklin-VariableFont.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Libre Franklin\", sans-serif",
@@ -643,7 +667,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/manrope/Manrope-VariableFont_wght.woff2"]
+              "src": [
+                "file:./assets/fonts/manrope/Manrope-VariableFont_wght.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Manrope\", sans-serif",
@@ -671,7 +697,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/mona_sans/MonaSans-VariableFont_wdth.ttf"]
+              "src": [
+                "file:./assets/fonts/mona_sans/MonaSans-VariableFont_wdth.ttf"
+              ]
             }
           ],
           "fontFamily": "\"Mona Sans\", sans-serif",
@@ -685,7 +713,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/montagu_slab/MontaguSlab-VariableFont.woff2"]
+              "src": [
+                "file:./assets/fonts/montagu_slab/MontaguSlab-VariableFont.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Montagu Slab\", sans-serif",
@@ -699,7 +729,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/open_sans/OpenSans-VariableFont.woff2"]
+              "src": [
+                "file:./assets/fonts/open_sans/OpenSans-VariableFont.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Open Sans\", sans-serif",
@@ -713,7 +745,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/oswald/Oswald-VariableFont_wght.woff2"]
+              "src": [
+                "file:./assets/fonts/oswald/Oswald-VariableFont_wght.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Oswald\", sans-serif",
@@ -727,7 +761,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/outfit/Outfit-VariableFont_wght.woff2"]
+              "src": [
+                "file:./assets/fonts/outfit/Outfit-VariableFont_wght.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Outfit\", sans-serif",
@@ -741,7 +777,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/playfair_display/PlayfairDisplay-VariableFont_wght.ttf"]
+              "src": [
+                "file:./assets/fonts/playfair_display/PlayfairDisplay-VariableFont_wght.ttf"
+              ]
             }
           ],
           "fontFamily": "\"Playfair Display\", sans-serif",
@@ -755,7 +793,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/plus_jakarta_sans/PlusJakartaSans-VariableFont.woff2"]
+              "src": [
+                "file:./assets/fonts/plus_jakarta_sans/PlusJakartaSans-VariableFont.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Plus Jakarta Sans\", sans-serif",
@@ -769,7 +809,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/public-sans/PublicSans-VariableFont_wght.woff2"]
+              "src": [
+                "file:./assets/fonts/public-sans/PublicSans-VariableFont_wght.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Public Sans\", sans-serif",
@@ -783,7 +825,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/quicksand/Quicksand-VariableFont_wght.woff2"]
+              "src": [
+                "file:./assets/fonts/quicksand/Quicksand-VariableFont_wght.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Quicksand\", sans-serif",
@@ -797,7 +841,9 @@
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700 900",
-              "src": ["file:./assets/fonts/rethink_sans/RethinkSans-VariableFont.woff2"]
+              "src": [
+                "file:./assets/fonts/rethink_sans/RethinkSans-VariableFont.woff2"
+              ]
             }
           ],
           "fontFamily": "\"Rethink Sans\", sans-serif",
