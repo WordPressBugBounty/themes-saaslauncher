@@ -3,15 +3,15 @@
 Contributors: CozyThemes
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, style-variations, featured-images, portfolio, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
 Requires at least: 5.9
-Tested up to: 6.8
-Requires PHP: 7.0
-Stable tag: 1.3.3
+Tested up to: 7.0
+Requires PHP: 7.4
+Stable tag: 1.3.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-SaasLauncher is a modern, block-based WordPress theme crafted specifically for SaaS products, startups, agencies, and businesses. Built with Full Site Editing (FSE), it gives you complete control to fully customize every corner of your site—from headers and footers to every page template. With 70+ ready-to-use pre-built sections and 50+ professionally designed starter templates, you can launch your site effortlessly and tailor it to your brand in minutes. Whether you're building a product landing page, SaaS landing page, agency portfolio, or corporate website, SaasLauncher offers a seamless, flexible, and fast design experience. It's WooCommerce-ready, responsive, and compatible with popular plugins like Contact Form 7, Rankmath, WPForms, Yoast SEO and more. Plus, it comes with Cozy Blocks’ 50+ advanced Gutenberg blocks, giving you all the tools you need to build stunning websites—your way. Explore features and demos at https://cozythemes.com/saaslauncher-wordpress-theme/.
+SaasLauncher is a modern WordPress theme built specifically for SaaS businesses, software products, startups, and technology companies. Designed with Full Site Editing (FSE), it empowers you to create high-converting SaaS websites, SaaS landing pages, product showcases, and startup websites with complete design freedom—without touching a single line of code. Whether you're launching a new SaaS platform, promoting a software solution, showcasing a web application, or growing a startup, SaasLauncher provides everything needed to build a professional online presence. The theme includes 70+ ready-to-use website sections and 50+ professionally designed starter templates, helping you create stunning SaaS websites faster and more efficiently. Built for performance, flexibility, and scalability, SaasLauncher features a clean modern design, fully responsive layouts, and seamless customization through the WordPress Site Editor. It is WooCommerce-ready and integrates smoothly with popular plugins including Contact Form 7, WPForms, Rank Math SEO, Yoast SEO, and more. Powered by Cozy Blocks, SaasLauncher includes 50+ advanced Gutenberg blocks, giving you powerful tools to create feature-rich SaaS websites, product landing pages, pricing pages, lead generation funnels, and marketing-focused business websites with ease. From SaaS startups and software companies to technology businesses and digital agencies, SaasLauncher is the complete WordPress solution for building fast, modern, and conversion-focused SaaS websites. Explore demos and features at https://cozythemes.com/saaslauncher-wordpress-theme/.
 
 == Installation ==
 
@@ -26,6 +26,9 @@ SaasLauncher is a modern, block-based WordPress theme crafted specifically for S
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 1.3.3 - Jun 09, 2026 =
+* Tested up to 7.0
+
 = 1.3.3 - May 04, 2026 =
 * Product single template fix with latest blocks for product gallery and related products.
 * Order confirmation template layout fix.
