@@ -55,7 +55,8 @@
   display: inline-block;
   margin: 15px;
 }
-.saaslauncher-admin-notice .admin-button.dismiss-notice.btn-notice-dismiss:hover {
+.saaslauncher-admin-notice
+  .admin-button.dismiss-notice.btn-notice-dismiss:hover {
   color: #d63638;
 }
 .saaslauncher-admin-notice .notice-text {
@@ -66,12 +67,16 @@
 .saaslauncher-admin-notice.notice {
   padding-left: 20px;
 }
-.saaslauncher-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner {
+.saaslauncher-admin-notice.notice.notice-info
+  .info-content
+  .admin-button.info-button.processing-spinner {
   padding-right: 50px;
   position: relative;
 }
 /* Processing spinner */
-.saaslauncher-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner:before {
+.saaslauncher-admin-notice.notice.notice-info
+  .info-content
+  .admin-button.info-button.processing-spinner:before {
   content: "";
   right: 5px;
   top: 5px;
@@ -127,7 +132,7 @@
 }
 .saaslauncher-admin-notice .theme-hero-screens img {
   max-width: 100%;
-  margin: 0px -39px -4px 0;
+  margin: 14px -39px -31px 0;
 }
 
 /* Dashboard */
@@ -351,7 +356,9 @@
                 border-radius: 8px;
                 padding: 1.5rem;
                 text-align: center;
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                transition:
+                  transform 0.3s ease,
+                  box-shadow 0.3s ease;
                 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 
                 &:hover {
@@ -387,12 +394,16 @@
             &.pro-features li {
               /* border-color: var(--saaslauncher-secondary-color); */
               transition: all 0.3s ease;
-              box-shadow: 0 4px 10px rgba(10, 210, 186, 0.15), 0 6px 20px rgba(10, 210, 186, 0.1);
+              box-shadow:
+                0 4px 10px rgba(10, 210, 186, 0.15),
+                0 6px 20px rgba(10, 210, 186, 0.1);
 
               &:hover {
                 color: #fff;
                 transform: translateY(-5px);
-                box-shadow: 0 8px 20px rgba(10, 210, 186, 0.3), 0 12px 30px rgba(10, 210, 186, 0.2);
+                box-shadow:
+                  0 8px 20px rgba(10, 210, 186, 0.3),
+                  0 12px 30px rgba(10, 210, 186, 0.2);
               }
             }
           }
@@ -647,7 +658,9 @@
               display: inline-block;
 
               &:hover {
-                color: var(--saaslauncher-secondary-color); /* Secondary color on hover */
+                color: var(
+                  --saaslauncher-secondary-color
+                ); /* Secondary color on hover */
               }
             }
           }
@@ -860,7 +873,10 @@
 }
 
 /* Plugin Highlighter for licence activation */
-.wp-list-table.plugins .active[data-slug="cozy-addons"] .activate-license .saaslauncher-highlighted {
+.wp-list-table.plugins
+  .active[data-slug="cozy-addons"]
+  .activate-license
+  .saaslauncher-highlighted {
   padding: 2px;
   border: 1px solid transparent;
   animation: snake-turn 0.8s linear 2;

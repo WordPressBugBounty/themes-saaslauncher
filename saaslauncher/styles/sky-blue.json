@@ -162,7 +162,7 @@
       "h6": { "typography": { "fontWeight": "500" } },
       "heading": {
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--host-grotesk)"
+          "fontFamily": "var(--wp--preset--font-family--hubot-sans)"
         }
       }
     },

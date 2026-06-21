@@ -3,9 +3,9 @@ Theme Name: SaasLauncher
 Theme URI: https://cozythemes.com/saaslauncher-wordpress-theme/
 Author: CozyThemes
 Author URI: https://cozythemes.com/
-Description: SaasLauncher is a modern WordPress theme built specifically for SaaS businesses, software products, startups, and technology companies. Designed with Full Site Editing (FSE), it empowers you to create high-converting SaaS websites, SaaS landing pages, product showcases, and startup websites with complete design freedom—without touching a single line of code. Whether you're launching a new SaaS platform, promoting a software solution, showcasing a web application, or growing a startup, SaasLauncher provides everything needed to build a professional online presence. The theme includes 70+ ready-to-use website sections and 50+ professionally designed starter templates, helping you create stunning SaaS websites faster and more efficiently. Built for performance, flexibility, and scalability, SaasLauncher features a clean modern design, fully responsive layouts, and seamless customization through the WordPress Site Editor. It is WooCommerce-ready and integrates smoothly with popular plugins including Contact Form 7, WPForms, Rank Math SEO, Yoast SEO, and more. Powered by Cozy Blocks, SaasLauncher includes 50+ advanced Gutenberg blocks, giving you powerful tools to create feature-rich SaaS websites, product landing pages, pricing pages, lead generation funnels, and marketing-focused business websites with ease. From SaaS startups and software companies to technology businesses and digital agencies, SaasLauncher is the complete WordPress solution for building fast, modern, and conversion-focused SaaS websites. Explore demos and features at https://cozythemes.com/saaslauncher-wordpress-theme/.
+Description: SaasLauncher is a modern WordPress theme built specifically for SaaS, software products, startups, saas business and technology companies. Designed with Full Site Editing (FSE), it empowers you to create high-converting SaaS websites, SaaS landing pages, product showcases, and startup websites with complete design freedom—without touching a single line of code. Whether you're launching a new SaaS platform, promoting a software solution, showcasing a web application, or growing a startup, SaasLauncher provides everything needed to build a professional online presence. The theme includes 70+ ready-to-use website sections and 50+ professionally designed starter templates, helping you create stunning SaaS websites faster and more efficiently. Built for performance, flexibility, and scalability, SaasLauncher features a clean modern design, fully responsive layouts, and seamless customization through the WordPress Site Editor. It is WooCommerce-ready and integrates smoothly with popular plugins including Contact Form 7, WPForms, Rank Math SEO, Yoast SEO, and more. Powered by Cozy Blocks, SaasLauncher includes 50+ advanced Gutenberg blocks, giving you powerful tools to create feature-rich SaaS websites, product landing pages, pricing pages, lead generation funnels, and marketing-focused business websites with ease. From SaaS startups and software companies to technology businesses and digital agencies, SaasLauncher is the complete WordPress solution for building fast, modern, and conversion-focused SaaS websites. Explore demos and features at https://cozythemes.com/saaslauncher-wordpress-theme/.
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, style-variations, featured-images, portfolio, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
-Version: 1.3.4
+Version: 2.0.0
 Requires at least: 5.9
 Tested up to: 7.0
 Requires PHP: 7.4
@@ -33,7 +33,7 @@ input[type="submit"] {
   border: 1px solid #dad7d7;
   padding: 15px;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
   box-sizing: border-box;
 }
 .wpcf7-form-control.wpcf7-select {
@@ -60,10 +60,11 @@ form.wpcf7-form *::-webkit-input-placeholder {
   .wpcf7-form-control.wpcf7-submit {
   background: var(--wp--preset--color--primary);
   color: var(--wp--preset--color--light-color);
-  border-radius: 6px;
-  border: 0;
+  border-radius: 8px;
   font-size: 16px;
-  padding: 15px 40px;
+  padding: 10px 28px;
+  border: 2px solid #ffffff14;
+  margin-top: 20px;
 }
 .wp-block-contact-form-7-contact-form-selector
   .wpcf7-form-control.has-spinner.wpcf7-submit:hover {
@@ -73,8 +74,8 @@ form.wpcf7-form *::-webkit-input-placeholder {
 .wp-block-contact-form-7-contact-form-selector .wpcf7-form input,
 .wp-block-contact-form-7-contact-form-selector .wpcf7-form select,
 .wp-block-contact-form-7-contact-form-selector .wpcf7-form textarea {
-  border-radius: 6px;
-  border: 1px solid var(--wp--preset--color--foreground);
+  border-radius: 8px;
+  border: 1px solid #36405e;
   background: transparent;
 }
 .wp-block-contact-form-7-contact-form-selector.saaslauncher-newsletter
@@ -287,14 +288,14 @@ figure.wp-block-gallery.saaslauncher-brands figure.wp-block-image {
   margin-bottom: 0 !important;
 }
 figure.wp-block-gallery.saaslauncher-brands figure.wp-block-image img {
-  max-height: 84px;
+  max-height: 120px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
   transition: all ease 0.23s;
 }
 figure.wp-block-gallery.saaslauncher-brands figure.wp-block-image img:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 .wp-block-cover.saaslauncher-cover-hover {
   background: #000;
@@ -386,33 +387,47 @@ figure.wp-block-gallery.saaslauncher-brands figure.wp-block-image img:hover {
   width: 21px;
   height: 21px;
 }
-.saaslauncher-navigation.wp-block-navigation
+.is-style-saaslauncher-navigation.wp-block-navigation
   ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
   padding: 0;
   border: 0;
   transition: all ease 0.23s;
   transform: translateY(40px);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.23);
 }
-.saaslauncher-navigation.wp-block-navigation
+.is-style-saaslauncher-navigation.wp-block-navigation
   li:hover
   ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
   transform: translateY(0px);
 }
-.wp-block-navigation.saaslauncher-navigation
-  .wp-block-navigation-item__content.wp-block-navigation-item__content {
+.is-style-saaslauncher-navigation.wp-block-navigation
+  ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
+  border-radius: 12px;
+  padding: 5px !important;
+  min-width: 220px !important;
+}
+.wp-block-navigation.is-style-saaslauncher-navigation
+  .wp-block-navigation-item__content {
   line-height: 50px;
 }
-.saaslauncher-navigation.wp-block-navigation
+.is-style-saaslauncher-navigation.wp-block-navigation
   ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
-  .wp-block-navigation-item__content.wp-block-navigation-item__content {
-  line-height: 30px;
+  .wp-block-navigation-item__content {
+  line-height: 32px;
   transition: all ease 0.23s;
 }
-.saaslauncher-navigation.wp-block-navigation
+.is-style-saaslauncher-navigation.wp-block-navigation
+  li
   ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
-  .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
-  background-color: #ededed;
+  .wp-block-navigation-item__content {
+  border-radius: 8px;
+}
+.is-style-saaslauncher-navigation.wp-block-navigation
+  li
+  ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
+  .wp-block-navigation-item:hover
+  .wp-block-navigation-item__content:hover {
+  background-color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light-color) !important;
 }
 .woocommerce.wc-block-catalog-sorting select.orderby {
   height: 30px;
@@ -938,24 +953,24 @@ figure.wp-block-gallery.saaslauncher-gallery figure.wp-block-image {
   }
 }
 @media (max-width: 600px) {
-  .wp-block-navigation.saaslauncher-navigation ul {
+  .wp-block-navigation.is-style-saaslauncher-navigation ul {
     grid-gap: 0;
     padding-block-start: 0;
     padding-inline-start: 0;
     margin-block-start: 0;
     margin-block-end: 0;
   }
-  .wp-block-navigation.saaslauncher-navigation
+  .wp-block-navigation.is-style-saaslauncher-navigation
     .wp-block-navigation-item__content.wp-block-navigation-item__content {
     line-height: 30px;
     padding: 0;
   }
-  .saaslauncher-navigation.wp-block-navigation
+  .is-style-saaslauncher-navigation.wp-block-navigation
     ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
     transform: translateY(0);
     box-shadow: none;
   }
-  .saaslauncher-navigation.wp-block-navigation
+  .is-style-saaslauncher-navigation.wp-block-navigation
     ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu
     .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
     background-color: transparent;
@@ -1057,4 +1072,18 @@ a.wp-block-read-more.has-gradient-thirteen-gradient-background:hover {
   border-radius: 0;
   margin-top: 5px;
   height: 56px;
+}
+
+@media (max-width: 771px) {
+  .wp-block-columns.saaslauncher-steps-columns .wp-block-column {
+    padding: 20px !important;
+    border: 0;
+    border-bottom: 1px solid var(--wp--preset--color--border-color) !important;
+  }
+}
+@media (max-width: 400px) {
+  .wp-block-heading.footer_branding_text {
+    font-size: 64px !important;
+    letter-spacing: -2px !important;
+  }
 }

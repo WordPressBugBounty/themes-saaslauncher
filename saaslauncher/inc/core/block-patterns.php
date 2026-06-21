@@ -30,7 +30,7 @@ function saaslauncher_register_pattern_category()
 		'saaslauncher-contact' => array('label' => __('Contacts', 'saaslauncher')),
 		'saaslauncher-cta' => array('label' => __('Call To Action', 'saaslauncher')),
 		'saaslauncher-pricing' => array('label' => __('Pricing Tables', 'saaslauncher')),
-		'saaslauncher-gallery' => array('label' => __('Portfolio/Gallery', 'saaslauncher')),
+		'saaslauncher-gallery' => array('label' => __('Product Showcase / Case Study', 'saaslauncher')),
 		'saaslauncher-logos' => array('label' => __('Logo Showcase', 'saaslauncher')),
 		'saaslauncher-post' => array('label' => __('Posts & Blogs', 'saaslauncher')),
 	);

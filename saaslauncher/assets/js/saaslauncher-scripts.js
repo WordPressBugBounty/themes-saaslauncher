@@ -160,7 +160,9 @@
     var saaslauncherStickyNavigation = $(".saaslauncher-sticky-navigation");
 
     if (saaslauncherStickyMenu.length && scrollTop > 0) {
-      saaslauncherStickyMenu.addClass("sticky-menu-enabled saaslauncher-zoom-in-up");
+      saaslauncherStickyMenu.addClass(
+        "sticky-menu-enabled saaslauncher-zoom-in-up",
+      );
     } else {
       saaslauncherStickyMenu.removeClass("sticky-menu-enabled");
     }
@@ -177,16 +179,77 @@
     return false;
   });
 
-  jQuery(document).ready(function ($) {
-    var $nav = $(".is-style-saaslauncher-sticky-navigation");
-    var offset = $nav.offset().top;
+  jQuery(function ($) {
+    const $nav = $(".is-style-saaslauncher-sticky-navigation");
+
+    if (!$nav.length) return;
+
+    const offset = $nav.offset().top;
 
     $(window).on("scroll", function () {
-      if ($(window).scrollTop() > offset) {
-        $nav.addClass("sticky-enabled"); // Add sticky class
-      } else {
-        $nav.removeClass("sticky-enabled"); // Remove sticky class
-      }
+      $nav.toggleClass("sticky-enabled", $(this).scrollTop() > offset);
+    });
+  });
+  /* testimonial carousel */
+
+  jQuery(document).ready(function () {
+    new Swiper(".saaslauncher-testimonials-carousel", {
+      slidesPerView: 3.5,
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      speed: 1000,
+
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+
+      // Responsive breakpoints
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+          centeredSlides: false,
+        },
+        576: {
+          slidesPerView: 1.5,
+          spaceBetween: 20,
+          centeredSlides: false,
+        },
+        768: {
+          slidesPerView: 2.2,
+          spaceBetween: 25,
+          centeredSlides: false,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          centeredSlides: true,
+        },
+        1200: {
+          slidesPerView: 3.5,
+          spaceBetween: 30,
+          centeredSlides: true,
+        },
+      },
+    });
+
+    const marqueeSlider = new Swiper(".saaslauncher-marquee-swiper", {
+      loop: true,
+      slidesPerView: Math.floor(
+        $(".saaslauncher-marquee-swiper .swiper-slide").length * 0.6,
+      ), // Ensures full-width responsiveness
+      autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false,
+      },
+      centeredSlides: true,
+      speed: 6000,
+      loopedSlides: Math.ceil(
+        $(".saaslauncher-marquee-swiper .swiper-slide").length + 2,
+      ),
     });
   });
 })(jQuery);

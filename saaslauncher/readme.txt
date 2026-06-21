@@ -5,13 +5,13 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.3.4
+Stable tag: 2.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-SaasLauncher is a modern WordPress theme built specifically for SaaS businesses, software products, startups, and technology companies. Designed with Full Site Editing (FSE), it empowers you to create high-converting SaaS websites, SaaS landing pages, product showcases, and startup websites with complete design freedom—without touching a single line of code. Whether you're launching a new SaaS platform, promoting a software solution, showcasing a web application, or growing a startup, SaasLauncher provides everything needed to build a professional online presence. The theme includes 70+ ready-to-use website sections and 50+ professionally designed starter templates, helping you create stunning SaaS websites faster and more efficiently. Built for performance, flexibility, and scalability, SaasLauncher features a clean modern design, fully responsive layouts, and seamless customization through the WordPress Site Editor. It is WooCommerce-ready and integrates smoothly with popular plugins including Contact Form 7, WPForms, Rank Math SEO, Yoast SEO, and more. Powered by Cozy Blocks, SaasLauncher includes 50+ advanced Gutenberg blocks, giving you powerful tools to create feature-rich SaaS websites, product landing pages, pricing pages, lead generation funnels, and marketing-focused business websites with ease. From SaaS startups and software companies to technology businesses and digital agencies, SaasLauncher is the complete WordPress solution for building fast, modern, and conversion-focused SaaS websites. Explore demos and features at https://cozythemes.com/saaslauncher-wordpress-theme/.
+SaasLauncher is a modern WordPress theme built specifically for SaaS, software products, startups, saas business and technology companies. Designed with Full Site Editing (FSE), it empowers you to create high-converting SaaS websites, SaaS landing pages, product showcases, and startup websites with complete design freedom—without touching a single line of code. Whether you're launching a new SaaS platform, promoting a software solution, showcasing a web application, or growing a startup, SaasLauncher provides everything needed to build a professional online presence. The theme includes 70+ ready-to-use website sections and 50+ professionally designed starter templates, helping you create stunning SaaS websites faster and more efficiently. Built for performance, flexibility, and scalability, SaasLauncher features a clean modern design, fully responsive layouts, and seamless customization through the WordPress Site Editor. It is WooCommerce-ready and integrates smoothly with popular plugins including Contact Form 7, WPForms, Rank Math SEO, Yoast SEO, and more. Powered by Cozy Blocks, SaasLauncher includes 50+ advanced Gutenberg blocks, giving you powerful tools to create feature-rich SaaS websites, product landing pages, pricing pages, lead generation funnels, and marketing-focused business websites with ease. From SaaS startups and software companies to technology businesses and digital agencies, SaasLauncher is the complete WordPress solution for building fast, modern, and conversion-focused SaaS websites. Explore demos and features at https://cozythemes.com/saaslauncher-wordpress-theme/.
 
 == Installation ==
 
@@ -26,6 +26,11 @@ SaasLauncher is a modern WordPress theme built specifically for SaaS businesses,
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 2.0.0 - Jun 20, 2026 =
+* Home page template layout Improved
+* Inner pages Layout improved
+* Patterns layout improved
+
 = 1.3.3 - Jun 09, 2026 =
 * Tested up to 7.0
 
@@ -154,110 +159,42 @@ SaasLauncher is a modern WordPress theme built specifically for SaaS businesses,
 
 == Credits ==
 == Resources ==
-Theme logo, Icons of service section and screenshot dummy dashboard, app section mobile mockup with our theme demo are created by our own.
+Theme logo, Icons of service section, features icons and screenshot dummy dashboard, app section mobile mockup with our theme demo are created by our own.
 License: GPL v2 or later
+
+Image for user hero and cta background,  https://pxhere.com/
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/1707594
 
 Image for user image in screenshot dummy dashboard,  https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/en/photo/1169779
 
-Image 1 for Featured Works Section,  https://pxhere.com/
+Image for how it works section,  https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/751891
+Source: https://pxhere.com/en/photo/1706126
 
-Image 2 for Featured Works Section, https://stocksnap.io/
+About & Case Study Images ======
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/browsing-technology-JNCZKJ7AIR
+Source: https://pxhere.com/en/photo/1708954
 
-Image 3 for About Us Section,   https://pxhere.com/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source:https://pxhere.com/en/photo/1573331
 
-Image for testimonial 1, https://pxhere.com
+Team & Testimonials Images =========
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/451655
+Source: https://pxhere.com/en/photo/1175501,
+Source: https://pxhere.com/en/photo/1401961,
+Source: https://pxhere.com/en/photo/1169779,
+Source: https://pxhere.com/en/photo/1692718,
+Source: https://pxhere.com/en/photo/1676242,
+Source: https://pxhere.com/en/photo/1676852
 
-Image 2 for Testimonial section pattern,https://pxhere.com/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/865531
-
-Image for testimonial 3, https://pxhere.com
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/604504
-
-Image for Call to Action Background, https://stocksnap.io/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/rocketship-spaceship-IETQP9ZADV
-
-Image for Team 1, https://pxhere.com
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1175501
-
-Image for Team 2, https://pxhere.com
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1401961
-
-Image for Team 3, https://pxhere.com
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1169779
-
-Image for Team 4, https://stocksnap.io/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/fashion-woman-HEMZXDQJ3E
-
-Image for Team 5, https://stocksnap.io/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/business-man-7BQNRHB6EX
-
-Image for Team 6, https://stocksnap.io/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/woman-business-X0XJR9QNN8
-
-Image for Team 7, https://stocksnap.io/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/male-professional-LLBULYYEGR
-
-Image for Team 8, https://pxhere.com
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1431567
-
-Image for Team 9, https://stocksnap.io/
-License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://stocksnap.io/photo/man-work-LR22HMETWM
 
 Fonts credit and license:
-
-Font :Allura
-Copyright 2010 The Allura Project Authors
-License: https://openfontlicense.org
-Source: https://github.com/googlefonts/allura
-
-Font :Archivo
-Copyright 2020 The Archivo Project Authors
-License: https://openfontlicense.org
-Source: https://github.com/Omnibus-Type/Archivo
-
-Font :Barlow
-Copyright 2017 The Barlow Project Authors
-License: https://openfontlicense.org
-Source: https://github.com/jpt/barlow
 
 Font :Big Shoulders
 Copyright 2019 The Big Shoulders Project Authors
@@ -269,60 +206,20 @@ Copyright 2022 The Bricolage Grotesque Project Authors
 License: https://openfontlicense.org
 Source:  https://github.com/ateliertriay/bricolage
 
-Font: DM Serif Display,
-Copyright 2014-2018 Adobe (http://www.adobe.com/)
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/dm-fonts
-
-Font: DM Serif Display,
-Copyright 2014-2018 Adobe
-License: http://scripts.sil.org/OFL
-Source:https://github.com/google/fonts/tree/main/ofl/dmserifdisplay
-
-font: Faculty Glyphic,
-Copyright 2024 The Faculty Glyphic Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/DylanYoungKoto/FacultyGlyphic
-
-font: Funnel Display,
-Copyright 2024 The Funnel Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/Dicotype/Funnel
-
 font: Giest,
 Copyright 2024 The Geist Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/vercel/geist-font.git
-
-font: Host Grotesk,
-Copyright 2023 The Host Grotesk Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/Element-Type/HostGrotesk
 
 font: Hubot Sans,
 Copyright 2021 The Hubot Sans Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/github/hubot-sans
 
-font: IBM Plex Serif,
-Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
-License: http://scripts.sil.org/OFL
-Source: https://github.com/google/fonts/tree/main/ofl/ibmplexserif
-
 font: Inter,
 Copyright 2020 The Inter Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/rsms/inter
-
-font: Libre Franklin,
-Copyright 2020 The Libre Franklin Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/Libre-Franklin
-
-Font: Manrope,
-Copyright 2018 The Manrope Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/sharanda/manrope
 
 Font: Michroma,
 Copyright 2011 The Michroma Project Authors
@@ -334,75 +231,10 @@ Copyright 2022 The Mona Sans Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/github/mona-sans
 
-Font: Montagu Slab,
-Copyright 2020 The Montagu Slab Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/floriankarsten/montagu-slab
-
-Font: Open Sans,
-Copyright 2020 The Open Sans Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/opensans
-
-Font: Oswald,
-Copyright 2016 The Oswald Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/OswaldFont
-
-Font: Outfit,
-Copyright 2021 The Outfit Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/Outfitio/Outfit-Fonts
-
-Font: Playfair Display,
-Copyright 2017 The Playfair Display Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/clauseggers/Playfair-Display
-
-Font: Plus Jakarta Sans,
-Copyright 2020 The Plus Jakarta Sans Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/tokotype/PlusJakartaSans
-
-Font: Public Sans,
-Copyright 2015 The Public Sans Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/uswds/public-sans
-
-Font: Quicksand,
-Copyright 2011 The Quicksand Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/andrew-paglinawan/QuicksandFamily
-
-Font: Rethink Sans,
-Copyright 2022 The Rethink Sans Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/hans-thiessen/Rethink-Sans
-
-Font: Roboto, Roboto Condensed,
-Copyright 2011 The Roboto Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/roboto-classic
-
-Font: Rubik,
-Copyright 2015 The Rubik Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/rubik
-
-Font: Space Mono,
-Copyright 2016 The Space Mono Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/googlefonts/spacemono
-
 Font: Syne,
 Copyright 2017 The Syne Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://gitlab.com/bonjour-monde/fonderie/syne-typeface
-
-Font: Tenor Sans,
-Copyright (c) 2011, Denis Masharov
-License: http://scripts.sil.org/OFL
-Source: https://github.com/google/fonts/tree/main/ofl/tenorsans
 
 Animation Scripts Credit and License
 AOS - Animation on Scroll

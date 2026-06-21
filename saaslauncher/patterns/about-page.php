@@ -6,12 +6,14 @@
  * Categories: saaslauncher-pages
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"constrained","contentSize":"100%"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-    <!-- wp:pattern {"slug":"saaslauncher/about-2"} /-->
+<!-- wp:group {"tagName":"main","metadata":{"categories":["saaslauncher-pages"],"name":"About Us"},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"},"blockGap":"0"}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"100%"}} -->
+<main class="wp-block-group has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+    <!-- wp:pattern {"slug":"saaslauncher/about-us-3"} /-->
+    <!-- wp:pattern {"slug":"saaslauncher/counter-block"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/mission-vision"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/team-section"} /-->
-    <!-- wp:pattern {"slug":"saaslauncher/number-stats"} /-->
+    <!-- wp:pattern {"slug":"saaslauncher/testimonial-carousel"} /-->
+    <!-- wp:pattern {"slug":"saaslauncher/faq-accordion"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/cta-block"} /-->
-</div>
+</main>
 <!-- /wp:group -->

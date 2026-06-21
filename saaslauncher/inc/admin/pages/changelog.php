@@ -1,15 +1,24 @@
 <div class="saaslauncher-page__changelog">
 	<h2><?php esc_html_e('Changelog', 'saaslauncher'); ?></h2>
 	<div class="version">
+		<h3><?php esc_html_e('Version 2.0.0', 'saaslauncher'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: June 20, 2026', 'saaslauncher'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e('Home page template layout Improved', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Inner pages Layout improved', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Patterns layout improved', 'saaslauncher'); ?></li>
+		</ul>
+	</div>
+	<div class="version">
 		<h3><?php esc_html_e('Version 1.3.4', 'saaslauncher'); ?></h3>
-		<p class="date"><?php esc_html_e('Released: June 09, 2025', 'saaslauncher'); ?></p>
+		<p class="date"><?php esc_html_e('Released: June 09, 2026', 'saaslauncher'); ?></p>
 		<ul class="changes">
 			<li><?php esc_html_e('Tested up to 7.0', 'saaslauncher'); ?></li>
 		</ul>
 	</div>
 	<div class="version">
 		<h3><?php esc_html_e('Version 1.3.3', 'saaslauncher'); ?></h3>
-		<p class="date"><?php esc_html_e('Released: May 04, 2025', 'saaslauncher'); ?></p>
+		<p class="date"><?php esc_html_e('Released: May 04, 2026', 'saaslauncher'); ?></p>
 		<ul class="changes">
 			<li><?php esc_html_e('Product single template fix with latest blocks for product gallery and related products.', 'saaslauncher'); ?></li>
 			<li><?php esc_html_e('Order confirmation template layout fix.', 'saaslauncher'); ?></li>

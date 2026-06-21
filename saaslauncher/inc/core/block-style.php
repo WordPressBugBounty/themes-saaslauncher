@@ -489,6 +489,27 @@ if (function_exists('register_block_style')) {
                 'label' => __('Gradient Effect', 'saaslauncher')
             )
         );
+        register_block_style(
+            'core/navigation',
+            array(
+                'name'  => 'saaslauncher-navigation',
+                'label' => __('Custom Style', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/search',
+            array(
+                'name'  => 'saaslauncher-search',
+                'label' => __('Custom Style 1', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/search',
+            array(
+                'name'  => 'saaslauncher-search-style-two',
+                'label' => __('Custom Style 2', 'saaslauncher')
+            )
+        );
     }
     add_action('init', 'saaslauncher_register_block_styles');
 }
