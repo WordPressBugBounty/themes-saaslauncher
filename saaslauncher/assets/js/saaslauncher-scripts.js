@@ -239,7 +239,7 @@
       loop: true,
       slidesPerView: Math.floor(
         $(".saaslauncher-marquee-swiper .swiper-slide").length * 0.6,
-      ), // Ensures full-width responsiveness
+      ),
       autoplay: {
         delay: 0,
         disableOnInteraction: false,

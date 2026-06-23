@@ -1,6 +1,21 @@
 <div class="saaslauncher-page__changelog">
 	<h2><?php esc_html_e('Changelog', 'saaslauncher'); ?></h2>
 	<div class="version">
+		<h3><?php esc_html_e('Version 2.0.2', 'saaslauncher'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: June 22, 2026', 'saaslauncher'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e('Brand logo showcase carousel fixed', 'saaslauncher'); ?></li>
+		</ul>
+	</div>
+	<div class="version">
+		<h3><?php esc_html_e('Version 2.0.1', 'saaslauncher'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: June 21, 2026', 'saaslauncher'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e('Minor menu navigation fixed', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Testimonials rating star icon issue fixed', 'saaslauncher'); ?></li>
+		</ul>
+	</div>
+	<div class="version">
 		<h3><?php esc_html_e('Version 2.0.0', 'saaslauncher'); ?></h3>
 		<p class="date"><?php esc_html_e('Released: June 20, 2026', 'saaslauncher'); ?></p>
 		<ul class="changes">

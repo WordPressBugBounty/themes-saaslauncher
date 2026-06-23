@@ -21,7 +21,7 @@
                 </div>
                 <!-- /wp:group -->
 
-                <!-- wp:navigation {"ref":4,"textColor":"light-color","overlayBackgroundColor":"light-color","overlayTextColor":"primary","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"className":"is-style-saaslauncher-navigation","style":{"typography":{"textTransform":"none","lineHeight":"2"},"spacing":{"blockGap":"24px"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} /-->
+                <!-- wp:navigation {"textColor":"light-color","overlayBackgroundColor":"light-color","overlayTextColor":"primary","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"className":"is-style-saaslauncher-navigation","style":{"typography":{"textTransform":"none","lineHeight":"2"},"spacing":{"blockGap":"24px"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} /-->
 
                 <!-- wp:buttons {"className":"is-style-button-zoom-on-hover","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
                 <div class="wp-block-buttons is-style-button-zoom-on-hover"><!-- wp:button {"className":"is-style-fill","style":{"border":{"radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"},"color":"#ffffff14","width":"2px"},"spacing":{"padding":{"left":"16px","right":"16px","top":"8px","bottom":"8px"}}},"fontSize":"small"} -->
