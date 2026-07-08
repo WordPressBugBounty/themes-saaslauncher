@@ -5,7 +5,7 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ SaasLauncher is a modern WordPress theme built specifically for SaaS, software p
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 2.0.3 - Jul 07, 2026 =
+* Navigation submenu animation issue fixed
+
 = 2.0.2 - Jun 22, 2026 =
 * Brand logo showcase carousel fixed
 

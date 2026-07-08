@@ -1,6 +1,13 @@
 <div class="saaslauncher-page__changelog">
 	<h2><?php esc_html_e('Changelog', 'saaslauncher'); ?></h2>
 	<div class="version">
+		<h3><?php esc_html_e('Version 2.0.3', 'saaslauncher'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: July 07, 2026', 'saaslauncher'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e('Navigation submenu animation issue fixed', 'saaslauncher'); ?></li>
+		</ul>
+	</div>
+	<div class="version">
 		<h3><?php esc_html_e('Version 2.0.2', 'saaslauncher'); ?></h3>
 		<p class="date"><?php esc_html_e('Released: June 22, 2026', 'saaslauncher'); ?></p>
 		<ul class="changes">
