@@ -11,6 +11,5 @@
     <!-- wp:pattern {"slug":"saaslauncher/pricing-tables"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/testimonials-grid"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/faq-accordion"} /-->
-    <!-- wp:pattern {"slug":"saaslauncher/cta-block"} /-->
 </main>
 <!-- /wp:group -->

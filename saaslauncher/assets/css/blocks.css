@@ -36,8 +36,8 @@ img,
 .taxonomy-category.is-style-categories-background-with-round a,
 .taxonomy-category.is-style-categories-background a,
 .taxonomy-category.is-style-categories-background-mixed a {
-  padding: 2px 6px;
-  border-radius: 5px;
+  padding: 4px 12px;
+  border-radius: 30px;
   position: relative;
   overflow: hidden;
 }
@@ -62,7 +62,7 @@ img,
   left: 0;
   top: 0;
   position: absolute;
-  opacity: 0.18;
+  opacity: 0.4;
   transition: all ease 0.23s;
   -webkit-transition: all ease 0.23s;
   -moz-transition: all ease 0.23s;
@@ -142,10 +142,14 @@ img,
 .is-style-readmore-hover-primary-fill.wp-block-read-more:hover {
   background-color: var(--wp--preset--color--primary) !important;
   color: #fff !important;
+  border-color: var(--wp--preset--color--primary) !important;
+  transform: translateY(-5px);
 }
 .is-style-readmore-hover-secondary-fill.wp-block-read-more:hover {
   background-color: var(--wp--preset--color--secondary) !important;
-  color: #fff !important;
+  color: var(--wp--preset--color--light-color) !important;
+  border-color: var(--wp--preset--color--secondary) !important;
+  transform: translateY(-5px);
 }
 /*style list for ul*/
 .is-style-list-style-no-bullet,
@@ -204,10 +208,25 @@ figure.wp-block-image.is-style-saaslauncher-image-grayscale img {
   -moz-transition: all ease-in 0.23s;
   -o-transition: all ease-in 0.23s;
 }
+.wp-block-gallery.is-style-enable-grayscale-mode-on-image-normal
+  .wp-block-image
+  img,
+figure.wp-block-image.is-style-saaslauncher-image-grayscale-normal img {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  transition: all ease-in 0.23s;
+  -webkit-transition: all ease-in 0.23s;
+  -moz-transition: all ease-in 0.23s;
+  -o-transition: all ease-in 0.23s;
+}
 .wp-block-gallery.is-style-enable-grayscale-mode-on-image
   .wp-block-image
   img:hover,
-figure.wp-block-image.is-style-saaslauncher-image-grayscale img:hover {
+figure.wp-block-image.is-style-saaslauncher-image-grayscale img:hover,
+.wp-block-gallery.is-style-enable-grayscale-mode-on-image-normal
+  .wp-block-image
+  img:hover,
+figure.wp-block-image.is-style-saaslauncher-image-grayscale-normal img:hover {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
 }
@@ -256,6 +275,17 @@ figure.wp-block-image.saaslauncher-service-icon {
 }
 .wp-block-buttons.is-style-button-transofom-on-hover
   .wp-block-button
+  a.wp-block-button__link:hover,
+.wp-block-buttons.is-style-button-zoom-on-hover
+  .wp-block-button
+  a.wp-block-button__link:hover,
+a.wp-block-button__link:hover {
+  background-color: var(--wp--preset--color--secondary) !important;
+  border-color: var(--wp--preset--color--secondary) !important;
+  color: #fff !important;
+}
+.wp-block-buttons.is-style-button-transofom-on-hover
+  .wp-block-button
   a.wp-block-button__link:hover {
   transform: translateY(-3px);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
@@ -265,6 +295,12 @@ figure.wp-block-image.saaslauncher-service-icon {
   a.wp-block-button__link:hover {
   transform: translateY(-3px) scale(1.03);
   box-shadow: 0px 5px 30px var(--wp--preset--color--secondary-shade-1);
+}
+.wp-block-group.is-style-saaslauncher-group-hover-translate {
+  transition: all ease 0.23s;
+}
+.wp-block-group.is-style-saaslauncher-group-hover-translate:hover {
+  transform: translateY(-5px);
 }
 .wp-block-group.is-style-saaslauncher-gradient-border,
 .wp-block-button.is-style-button-with-gradient-border a.wp-block-button__link {
@@ -675,7 +711,8 @@ figure.wp-block-image.saaslauncher-service-icon {
 .wp-block-button.is-style-button-with-uparrow-icon a.wp-element-button:after {
   -webkit-mask-image: url(../images/upward-arrow.svg);
   mask-image: url(../images/upward-arrow.svg);
-  height: 12px;
+  height: 16px;
+  margin-bottom: -3px;
 }
 .wp-block-button.is-style-button-with-arrow-icon
   a.wp-element-button.has-black-color-color:after,
@@ -713,11 +750,9 @@ figure.wp-block-image.saaslauncher-service-icon {
   a.wp-element-button.has-background-alt-color:after {
   background-color: var(--wp--preset--color--background-alt);
 }
-.wp-block-button.is-style-button-with-arrow-icon
-  a.wp-element-button:hover:after,
 .wp-block-button.is-style-button-with-uparrow-icon
   a.wp-element-button:hover:after {
-  margin-left: 12px;
+  transform: rotate(45deg);
 }
 ul.wp-block-list.is-style-list-style-check-circle,
 ul.wp-block-list.is-style-list-style-check-circle-white,
@@ -854,7 +889,7 @@ nav.is-style-pagination-with-background-square
   a.wp-block-query-pagination-previous,
 nav.is-style-pagination-with-background-square
   a.wp-block-query-pagination-next {
-  color: #fff;
+  color: var(--wp--preset--color--foreground);
   height: 40px;
   display: inline-block;
   line-height: 40px;
@@ -908,6 +943,12 @@ nav.is-style-pagination-with-background-square
 nav.is-style-pagination-with-background-square
   a.wp-block-query-pagination-next:hover {
   color: var(--wp--preset--color--primary);
+}
+nav.is-style-pagination-with-background-round span.page-numbers.current {
+  color: #fff !important;
+}
+nav.is-style-pagination-with-background-round a.page-numbers:hover {
+  color: #fff !important;
 }
 @media (min-width: 768px) {
   .is-style-saaslauncher-sticky-navigation {
@@ -1185,4 +1226,42 @@ nav.is-style-pagination-with-background-square
 .is-style-saaslauncher-search-style-two.wp-block-search,
 input.wp-block-search__input {
   background: transparent;
+}
+.wp-block-group.is-style-saaslauncher-group-hover-bg {
+  transition: all ease 0.23s;
+}
+.wp-block-group.is-style-saaslauncher-group-hover-bg:hover {
+  background: var(--wp--preset--color--primary) !important;
+  transform: translateY(-7px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.wp-block-group.is-style-saaslauncher-group-hover-bg:hover .wp-block-heading,
+.wp-block-group.is-style-saaslauncher-group-hover-bg:hover p {
+  color: #fff !important;
+}
+.wp-block-group.saaslauncher-face-stack figure.wp-block-image {
+  margin-left: -18px;
+}
+.wp-block-group.saaslauncher-face-stack figure.wp-block-image:first-child {
+  margin-left: 0;
+}
+ul.wp-block-social-links.is-style-saaslauncher-social-links-half-width
+  li.wp-social-link {
+  width: 48%;
+  display: inline-block;
+  border-radius: 8px;
+}
+.wp-block-heading.is-style-heading-text-bullet-lead {
+  position: relative;
+}
+.wp-block-heading.is-style-heading-text-bullet-lead:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -4px;
+  background: var(--wp--preset--color--primary);
+  border-radius: 50%;
 }

@@ -98,6 +98,20 @@ if (function_exists('register_block_style')) {
             )
         );
         register_block_style(
+            'core/group',
+            array(
+                'name'  => 'saaslauncher-group-hover-bg',
+                'label' => __('Hover Background', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/group',
+            array(
+                'name'  => 'saaslauncher-group-hover-translate',
+                'label' => __('Tanslate on Hover', 'saaslauncher')
+            )
+        );
+        register_block_style(
             'core/columns',
             array(
                 'name'  => 'saaslauncher-folumns-fade-style',
@@ -374,6 +388,13 @@ if (function_exists('register_block_style')) {
             'core/gallery',
             array(
                 'name'  => 'enable-grayscale-mode-on-image',
+                'label' => __('Enable Grayscale Light', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/gallery',
+            array(
+                'name'  => 'enable-grayscale-mode-on-image-normal',
                 'label' => __('Enable Grayscale Mode on Image', 'saaslauncher')
             )
         );
@@ -490,6 +511,13 @@ if (function_exists('register_block_style')) {
             )
         );
         register_block_style(
+            'core/heading',
+            array(
+                'name'  => 'heading-text-bullet-lead',
+                'label' => __('Bullet Lead', 'saaslauncher')
+            )
+        );
+        register_block_style(
             'core/navigation',
             array(
                 'name'  => 'saaslauncher-navigation',
@@ -508,6 +536,13 @@ if (function_exists('register_block_style')) {
             array(
                 'name'  => 'saaslauncher-search-style-two',
                 'label' => __('Custom Style 2', 'saaslauncher')
+            )
+        );
+        register_block_style(
+            'core/social-links',
+            array(
+                'name'  => 'saaslauncher-social-links-half-width',
+                'label' => __('50% width', 'saaslauncher')
             )
         );
     }

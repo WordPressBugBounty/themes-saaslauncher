@@ -11,22 +11,22 @@
       "palette": [
         {
           "slug": "primary",
-          "color": "#2D61FF",
+          "color": "#0F9D8A",
           "name": "Primary"
         },
         {
           "slug": "secondary",
-          "color": "#1B4EE7",
+          "color": "#0C8977",
           "name": "Secondary"
         },
         {
           "slug": "primary-shade-one",
-          "color": "#6F79FF",
+          "color": "#04251F",
           "name": "Primary Shade 1"
         },
         {
           "slug": "primary-shade-2",
-          "color": "#2F3578",
+          "color": "#293635",
           "name": "Primary Shade 2"
         },
         {
@@ -51,48 +51,48 @@
         },
         {
           "slug": "dark-shade",
-          "color": "#02010C",
+          "color": "#011A16",
           "name": "Dark Shade"
         },
 
         {
           "slug": "heading-color",
-          "color": "#FFFFFF",
+          "color": "#0B1F1B",
           "name": "Heading Color"
         },
         {
           "slug": "background",
-          "color": "#090A0F",
+          "color": "#FFFFFF",
           "name": "Background"
         },
         {
           "slug": "background-alt",
-          "color": "#0F1325",
+          "color": "#F7F8F8",
           "name": "Background Alt"
         },
         {
           "slug": "foreground",
-          "color": "#A3A8B5",
+          "color": "#616363",
           "name": "Foreground"
         },
         {
           "slug": "foreground-alt",
-          "color": "#E3E7EA",
+          "color": "#D7DDDB",
           "name": "Foreground Alternative"
         },
         {
           "slug": "meta-color",
-          "color": "#7783AC",
+          "color": "#5B6763",
           "name": "Meta Color"
         },
         {
           "slug": "border-color",
-          "color": "#151B31",
+          "color": "#E8EAEA",
           "name": "Border Color"
         },
         {
           "slug": "sticky-bg-color",
-          "color": "#0d101e",
+          "color": "#021411",
           "name": "Sticky Background Color"
         },
         {
@@ -103,53 +103,53 @@
       ],
       "duotone": [
         {
-          "colors": ["#2D61FF", "#ffffff"],
+          "colors": ["#0F9D8A", "#ffffff"],
           "slug": "primary-secondary",
           "name": "Duo 1"
         },
         {
-          "colors": ["#021455", "#ffffff"],
+          "colors": ["#011A16", "#ffffff"],
           "slug": "dark-shade",
           "name": "Dark Shade"
         },
 
         {
-          "colors": ["#2D61FF", "#4A3AFD"],
+          "colors": ["#0F9D8A", "#0C8977"],
           "slug": "secondary-primary",
           "name": "Duo 2"
         },
         {
-          "colors": ["#4A3AFD", "#000000"],
+          "colors": ["#0C8977", "#000000"],
           "slug": "primary-dark",
           "name": "Duo 3"
         },
         {
-          "colors": ["#000000", "#4A3AFD"],
+          "colors": ["#000000", "#0C8977"],
           "slug": "dark-primary",
           "name": "Duo 4"
         },
         {
-          "colors": ["#4A3AFD", "#ffffff"],
+          "colors": ["#0C8977", "#ffffff"],
           "slug": "primary-light",
           "name": "Duo 5"
         },
         {
-          "colors": ["#ffffff", "#4A3AFD"],
+          "colors": ["#ffffff", "#0C8977"],
           "slug": "light-primary",
           "name": "Duo 6"
         },
         {
-          "colors": ["#2D61FF", "#000000"],
+          "colors": ["#0F9D8A", "#000000"],
           "slug": "secondary-dark",
           "name": "Duo 7"
         },
         {
-          "colors": ["#000000", "#2D61FF"],
+          "colors": ["#000000", "#0F9D8A"],
           "slug": "dark-secondary",
           "name": "Duo 8"
         },
         {
-          "colors": ["#ffffff", "#2D61FF"],
+          "colors": ["#ffffff", "#0F9D8A"],
           "slug": "light-secondary",
           "name": "Duo 10"
         }
@@ -191,7 +191,7 @@
           "slug": "gradient-seven"
         },
         {
-          "gradient": "radial-gradient(37.77% 59.72% at 93.66% 90.51%, var(--wp--preset--color--primary-shade-one) 0%, var(--wp--preset--color--primary) 22%, var(--wp--preset--color--primary-shade-2) 44%, var(--wp--preset--color--dark-shade) 100%)",
+          "gradient": "radial-gradient(50% 61.49% at 100% 92.14%, #0F9D8A 0%, rgba(1, 23, 21, 0) 100%) , radial-gradient(61.74% 75.92% at 73.4% 75.92%, #011A16 35.26%, #011A16 100%)",
           "name": "Gradient 08",
           "slug": "gradient-eight"
         },
@@ -546,6 +546,38 @@
         {
           "fontFace": [
             {
+              "fontFamily": "Mona Sans Expanded",
+              "fontStretch": "expanded",
+              "fontStyle": "normal",
+              "fontWeight": "300 400 500 600 700 900",
+              "src": [
+                "file:./assets/fonts/mona_sans/MonaSans-VariableFont_wdth.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Mona Sans Expanded\", sans-serif",
+          "name": "Mona Sans Expanded",
+          "slug": "mona-sans-expanded"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Mona Sans Semi Expanded",
+              "fontStretch": "semi-expanded",
+              "fontStyle": "normal",
+              "fontWeight": "300 400 500 600 700 900",
+              "src": [
+                "file:./assets/fonts/mona_sans/MonaSans-VariableFont_wdth.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Mona Sans Semi Expanded\", sans-serif",
+          "name": "Mona Sans Semi Expanded",
+          "slug": "mona-sans-semi-expanded"
+        },
+        {
+          "fontFace": [
+            {
               "fontFamily": "Syne",
               "fontStretch": "normal",
               "fontStyle": "normal",
@@ -606,8 +638,7 @@
         "typography": {
           "fontSize": "var(--wp--preset--font-size--xx-large)",
           "fontWeight": "500",
-          "lineHeight": "1.3",
-          "letterSpacing": "-2px"
+          "lineHeight": "1.3"
         },
         "spacing": {
           "margin": {
@@ -619,8 +650,7 @@
         "typography": {
           "fontSize": "var(--wp--preset--font-size--xx-large)",
           "fontWeight": "500",
-          "lineHeight": "var(--wp--preset--line-height--normal)",
-          "letterSpacing": "-2px"
+          "lineHeight": "var(--wp--preset--line-height--normal)"
         },
         "spacing": {
           "margin": {
@@ -645,7 +675,7 @@
       "h4": {
         "typography": {
           "fontSize": "var(--wp--preset--font-size--large)",
-          "fontWeight": "600",
+          "fontWeight": "500",
           "lineHeight": "var(--wp--preset--line-height--x-small)"
         },
         "spacing": {
@@ -681,7 +711,7 @@
       },
       "heading": {
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--inter)",
+          "fontFamily": "var(--wp--preset--font-family--mona-sans-semi-expanded)",
           "fontStyle": "normal",
           "fontWeight": "var(--wp--preset--font-weight--medium)",
           "lineHeight": "1.5"

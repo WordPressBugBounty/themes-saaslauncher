@@ -38,8 +38,10 @@
                 </div>
                 <!-- /wp:group -->
 
-                <!-- wp:navigation {"ref":2881,"textColor":"light-color","overlayBackgroundColor":"secondary-bg","overlayTextColor":"black-color","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"className":"saaslauncher-navigation is-style-saaslauncher-navigation","style":{"typography":{"textTransform":"none","lineHeight":"2"},"spacing":{"blockGap":"24px"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} /-->
-
+                <!-- wp:navigation {"textColor":"light-color","overlayBackgroundColor":"secondary-bg","overlayTextColor":"black-color","metadata":{"ignoredHookedBlocks":["woocommerce/customer-account","woocommerce/mini-cart"]},"className":"saaslauncher-navigation is-style-saaslauncher-navigation","style":{"typography":{"textTransform":"none","lineHeight":"2"},"spacing":{"blockGap":"24px"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"center"}} -->
+                <!-- wp:home-link /-->
+                <!-- wp:page-list /-->
+                <!-- /wp:navigation -->
                 <!-- wp:buttons {"className":"is-style-button-zoom-on-hover","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"}}}} -->
                 <div class="wp-block-buttons is-style-button-zoom-on-hover"><!-- wp:button {"className":"is-style-fill","style":{"border":{"radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"},"color":"#ffffff14","width":"2px"},"spacing":{"padding":{"left":"16px","right":"16px","top":"8px","bottom":"8px"}}},"fontSize":"small"} -->
                     <div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-border-color has-small-font-size has-custom-font-size wp-element-button" style="border-color:#ffffff14;border-width:2px;border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;padding-top:8px;padding-right:16px;padding-bottom:8px;padding-left:16px"><?php esc_html_e('Sign up Today', 'saaslauncher') ?></a></div>
