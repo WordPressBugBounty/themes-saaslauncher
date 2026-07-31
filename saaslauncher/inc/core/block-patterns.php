@@ -17,6 +17,7 @@ function saaslauncher_register_pattern_category()
 {
 	$block_pattern_categories = array(
 		'saaslauncher' => array('label' => __('SaasLauncher Extra', 'saaslauncher')),
+		// 'saaslauncher-pro' => array('label' => __('SaasLauncher Pro', 'saaslauncher')),
 		'saaslauncher-homes' => array('label' => __('Homepage Templates', 'saaslauncher')),
 		'saaslauncher-pages' => array('label' => __('Page Templates', 'saaslauncher')),
 		'saaslauncher-blogs' => array('label' => __('Blog Templates', 'saaslauncher')),
