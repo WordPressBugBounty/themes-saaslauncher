@@ -15,7 +15,7 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/icon_106.png',
 );
 ?>
-<!-- wp:group {"metadata":{"name":"Services Section","categories":["saaslauncher-service"]},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"8rem","bottom":"8.5rem"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:group {"metadata":{"name":"Services Section","categories":["saaslauncher-service"]},"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"8rem","bottom":"8.5rem"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-group has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:8rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:8.5rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"80px"}}}} -->
     <div class="wp-block-columns"><!-- wp:column {"width":"36%"} -->
         <div class="wp-block-column" style="flex-basis:36%"><!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained","justifyContent":"left"}} -->

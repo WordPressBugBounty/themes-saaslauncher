@@ -191,7 +191,7 @@
           "slug": "gradient-seven"
         },
         {
-          "gradient": "radial-gradient(50% 61.49% at 100% 92.14%, #0F9D8A 0%, rgba(1, 23, 21, 0) 100%) , radial-gradient(61.74% 75.92% at 73.4% 75.92%, #011A16 35.26%, #011A16 100%)",
+          "gradient": "radial-gradient(50% 61.49% at 100% 92.14%, var(--wp--preset--color--primary) 0%, rgba(1, 23, 21, 0) 100%) , radial-gradient(61.74% 75.92% at 73.4% 75.92%, var(--wp--preset--color--dark-shade) 35.26%, var(--wp--preset--color--dark-shade) 100%)",
           "name": "Gradient 08",
           "slug": "gradient-eight"
         },
@@ -461,6 +461,31 @@
         {
           "fontFace": [
             {
+              "fontFamily": "Host Grotesk",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "300 400 500 600 700 900",
+              "src": [
+                "file:./assets/fonts/host_grotesk/HostGrotesk-VariableFont_wght.ttf"
+              ]
+            },
+            {
+              "fontFamily": "Host Grotesk",
+              "fontStretch": "normal",
+              "fontStyle": "italic",
+              "fontWeight": "300 400 500 600 700 900",
+              "src": [
+                "file:./assets/fonts/host_grotesk/HostGrotesk-Italic-VariableFont_wght.ttf"
+              ]
+            }
+          ],
+          "fontFamily": "\"Host Grotesk\", sans-serif",
+          "name": "Host Grotesk",
+          "slug": "host-grotesk"
+        },
+        {
+          "fontFace": [
+            {
               "fontFamily": "Hubot Sans",
               "fontStretch": "normal",
               "fontStyle": "normal",
@@ -711,7 +736,7 @@
       },
       "heading": {
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--mona-sans-semi-expanded)",
+          "fontFamily": "var(--wp--preset--font-family--host-grotesk)",
           "fontStyle": "normal",
           "fontWeight": "var(--wp--preset--font-weight--medium)",
           "lineHeight": "1.5"

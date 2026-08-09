@@ -10,7 +10,7 @@ $saaslauncher_images = array(
 	$saaslauncher_url . 'assets/images/about_3.jpg',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"About Us 5"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"8rem"},"margin":{"top":"0","bottom":"0"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"About Us 5"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"8rem"},"margin":{"top":"0","bottom":"0"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-group alignfull has-background-background-color has-background" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0;padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:8rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"84px"},"margin":{"top":"0","bottom":"64px"}}}} -->
 	<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0;margin-bottom:64px"><!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->

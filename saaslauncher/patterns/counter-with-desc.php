@@ -6,7 +6,7 @@
  * Categories: saaslauncher-number
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-number"],"name":"Counter Block with Description"},"align":"full","style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-number"],"name":"Counter Block with Description"},"align":"full","style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-group alignfull has-background-background-color has-background" style="padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"6rem"}}}} -->
 	<div class="wp-block-columns"><!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"left","fontSize":"80px"},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color"} -->

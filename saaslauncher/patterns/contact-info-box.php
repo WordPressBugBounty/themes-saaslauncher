@@ -12,7 +12,7 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/icon_envelope.png',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-contact"],"name":"Contact info box"},"style":{"spacing":{"margin":{"bottom":"60px"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"6rem","bottom":"2rem"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-contact"],"name":"Contact info box"},"style":{"spacing":{"margin":{"bottom":"60px"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"6rem","bottom":"2rem"}}},"layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-group" style="margin-bottom:60px;padding-top:6rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:2rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"640px","justifyContent":"center"}} -->
     <div class="wp-block-group"><!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"center","fontSize":"64px"}}} -->
         <h1 class="wp-block-heading has-text-align-center" style="font-size:64px"><?php esc_html_e('Contact Us', 'saaslauncher'); ?></h1>

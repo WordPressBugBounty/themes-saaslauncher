@@ -6,7 +6,7 @@
  * Categories: saaslauncher-contact
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Contact Form","categories":["saaslauncher-contact"]},"style":{"spacing":{"margin":{"bottom":"60px"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"4rem","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:group {"metadata":{"name":"Contact Form","categories":["saaslauncher-contact"]},"style":{"spacing":{"margin":{"bottom":"60px"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"4rem","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-group" style="margin-bottom:60px;padding-top:4rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px"},"blockGap":{"left":"100px"}}}} -->
 	<div class="wp-block-columns" style="margin-top:0px"><!-- wp:column {"width":"45%"} -->
 		<div class="wp-block-column" style="flex-basis:45%"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"60px"}}},"layout":{"type":"constrained","contentSize":"640px","justifyContent":"left"}} -->

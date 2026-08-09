@@ -26,7 +26,7 @@ $saaslauncher_images = array(
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0"},"padding":{"bottom":"0px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
+    <!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0"},"padding":{"bottom":"0px","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained","contentSize":"1280px"}} -->
     <div class="wp-block-group" style="margin-top:0px;margin-bottom:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:gallery {"columns":5,"imageCrop":false,"linkTo":"none","className":"is-style-enable-grayscale-mode-on-image-normal","style":{"spacing":{"margin":{"top":"0px"},"blockGap":{"top":"120px","left":"120px"}}}} -->
         <figure class="wp-block-gallery has-nested-images columns-5 is-style-enable-grayscale-mode-on-image-normal" style="margin-top:0px"><!-- wp:image {"id":5902,"sizeSlug":"large","linkDestination":"none"} -->
             <figure class="wp-block-image size-large"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5902" /></figure>

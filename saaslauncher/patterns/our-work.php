@@ -12,7 +12,7 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/p3.jpg',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-service"],"name":"our-work"},"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"9rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-service"],"name":"our-work"},"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"9rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-group alignfull has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:8rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:9rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"80px"}}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group" style="margin-top:0;margin-bottom:80px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"680px"}} -->
         <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"},"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->

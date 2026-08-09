@@ -6,7 +6,7 @@
  * Categories: saaslauncher-about
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"Our Values"},"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"Our Values"},"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-group alignfull has-background-alt-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:8rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"640px","justifyContent":"left"}} -->
     <div class="wp-block-group"><!-- wp:heading {"style":{"typography":{"fontSize":"60px","lineHeight":"1.2"}}} -->
         <h2 class="wp-block-heading" style="font-size:60px;line-height:1.2"><?php esc_html_e('Driven by purpose. Built for growth.', 'saaslauncher'); ?></h2>

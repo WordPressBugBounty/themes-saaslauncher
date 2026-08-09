@@ -5,7 +5,7 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 2.0.5
+Stable tag: 2.0.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,10 @@ SaasLauncher is a modern Full Site Editing (FSE) WordPress theme designed for Sa
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 2.0.8 - August 09, 2026 =
+* Refined hero section with a minimal design
+* Refined overall patterns and site design
+
 = 2.0.5 - Jul 31, 2026 =
 * Minor patterns improvements
 * Improved and refine pro patterns and homepage
@@ -181,10 +185,10 @@ SaasLauncher is a modern Full Site Editing (FSE) WordPress theme designed for Sa
 Theme logo, Icons of service section, features icons and screenshot dummy dashboard, app section mobile mockup with our theme demo are created by our own.
 License: GPL v2 or later
 
-Image for user hero and cta background,  https://pxhere.com/
+Image for user hero section,  https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/en/photo/1705232
+Source: https://pxhere.com/en/photo/1704954
 
 Image for user faces in screenshot,  https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
@@ -236,6 +240,11 @@ font: Giest,
 Copyright 2024 The Geist Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/vercel/geist-font.git
+
+font: Host Grotesk,
+Copyright Copyright 2023 The Host Grotesk Project Authors 
+License: http://scripts.sil.org/OFL
+Source: https://github.com/Element-Type/HostGrotesk
 
 font: Hubot Sans,
 Copyright 2021 The Hubot Sans Project Authors

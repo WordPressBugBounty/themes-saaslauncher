@@ -1,6 +1,14 @@
 <div class="saaslauncher-page__changelog">
 	<h2><?php esc_html_e('Changelog', 'saaslauncher'); ?></h2>
 	<div class="version">
+		<h3><?php esc_html_e('Version 2.0.8', 'saaslauncher'); ?></h3>
+		<p class="date"><?php esc_html_e('Released: August 09, 2026', 'saaslauncher'); ?></p>
+		<ul class="changes">
+			<li><?php esc_html_e(' Refined hero section with a minimal design', 'saaslauncher'); ?></li>
+			<li><?php esc_html_e('Refined overall patterns and site design', 'saaslauncher'); ?></li>
+		</ul>
+	</div>
+	<div class="version">
 		<h3><?php esc_html_e('Version 2.0.5', 'saaslauncher'); ?></h3>
 		<p class="date"><?php esc_html_e('Released: July 21, 2026', 'saaslauncher'); ?></p>
 		<ul class="changes">

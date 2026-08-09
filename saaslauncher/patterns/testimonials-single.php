@@ -11,7 +11,7 @@ $saaslauncher_images = array(
 	$saaslauncher_url . 'assets/images/person_7.jpg',
 );
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"6rem","bottom":"6rem"}}},"layout":{"type":"constrained","contentSize":"1360px"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"6rem","bottom":"6rem"}}},"layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-group" style="padding-top:6rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:6rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"84px"}}}} -->
 	<div class="wp-block-columns"><!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"textAlign":"left","fontSize":"60px","lineHeight":"1.2"}},"textColor":"heading-color"} -->
