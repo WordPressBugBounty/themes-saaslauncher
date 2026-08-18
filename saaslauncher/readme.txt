@@ -2,16 +2,16 @@
 
 Contributors: CozyThemes
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, style-variations, featured-images, portfolio, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
-Requires at least: 5.9
+Requires at least: 6.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 2.0.8
+Stable tag: 2.0.10
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-SaasLauncher is a modern Full Site Editing (FSE) WordPress theme designed for SaaS businesses, startups, software companies, digital agencies, and modern service businesses. Built with the WordPress Site Editor and Gutenberg, it helps you create professional business websites, SaaS landing pages, startup websites, product showcase websites, agency websites, and high-converting marketing pages without writing any code.With 70+ ready-to-use website sections and 50+ professionally designed starter templates, SaasLauncher makes it easier to build a complete website faster. Whether you are launching a SaaS product, promoting a software solution, showcasing a web application, growing a startup, or creating a modern business website, SaasLauncher provides the flexibility and tools you need. The theme features a clean, modern, and responsive design with powerful customization options through the WordPress Site Editor. It is built for performance, scalability, and easy customization, making it suitable for startups, technology companies, agencies, consultants, and professional service businesses. SaasLauncher is WooCommerce-ready and works seamlessly with popular plugins including Contact Form 7, WPForms, Rank Math SEO, Yoast SEO, and more. Powered by Cozy Blocks, SaasLauncher includes 50+ advanced Gutenberg blocks that help you create feature-rich websites with pricing sections, testimonials, team pages, service showcases, portfolios, lead generation sections, FAQs, and marketing-focused layouts. From SaaS startups and software companies to digital agencies and growing businesses, SaasLauncher is a flexible WordPress theme solution for building fast, modern, and conversion-focused websites with Full Site Editing.
+SaasLauncher is a modern Full Site Editing (FSE) WordPress theme designed for SaaS businesses, startups, software companies, digital agencies, and modern service businesses. Built with the WordPress Site Editor and Gutenberg, it helps you create professional business websites, SaaS landing pages, startup websites, product showcase websites, agency websites, and high-converting marketing pages without writing any code. With 70+ ready-to-use website sections and 50+ professionally designed starter templates, SaasLauncher makes it easier to build a complete website faster. Whether you are launching a SaaS product, promoting a software solution, showcasing a web application, growing a startup, or creating a modern business website, SaasLauncher provides the flexibility and tools you need. The theme features a clean, modern, and responsive design with powerful customization options through the WordPress Site Editor. It is built for performance, scalability, and easy customization, making it suitable for startups, technology companies, agencies, consultants, and professional service businesses. SaasLauncher is WooCommerce-ready and works seamlessly with popular plugins including Contact Form 7, WPForms, Rank Math SEO, Yoast SEO, and more. Powered by Cozy Blocks, SaasLauncher includes 50+ advanced Gutenberg blocks that help you create feature-rich websites with pricing sections, testimonials, team pages, service showcases, portfolios, lead generation sections, FAQs, and marketing-focused layouts. From SaaS startups and software companies to digital agencies and growing businesses, SaasLauncher is a flexible WordPress theme solution for building fast, modern, and conversion-focused websites with Full Site Editing.
 
 == Installation ==
 
@@ -26,6 +26,12 @@ SaasLauncher is a modern Full Site Editing (FSE) WordPress theme designed for Sa
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 2.0.10 - August 16, 2026 =
+* Theme details issue fixed
+
+= 2.0.9 - August 14, 2026 =
+* Admin Dashboard update
+
 = 2.0.8 - August 09, 2026 =
 * Refined hero section with a minimal design
 * Refined overall patterns and site design
@@ -54,126 +60,6 @@ SaasLauncher is a modern Full Site Editing (FSE) WordPress theme designed for Sa
 * Inner pages Layout improved
 * Patterns layout improved
 
-= 1.3.4 - Jun 09, 2026 =
-* Tested up to 7.0
-
-= 1.3.3 - May 04, 2026 =
-* Product single template fix with latest blocks for product gallery and related products.
-* Order confirmation template layout fix.
-* Product search results template layout fix.
-* Tested up to 6.9
-
-= 1.3.2 - Oct 16, 2025 =
-* Fixed admin dashboard redirection links
-
-= 1.3.1 - August 27, 2025 =
-* Fixed admin dashboard redirection links
-
-= 1.3.0 - July 18, 2025 =
-* Theme patterns improved
-* Global Styles Variations Added
-* Color Palette Improved
-* Added Global Typography Option
-* Added New Button Styles and Group Styles
-
-= 1.2.3 - Jun 17, 2025 =
-* Sticky Header Background Color Option Added
-
-= 1.2.2 - May 31, 2025 =
-* Minor layout improvements for Patterns
-
-= 1.2.1 - May 16, 2025 =
-* Headers navigation sticky z-index overlay fixed
-* Minor layout improvements for Patterns
-
-= 1.2.0 - May 09, 2025 =
-* headers navigation sticky layout fixed
-* Scroll to top button minor fixed
-* Inner page layout and patterns layout improved
-
-= 1.1.9 - May 06, 2025 =
-* Minor Patterns Improved: Header and Banner section
-* Minor script (jQuery) enqueue fixed as review feedback
-
-= 1.1.7 - May 02, 2025 =
-* Demo and homepage Improved for v1 layout
-
-= 1.1.4 - April 23, 2025 =
-* New patterns layout added for Header
-
-= 1.1.3 - April 18, 2025 =
-* Header and Footer Patterns registered for header/footer location
-
-= 1.1.2 - April 16, 2025 =
-* Patterns are organized categorically.
-* Tested up to 6.8
-
-= 1.1.1 - April 03, 2025 =
-* New pre-built sections added
-
-= 1.1.0 - Mar 28, 2025 =
-* 20+ New pre-built sections added
-* 2 New Homepage Templates Added
-* FSE Templates and inner page layout improved
-
-= 1.0.20 - Mar 17, 2025 =
-* Minor issue fixed for service grid pattern
-
-= 1.0.19 - Feb 16, 2025 =
-* Added new starter sites demos
-* Minor improvement for theme layout
-
-= 1.0.18 - Jan 18, 2025 =
-* Added new starter sites demos
-
-= 1.0.17 - Jan 15, 2025 =
-* Added new starter sites demos
-
-= 1.0.16 - December 19, 2024 =
-* Fixed single click plugin installer in welcome notice
-
-= 1.0.15 - December 19, 2024 =
-* Improvised dashboard layout
-* Added new demo collection
-
-= 1.0.14 - December 04, 2024 =
-* New blog templates layout added
-* Language POT file added for the theme, available in English, Spanish, and French.
-
-= 1.0.13 - December 01, 2024 =
-* New Page Templates Added for About Us Page, Contact Us Page, Services Page and Pricing Page
-* News Patterns Section Added
-
-= 1.0.12 - Nov 28, 2024 =
-* Minor improvement for Theme Patterns
-
-= 1.0.9 - Nov 23, 2024 =
-* Added 7 New Global Style Variations
-
-= 1.0.8 - Nov 21, 2024 =
-* Recommended Plugins Auto Installer issue fixed
-
-= 1.0.7 - Nov 20, 2024 =
-* New Global Style Variation Added
-
-= 1.0.4 - Nov 18, 2024 =
-* Light Version Patterns Added 
-* Tested up to 6.7
-
-= 1.0.3 - Nov 14, 2024 =
-* More gradient style added for theme
-* Tested up to 6.7
-
-= 1.0.2 - Nov 09, 2024 =
-* More Header and Footer Sections Added
-* Simple Text Section Added
-
-= 1.0.1 - Nov 04, 2024 =
-* Initial release
-* Console error fixed
-
-= 1.0.0 - Oct 28, 2024 =
-* Initial release
 
 ==Copyright==
 "SaasLauncher" WordPress Theme, Copyright 2024 CozyThemes
