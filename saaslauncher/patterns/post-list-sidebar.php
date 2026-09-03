@@ -6,7 +6,7 @@
  * Categories: saaslauncher-post
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-post"],"name":"Post List Sidebar"},"style":{"spacing":{"margin":{"top":"0px"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"48px","bottom":"48px"}}},"layout":{"type":"constrained","contentSize":"1280px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-post"],"name":"Post List Sidebar"},"style":{"spacing":{"margin":{"top":"0px"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"48px","bottom":"48px"}}},"layout":{"type":"constrained","contentSize":"1200px"}} -->
 <div class="wp-block-group" style="margin-top:0px;padding-top:48px;padding-right:var(--wp--preset--spacing--40);padding-bottom:48px;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
     <div class="wp-block-group"><!-- wp:heading {"level":3,"className":"is-style-heading-text-bullet-lead","style":{"typography":{"fontSize":"20px","textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"},"spacing":{"padding":{"left":"18px"}}}} -->
         <h3 class="wp-block-heading is-style-heading-text-bullet-lead" style="padding-left:18px;font-size:20px;font-style:normal;font-weight:600;text-transform:uppercase"><?php esc_html_e('Latest Posts', 'saaslauncher') ?></h3>

@@ -12,7 +12,7 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/person_3.jpg',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-team"],"name":"Team Section"},"align":"full","style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"1280px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-team"],"name":"Team Section"},"align":"full","style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull has-dark-shade-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"64px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
     <div class="wp-block-group" style="margin-top:0;margin-bottom:64px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"0px"}}},"layout":{"type":"constrained","contentSize":"640px","justifyContent":"left"}} -->
         <div class="wp-block-group" style="margin-bottom:0px"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"20px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
@@ -38,7 +38,7 @@ $saaslauncher_images = array(
 
             <!-- wp:buttons {"className":"is-style-button-transofom-on-hover","style":{"spacing":{"margin":{"top":"28px"}}},"layout":{"type":"flex","justifyContent":"right"}} -->
             <div class="wp-block-buttons is-style-button-transofom-on-hover" style="margin-top:28px"><!-- wp:button {"className":"is-style-button-with-uparrow-icon","style":{"spacing":{"padding":{"left":"24px","right":"24px","top":"18px","bottom":"18px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}},"fontSize":"medium"} -->
-                <div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:18px;padding-right:24px;padding-bottom:18px;padding-left:24px">Meet the Team</a></div>
+                <div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:18px;padding-right:24px;padding-bottom:18px;padding-left:24px"><?php esc_html_e('Meet the Team', 'saaslauncher'); ?></a></div>
                 <!-- /wp:button -->
             </div>
             <!-- /wp:buttons -->
@@ -60,11 +60,11 @@ $saaslauncher_images = array(
 
             <!-- wp:group {"style":{"spacing":{"blockGap":"0px","margin":{"top":"30px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
             <div class="wp-block-group" style="margin-top:30px"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500","textAlign":"center","fontSize":"28px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                <h3 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color" style="font-size:28px;font-style:normal;font-weight:500">John doe</h3>
+                <h3 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color" style="font-size:28px;font-style:normal;font-weight:500"><?php esc_html_e('John doe', 'saaslauncher'); ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|border-color"}}}},"textColor":"border-color","fontSize":"small"} -->
-                <p class="has-text-align-center has-border-color-color has-text-color has-link-color has-small-font-size">Chief Technology Officer</p>
+                <p class="has-text-align-center has-border-color-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('Chief Technology Officer', 'saaslauncher'); ?></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->
@@ -83,7 +83,7 @@ $saaslauncher_images = array(
 
             <!-- wp:group {"style":{"spacing":{"blockGap":"0px","margin":{"top":"30px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
             <div class="wp-block-group" style="margin-top:30px"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"500","textAlign":"center","fontSize":"28px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
-                <h3 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color" style="font-size:28px;font-style:normal;font-weight:500">Olivia Bennett</h3>
+                <h3 class="wp-block-heading has-text-align-center has-light-color-color has-text-color has-link-color" style="font-size:28px;font-style:normal;font-weight:500"><?php esc_html_e('Olivia Bennett', 'saaslauncher'); ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|foreground-alt"}}}},"textColor":"foreground-alt","fontSize":"small"} -->

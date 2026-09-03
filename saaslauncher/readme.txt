@@ -3,15 +3,15 @@
 Contributors: CozyThemes
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, style-variations, featured-images, portfolio, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
 Requires at least: 6.0
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.10
+Stable tag: 2.0.12
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-SaasLauncher is a modern Full Site Editing (FSE) WordPress theme designed for SaaS businesses, startups, software companies, digital agencies, and modern service businesses. Built with the WordPress Site Editor and Gutenberg, it helps you create professional business websites, SaaS landing pages, startup websites, product showcase websites, agency websites, and high-converting marketing pages without writing any code. With 70+ ready-to-use website sections and 50+ professionally designed starter templates, SaasLauncher makes it easier to build a complete website faster. Whether you are launching a SaaS product, promoting a software solution, showcasing a web application, growing a startup, or creating a modern business website, SaasLauncher provides the flexibility and tools you need. The theme features a clean, modern, and responsive design with powerful customization options through the WordPress Site Editor. It is built for performance, scalability, and easy customization, making it suitable for startups, technology companies, agencies, consultants, and professional service businesses. SaasLauncher is WooCommerce-ready and works seamlessly with popular plugins including Contact Form 7, WPForms, Rank Math SEO, Yoast SEO, and more. Powered by Cozy Blocks, SaasLauncher includes 50+ advanced Gutenberg blocks that help you create feature-rich websites with pricing sections, testimonials, team pages, service showcases, portfolios, lead generation sections, FAQs, and marketing-focused layouts. From SaaS startups and software companies to digital agencies and growing businesses, SaasLauncher is a flexible WordPress theme solution for building fast, modern, and conversion-focused websites with Full Site Editing.
+SaasLauncher is a modern Full Site Editing (FSE) WordPress theme for SaaS businesses, startups, software companies, digital agencies, technology companies, consultants, and modern service businesses. Built with the WordPress Site Editor and Gutenberg, it makes it easy to create professional websites without writing code. Use SaasLauncher as a SaaS website templates, startup website template, agency website template, business website template, software company website, technology websites, or high-converting SaaS landing page. It is designed for businesses launching software products, web applications, digital services, AI products, online platforms, and growing startups. Build faster with 70+ ready-to-use website sections and 50+ professionally designed starter templates. Create complete homepages, SaaS landing pages, product showcases, service pages, pricing sections, testimonials, team pages, portfolios, FAQs, lead-generation sections, and other marketing-focused layouts directly with the WordPress block editor. Powered by Cozy Blocks, SaasLauncher extends Gutenberg with 50+ advanced blocks for building flexible, feature-rich websites. The WordPress Site Editor gives you full control over headers, footers, templates, pages, layouts, colors, typography, and global styles without relying on complex page builders or custom coding. Whether you need a SaaS website template for a new product, an agency website template for a digital agency, a startup website for a growing company, or a modern business website for professional services, SaasLauncher provides a flexible foundation for building and launching your site faster. The theme features a clean, modern, responsive design built for professional online businesses and marketing-focused websites. It is WooCommerce-ready and compatible with popular WordPress plugins including Contact Form 7, WPForms, Rank Math SEO, Yoast SEO, and more. SaasLauncher is built with Full Site Editing, Gutenberg, reusable block patterns, and flexible customization in mind, making it a practical WordPress theme for SaaS startups, software companies, digital agencies, technology businesses, consultants, and modern service brands looking to create a fast, professional, and conversion-focused website. Explore more features, demos, and details about SaasLauncher at https://cozythemes.com/saaslauncher-wordpress-theme/
 
 == Installation ==
 
@@ -26,6 +26,14 @@ SaasLauncher is a modern Full Site Editing (FSE) WordPress theme designed for Sa
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 2.0.12 - September 03, 2026 =
+* Navigation fixed
+* Brand logo showcase url fixed
+
+= 2.0.11 - September 03, 2026 =
+* Patterns and homepage design improved
+* Tested up to 7.1
+
 = 2.0.10 - August 16, 2026 =
 * Theme details issue fixed
 
@@ -71,6 +79,11 @@ SaasLauncher is a modern Full Site Editing (FSE) WordPress theme designed for Sa
 Theme logo, Icons of service section, features icons and screenshot dummy dashboard, app section mobile mockup with our theme demo are created by our own.
 License: GPL v2 or later
 
+Image for user image in screenshot dummy dashboard,  https://pxhere.com/
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/1169779
+
 Image for user hero section,  https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
@@ -108,6 +121,17 @@ Source: https://pxhere.com/en/photo/1705116
 Source: https://pxhere.com/en/photo/1705234
 Source: https://pxhere.com/en/photo/1717316
 Source: https://pxhere.com/en/photo/1707608
+
+Service and benefits Sections Images ===========
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source:https://pxhere.com/en/photo/901809
+Source:https://pxhere.com/en/photo/1709850
+Source:https://pxhere.com/en/photo/1729344
+Source:https://pxhere.com/en/photo/1697520
+Source:https://pxhere.com/en/photo/1449065
+Source:https://pxhere.com/en/photo/1709478
+Source:https://pxhere.com/en/photo/1729332
 
 
 Fonts credit and license:

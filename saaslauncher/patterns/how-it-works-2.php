@@ -17,7 +17,7 @@ $saaslauncher_images = array(
             <div class="wp-block-group" style="margin-top:44px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"},"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
                 <div class="wp-block-group" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"padding":{"right":"12px","left":"12px","top":"5px","bottom":"5px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"},"width":"1px"}},"backgroundColor":"background-alt","borderColor":"border-color","layout":{"type":"constrained"}} -->
                     <div class="wp-block-group has-border-color has-border-color-border-color has-background-alt-background-color has-background" style="border-width:1px;border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:5px;padding-right:12px;padding-bottom:5px;padding-left:12px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"textTransform":"uppercase","fontSize":"13px","fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
-                        <h5 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-size:13px;font-style:normal;font-weight:500;text-transform:uppercase">How it works</h5>
+                        <h5 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-size:13px;font-style:normal;font-weight:500;text-transform:uppercase"><?php esc_html_e('How it works', 'saaslauncher'); ?></h5>
                         <!-- /wp:heading -->
                     </div>
                     <!-- /wp:group -->
@@ -45,7 +45,7 @@ $saaslauncher_images = array(
             <div class="wp-block-group"><!-- wp:accordion {"style":{"border":{"width":"1px","color":"#151B31","radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"}},"spacing":{"padding":{"top":"16px","bottom":"16px","left":"16px","right":"16px"}}}} -->
                 <div role="group" class="wp-block-accordion has-border-color" style="border-color:#151B31;border-width:1px;border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:accordion-item -->
                     <div class="wp-block-accordion-item"><!-- wp:accordion-heading {"fontSize":"medium"} -->
-                        <h3 class="wp-block-accordion-heading has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('01. Create Account', 'saaslauncher'); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+                        <h3 class="wp-block-accordion-heading has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('01. Create Account', 'saaslauncher'); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e('+', 'saaslauncher'); ?></span></button></h3>
                         <!-- /wp:accordion-heading -->
 
                         <!-- wp:accordion-panel -->
@@ -62,7 +62,7 @@ $saaslauncher_images = array(
                 <!-- wp:accordion {"style":{"border":{"width":"1px","color":"#151B31","radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"}},"spacing":{"padding":{"top":"16px","bottom":"16px","left":"16px","right":"16px"}}}} -->
                 <div role="group" class="wp-block-accordion has-border-color" style="border-color:#151B31;border-width:1px;border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:accordion-item -->
                     <div class="wp-block-accordion-item"><!-- wp:accordion-heading {"fontSize":"medium"} -->
-                        <h3 class="wp-block-accordion-heading has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('02. Connect Tools', 'saaslauncher'); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+                        <h3 class="wp-block-accordion-heading has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('02. Connect Tools', 'saaslauncher'); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e('+', 'saaslauncher'); ?></span></button></h3>
                         <!-- /wp:accordion-heading -->
 
                         <!-- wp:accordion-panel -->
@@ -79,7 +79,7 @@ $saaslauncher_images = array(
                 <!-- wp:accordion {"style":{"border":{"width":"1px","color":"#151B31","radius":{"topLeft":"8px","topRight":"8px","bottomLeft":"8px","bottomRight":"8px"}},"spacing":{"padding":{"top":"16px","bottom":"16px","left":"16px","right":"16px"}}}} -->
                 <div role="group" class="wp-block-accordion has-border-color" style="border-color:#151B31;border-width:1px;border-top-left-radius:8px;border-top-right-radius:8px;border-bottom-left-radius:8px;border-bottom-right-radius:8px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:accordion-item -->
                     <div class="wp-block-accordion-item"><!-- wp:accordion-heading {"fontSize":"medium"} -->
-                        <h3 class="wp-block-accordion-heading has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('03. Launch Automation', 'saaslauncher'); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+                        <h3 class="wp-block-accordion-heading has-medium-font-size"><button type="button" class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e('03. Launch Automation', 'saaslauncher'); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e('+', 'saaslauncher'); ?></span></button></h3>
                         <!-- /wp:accordion-heading -->
 
                         <!-- wp:accordion-panel -->

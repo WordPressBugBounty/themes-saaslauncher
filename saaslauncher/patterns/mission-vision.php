@@ -11,7 +11,7 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/about_3.jpg',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"Mission \u0026 Vision Section"},"align":"full","style":{"spacing":{"padding":{"top":"9rem","bottom":"8rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1280px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"Mission \u0026 Vision Section"},"align":"full","style":{"spacing":{"padding":{"top":"9rem","bottom":"8rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:9rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:8rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"100px"}}}} -->
     <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"blockGap":"48px"}}} -->
         <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"","justifyContent":"left"}} -->

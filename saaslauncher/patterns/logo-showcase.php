@@ -16,7 +16,9 @@ $saaslauncher_images = array(
 	$saaslauncher_url . 'assets/images/logo_7.png',
 	$saaslauncher_url . 'assets/images/logo_8.png',
 	$saaslauncher_url . 'assets/images/logo_9.png',
-	$saaslauncher_url . 'assets/images/logo_2.png',
+	$saaslauncher_url . 'assets/images/logo_10.png',
+	$saaslauncher_url . 'assets/images/logo_11.png',
+	$saaslauncher_url . 'assets/images/logo_11.png',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher-logos"],"name":"Logos Showcase"},"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"5rem","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}},"border":{"radius":{"bottomLeft":"0px","bottomRight":"0px"},"bottom":{"width":"0px","style":"none"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"100%"}} -->
@@ -66,19 +68,19 @@ $saaslauncher_images = array(
 			<!-- /wp:image -->
 
 			<!-- wp:image {"id":1938,"sizeSlug":"large","linkDestination":"none","className":"swiper-slide"} -->
-			<figure class="wp-block-image size-large swiper-slide"><img src="<?php echo esc_url($saaslauncher_images[1]) ?>" alt="" class="wp-image-1938" /></figure>
+			<figure class="wp-block-image size-large swiper-slide"><img src="<?php echo esc_url($saaslauncher_images[9]) ?>" alt="" class="wp-image-1938" /></figure>
 			<!-- /wp:image -->
 
 			<!-- wp:image {"id":1938,"sizeSlug":"large","linkDestination":"none","className":"swiper-slide"} -->
-			<figure class="wp-block-image size-large swiper-slide"><img src="<?php echo esc_url($saaslauncher_images[2]) ?>" alt="" class="wp-image-1938" /></figure>
+			<figure class="wp-block-image size-large swiper-slide"><img src="<?php echo esc_url($saaslauncher_images[10]) ?>" alt="" class="wp-image-1938" /></figure>
 			<!-- /wp:image -->
 
 			<!-- wp:image {"id":1938,"sizeSlug":"large","linkDestination":"none","className":"swiper-slide"} -->
-			<figure class="wp-block-image size-large swiper-slide"><img src="<?php echo esc_url($saaslauncher_images[3]) ?>" alt="" class="wp-image-1938" /></figure>
+			<figure class="wp-block-image size-large swiper-slide"><img src="<?php echo esc_url($saaslauncher_images[11]) ?>" alt="" class="wp-image-1938" /></figure>
 			<!-- /wp:image -->
 
 			<!-- wp:image {"id":1938,"sizeSlug":"large","linkDestination":"none","className":"swiper-slide"} -->
-			<figure class="wp-block-image size-large swiper-slide"><img src="<?php echo esc_url($saaslauncher_images[4]) ?>" alt="" class="wp-image-1938" /></figure>
+			<figure class="wp-block-image size-large swiper-slide"><img src="<?php echo esc_url($saaslauncher_images[5]) ?>" alt="" class="wp-image-1938" /></figure>
 			<!-- /wp:image -->
 		</figure>
 		<!-- /wp:gallery -->

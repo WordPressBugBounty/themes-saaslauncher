@@ -1,3 +1,11 @@
+= 2.0.12 - September 03, 2026 =
+* Navigation fixed
+* Brand logo showcase url fixed
+
+= 2.0.11 - September 03, 2026 =
+* Patterns and homepage design improved
+* Tested up to 7.1
+
 = 2.0.10 - August 16, 2026 =
 * Theme details issue fixed
 

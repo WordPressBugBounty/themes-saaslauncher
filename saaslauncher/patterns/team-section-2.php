@@ -13,7 +13,7 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/person_4.jpg',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-team"],"name":"Team Section"},"align":"full","style":{"spacing":{"padding":{"top":"7rem","bottom":"4rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1280px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-team"],"name":"Team Section"},"align":"full","style":{"spacing":{"padding":{"top":"7rem","bottom":"4rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1200px"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:4rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40","margin":{"bottom":"64px"}}},"layout":{"type":"constrained","contentSize":"680px","justifyContent":"left"}} -->
     <div class="wp-block-group" style="margin-bottom:64px"><!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"textAlign":"left","fontSize":"60px","lineHeight":"1.2"}},"textColor":"heading-color"} -->
         <h1 class="wp-block-heading has-text-align-left has-heading-color-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0;font-size:60px;line-height:1.2"><?php esc_html_e('Powerhouse Minds. Real- World Solutions.', 'saaslauncher') ?></h1>

@@ -11,7 +11,7 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/about_3.jpg',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"Mission \u0026 Vision 2"},"style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"1280px"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"Mission \u0026 Vision 2"},"style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"1200px"}} -->
 <div class="wp-block-group has-dark-shade-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:8rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:8rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"64px"}}},"layout":{"type":"constrained","contentSize":"780px","justifyContent":"left"}} -->
     <div class="wp-block-group" style="margin-bottom:64px"><!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"left","fontSize":"60px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}}},"textColor":"light-color"} -->
         <h1 class="wp-block-heading has-text-align-left has-light-color-color has-text-color has-link-color" style="font-size:60px"><?php esc_html_e('Committed to Empowering Growth Through Innovation', 'saaslauncher'); ?></h1>

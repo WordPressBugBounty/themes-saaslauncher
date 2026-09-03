@@ -7,314 +7,296 @@
  */
 $saaslauncher_url    = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
-	$saaslauncher_url . 'assets/images/star_icon.png',
 	$saaslauncher_url . 'assets/images/person_1.jpg',
 	$saaslauncher_url . 'assets/images/person_2.jpg',
-	$saaslauncher_url . 'assets/images/person_3.jpg',
-	$saaslauncher_url . 'assets/images/person_4.jpg',
 	$saaslauncher_url . 'assets/images/person_5.jpg',
+	$saaslauncher_url . 'assets/images/person_7.jpg',
+	$saaslauncher_url . 'assets/images/person_3.jpg',
 	$saaslauncher_url . 'assets/images/person_6.jpg',
+	$saaslauncher_url . 'assets/images/star_icon.png',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-testimonial"],"name":"Testimonials Grid"},"align":"full","style":{"spacing":{"padding":{"top":"7rem","bottom":"7rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1280px"}} -->
-<div class="wp-block-group alignfull has-background-background-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:7rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"60px"},"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained","contentSize":"1280px","justifyContent":"left"}} -->
-	<div class="wp-block-group" style="margin-bottom:60px;padding-right:0;padding-left:0"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
-		<div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained","contentSize":"640px"}} -->
-			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"},"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-				<div class="wp-block-group" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"padding":{"right":"12px","left":"12px","top":"5px","bottom":"5px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"},"width":"1px"}},"backgroundColor":"background-alt","borderColor":"border-color","layout":{"type":"constrained"}} -->
-					<div class="wp-block-group has-border-color has-border-color-border-color has-background-alt-background-color has-background" style="border-width:1px;border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:5px;padding-right:12px;padding-bottom:5px;padding-left:12px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"textTransform":"uppercase","fontSize":"13px","fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
-						<h5 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-size:13px;font-style:normal;font-weight:500;text-transform:uppercase"><?php esc_html_e('Reviews', 'saaslauncher'); ?></h5>
-						<!-- /wp:heading -->
-					</div>
-					<!-- /wp:group -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-gallery"],"name":"Testimonials"},"align":"full","style":{"spacing":{"padding":{"top":"7.4rem","bottom":"7.4rem","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:7.4rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:7.4rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"className":"saaslauncher-fade-up","style":{"spacing":{"margin":{"top":"0","bottom":"80px"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group saaslauncher-fade-up" style="margin-top:0;margin-bottom:80px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"840px"}} -->
+		<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"},"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+			<div class="wp-block-group" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"padding":{"right":"12px","left":"12px","top":"5px","bottom":"5px"}},"border":{"width":"1px","radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}},"backgroundColor":"primary-shade-2","borderColor":"secondary-shade-1","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group has-border-color has-secondary-shade-1-border-color has-primary-shade-2-background-color has-background" style="border-width:1px;border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:5px;padding-right:12px;padding-bottom:5px;padding-left:12px"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"500","letterSpacing":"5%","fontSize":"13px"}},"textColor":"primary"} -->
+					<h5 class="wp-block-heading has-primary-color has-text-color has-link-color" style="font-size:13px;font-style:normal;font-weight:500;letter-spacing:5%;text-transform:uppercase"><?php esc_html_e('Testimonials', 'saaslauncher'); ?></h5>
+					<!-- /wp:heading -->
 				</div>
 				<!-- /wp:group -->
-
-				<!-- wp:heading {"level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"500","textAlign":"left","fontSize":"60px"}},"textColor":"heading-color"} -->
-				<h1 class="wp-block-heading has-text-align-left has-heading-color-color has-text-color has-link-color" style="font-size:60px;font-style:normal;font-weight:500;line-height:1.2"><?php esc_html_e('Hear From Our Happy Clients: Their Stories', 'saaslauncher'); ?></h1>
-				<!-- /wp:heading -->
-
-				<!-- wp:paragraph {"style":{"typography":{"textAlign":"left"}}} -->
-				<p class="has-text-align-left">
-					<?php esc_html_e('Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.', 'saaslauncher'); ?>
-				</p>
-				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:buttons {"className":"is-style-button-transofom-on-hover","style":{"spacing":{"margin":{"top":"64px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
-			<div class="wp-block-buttons is-style-button-transofom-on-hover" style="margin-top:64px"><!-- wp:button {"backgroundColor":"primary","className":"is-style-button-with-uparrow-icon","style":{"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"},"width":"0px","style":"none"},"spacing":{"padding":{"left":"24px","right":"24px","top":"18px","bottom":"18px"}}},"fontSize":"small"} -->
-				<div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link has-primary-background-color has-background has-small-font-size has-custom-font-size wp-element-button" style="border-style:none;border-width:0px;border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:18px;padding-right:24px;padding-bottom:18px;padding-left:24px"><?php esc_html_e('View All Reviews', 'saaslauncher'); ?></a></div>
-				<!-- /wp:button -->
-			</div>
-			<!-- /wp:buttons -->
+			<!-- wp:heading {"level":1,"style":{"typography":{"textAlign":"center","lineHeight":"1.1","fontSize":"60px"},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color"} -->
+			<h1 class="wp-block-heading has-text-align-center has-heading-color-color has-text-color has-link-color" style="font-size:60px;line-height:1.1"><?php esc_html_e('What Our Clients Have to Say!', 'saaslauncher'); ?></h1>
+			<!-- /wp:heading -->
+		</div>
+		<!-- /wp:group -->
+
+		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","contentSize":"580px"}} -->
+		<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"normal"} -->
+			<p class="has-text-align-center has-foreground-color has-text-color has-link-color has-normal-font-size"><?php esc_html_e('Trusted by businesses and agencies looking for a faster, simpler way to build a professional online presence.', 'saaslauncher'); ?></p>
+			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:columns {"style":{"spacing":{"margin":{"top":"0px"},"blockGap":{"left":"28px"}}}} -->
-	<div class="wp-block-columns" style="margin-top:0px"><!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":"24px","width":"0px","style":"none"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-background-alt-background-color has-background" style="border-style:none;border-width:0px;border-radius:24px;margin-top:0;margin-bottom:0;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px"><!-- wp:cover {"dimRatio":0,"overlayColor":"transparent","isUserOverlayColor":true,"minHeight":100,"contentPosition":"top left","isDark":false,"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-cover is-light has-custom-content-position is-position-top-left" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-transparent-background-color has-background-dim-0 has-background-dim"></span>
-					<div class="wp-block-cover__inner-container"><!-- wp:image {"id":5945,"width":"100px","height":"19px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"8px","bottom":"0"}},"color":{"duotone":["#0f9d8a","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized" style="margin-top:8px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="object-fit:contain;width:100px;height:19px" /></figure>
-						<!-- /wp:image -->
+	<!-- wp:group {"style":{"position":{"type":""}},"layout":{"type":"constrained","contentSize":"100%"}} -->
+	<div class="wp-block-group"><!-- wp:columns {"className":"saaslauncher-fade-up","style":{"spacing":{"blockGap":{"left":"24px"},"margin":{"top":"24px","bottom":"0"}}}} -->
+		<div class="wp-block-columns saaslauncher-fade-up" style="margin-top:24px;margin-bottom:0"><!-- wp:column {"width":""} -->
+			<div class="wp-block-column"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"},"border":{"width":"1px","radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"minHeight":"0px"}},"backgroundColor":"background","borderColor":"secondary-shade-2","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-secondary-shade-2-border-color has-background-background-color has-background" style="border-width:1px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"0","bottom":"20px"},"blockGap":{"left":"16px"}}}} -->
+					<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0;margin-bottom:20px"><!-- wp:column {"verticalAlignment":"center","width":"64px"} -->
+						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:64px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}},"layout":{"type":"constrained","contentSize":"74px"}} -->
+							<div class="wp-block-group" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:image {"id":5371,"width":"64px","height":"64px","scale":"cover","focalPoint":{"x":0.5,"y":0},"sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}}} -->
+								<figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5371" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;object-fit:cover;object-position:50% 0%;width:64px;height:64px" /></figure>
+								<!-- /wp:image -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
 
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"20px"}}},"textColor":"foreground"} -->
-						<p class="has-foreground-color has-text-color has-link-color" style="margin-top:20px;font-size:16px;font-style:normal;font-weight:400">
-							<?php esc_html_e('The features are great, but the support team truly sets this SaaS apart. From onboarding to daily use, their quick responses and helpful guidance made the whole experience smooth and stress-free.', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
+						<!-- wp:column {"verticalAlignment":"center","width":""} -->
+						<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+							<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"fontSize":"20px"}},"textColor":"heading-color"} -->
+								<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color" style="font-size:20px"><?php esc_html_e('James Wilson', 'saaslauncher'); ?></h5>
+								<!-- /wp:heading -->
+
+								<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"14px"}},"textColor":"foreground"} -->
+								<p class="has-foreground-color has-text-color has-link-color" style="font-size:14px"><?php esc_html_e('Founder, NovaTech Solutions', 'saaslauncher'); ?></p>
+								<!-- /wp:paragraph -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
 					</div>
-				</div>
-				<!-- /wp:cover -->
+					<!-- /wp:columns -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"40px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group" style="margin-top:40px"><!-- wp:image {"id":2055,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"},"color":{"duotone":"unset"}}} -->
-					<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[1]) ?>" alt="" class="wp-image-2055" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
+					<!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+					<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[6]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
 					<!-- /wp:image -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color","fontSize":"big"} -->
-						<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500">
-							<?php esc_html_e('Daniel Brooks', 'saaslauncher'); ?>
-						</h5>
-						<!-- /wp:heading -->
-
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"x-small"} -->
-						<p class="has-foreground-color has-text-color has-link-color has-x-small-font-size">
-							<?php esc_html_e('CEO, GrowthPilot', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"small"} -->
+					<p class="has-foreground-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('“Outstanding experience from start to finish. The process was smooth, the design looked great, and our website launched quickly.”', 'saaslauncher'); ?></p>
+					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
 			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
+			<!-- /wp:column -->
 
-		<!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":"24px","width":"0px","style":"none"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-background-alt-background-color has-background" style="border-style:none;border-width:0px;border-radius:24px;margin-top:0;margin-bottom:0;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px"><!-- wp:cover {"dimRatio":0,"overlayColor":"transparent","isUserOverlayColor":true,"minHeight":100,"contentPosition":"top left","isDark":false,"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-cover is-light has-custom-content-position is-position-top-left" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-transparent-background-color has-background-dim-0 has-background-dim"></span>
-					<div class="wp-block-cover__inner-container"><!-- wp:image {"id":5945,"width":"100px","height":"19px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"8px","bottom":"0"}},"color":{"duotone":["#0f9d8a","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized" style="margin-top:8px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="object-fit:contain;width:100px;height:19px" /></figure>
-						<!-- /wp:image -->
+			<!-- wp:column {"width":""} -->
+			<div class="wp-block-column"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"},"border":{"width":"1px","radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"minHeight":"0px"}},"backgroundColor":"background","borderColor":"secondary-shade-2","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-secondary-shade-2-border-color has-background-background-color has-background" style="border-width:1px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"0","bottom":"20px"},"blockGap":{"left":"16px"}}}} -->
+					<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0;margin-bottom:20px"><!-- wp:column {"verticalAlignment":"center","width":"64px"} -->
+						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:64px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}},"layout":{"type":"constrained","contentSize":"74px"}} -->
+							<div class="wp-block-group" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:image {"id":9360,"width":"64px","height":"64px","scale":"cover","focalPoint":{"x":0.5,"y":0},"sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}}} -->
+								<figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[1]) ?>" alt="" class="wp-image-9360" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;object-fit:cover;object-position:50% 0%;width:64px;height:64px" /></figure>
+								<!-- /wp:image -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
 
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"20px"}}},"textColor":"foreground"} -->
-						<p class="has-foreground-color has-text-color has-link-color" style="margin-top:20px;font-size:16px;font-style:normal;font-weight:400">
-							<?php esc_html_e('The features are great, but the support team truly sets this SaaS apart. From onboarding to daily use, their quick responses and helpful guidance made the whole experience smooth and stress-free.', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
+						<!-- wp:column {"verticalAlignment":"center","width":""} -->
+						<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+							<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"fontSize":"20px"}},"textColor":"heading-color"} -->
+								<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color" style="font-size:20px"><?php esc_html_e('Sophia Carter', 'saaslauncher'); ?></h5>
+								<!-- /wp:heading -->
+
+								<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"14px"}},"textColor":"foreground"} -->
+								<p class="has-foreground-color has-text-color has-link-color" style="font-size:14px"><?php esc_html_e('Marketing Director, BrightScale', 'saaslauncher'); ?></p>
+								<!-- /wp:paragraph -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
 					</div>
-				</div>
-				<!-- /wp:cover -->
+					<!-- /wp:columns -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"40px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group" style="margin-top:40px"><!-- wp:image {"id":2063,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"},"color":{"duotone":"unset"}}} -->
-					<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[2]) ?>" alt="" class="wp-image-2063" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
+					<!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+					<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[6]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
 					<!-- /wp:image -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color","fontSize":"big"} -->
-						<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500">
-							<?php esc_html_e('Daniel Brooks', 'saaslauncher'); ?>
-						</h5>
-						<!-- /wp:heading -->
-
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"x-small"} -->
-						<p class="has-foreground-color has-text-color has-link-color has-x-small-font-size">
-							<?php esc_html_e('CEO, GrowthPilot', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"small"} -->
+					<p class="has-foreground-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('“SaasLauncher made website creation incredibly simple. We built a polished, professional site without the setup hassle.”', 'saaslauncher'); ?></p>
+					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
 			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
+			<!-- /wp:column -->
 
-		<!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":"24px","width":"0px","style":"none"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-background-alt-background-color has-background" style="border-style:none;border-width:0px;border-radius:24px;margin-top:0;margin-bottom:0;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px"><!-- wp:cover {"dimRatio":0,"overlayColor":"transparent","isUserOverlayColor":true,"minHeight":100,"contentPosition":"top left","isDark":false,"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-cover is-light has-custom-content-position is-position-top-left" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-transparent-background-color has-background-dim-0 has-background-dim"></span>
-					<div class="wp-block-cover__inner-container"><!-- wp:image {"id":5945,"width":"100px","height":"19px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"8px","bottom":"0"}},"color":{"duotone":["#0f9d8a","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized" style="margin-top:8px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="object-fit:contain;width:100px;height:19px" /></figure>
-						<!-- /wp:image -->
+			<!-- wp:column {"width":""} -->
+			<div class="wp-block-column"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"},"border":{"width":"1px","radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"minHeight":"0px"}},"backgroundColor":"background","borderColor":"secondary-shade-2","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-secondary-shade-2-border-color has-background-background-color has-background" style="border-width:1px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"0","bottom":"20px"},"blockGap":{"left":"16px"}}}} -->
+					<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0;margin-bottom:20px"><!-- wp:column {"verticalAlignment":"center","width":"64px"} -->
+						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:64px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}},"layout":{"type":"constrained","contentSize":"74px"}} -->
+							<div class="wp-block-group" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:image {"id":9361,"width":"64px","height":"64px","scale":"cover","focalPoint":{"x":0.5,"y":0},"sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}}} -->
+								<figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[2]) ?>" alt="" class="wp-image-9361" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;object-fit:cover;object-position:50% 0%;width:64px;height:64px" /></figure>
+								<!-- /wp:image -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
 
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"20px"}}},"textColor":"foreground"} -->
-						<p class="has-foreground-color has-text-color has-link-color" style="margin-top:20px;font-size:16px;font-style:normal;font-weight:400">
-							<?php esc_html_e('The features are great, but the support team truly sets this SaaS apart. From onboarding to daily use, their quick responses and helpful guidance made the whole experience smooth and stress-free.', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
+						<!-- wp:column {"verticalAlignment":"center","width":""} -->
+						<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+							<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"fontSize":"20px"}},"textColor":"heading-color"} -->
+								<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color" style="font-size:20px"><?php esc_html_e('Daniel Brooks', 'saaslauncher'); ?></h5>
+								<!-- /wp:heading -->
+
+								<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"14px"}},"textColor":"foreground"} -->
+								<p class="has-foreground-color has-text-color has-link-color" style="font-size:14px"><?php esc_html_e('CEO, CloudPeak', 'saaslauncher'); ?></p>
+								<!-- /wp:paragraph -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
 					</div>
-				</div>
-				<!-- /wp:cover -->
+					<!-- /wp:columns -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"40px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group" style="margin-top:40px"><!-- wp:image {"id":2067,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"},"color":{"duotone":"unset"}}} -->
-					<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[3]) ?>" alt="" class="wp-image-2067" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
+					<!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+					<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[6]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
 					<!-- /wp:image -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color","fontSize":"big"} -->
-						<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500">
-							<?php esc_html_e('Daniel Brooks', 'saaslauncher'); ?>
-						</h5>
-						<!-- /wp:heading -->
-
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"x-small"} -->
-						<p class="has-foreground-color has-text-color has-link-color has-x-small-font-size">
-							<?php esc_html_e('CEO, GrowthPilot', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"small"} -->
+					<p class="has-foreground-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('“From the first idea to launch, everything felt effortless. The flexible layouts helped us create a website that truly fits our business.”', 'saaslauncher'); ?></p>
+					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
 			</div>
-			<!-- /wp:group -->
+			<!-- /wp:column -->
 		</div>
-		<!-- /wp:column -->
+		<!-- /wp:columns -->
+
+		<!-- wp:columns {"className":"saaslauncher-fade-up","style":{"spacing":{"blockGap":{"left":"24px"},"margin":{"top":"24px","bottom":"0"}}}} -->
+		<div class="wp-block-columns saaslauncher-fade-up" style="margin-top:24px;margin-bottom:0"><!-- wp:column {"width":""} -->
+			<div class="wp-block-column"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"},"border":{"width":"1px","radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"minHeight":"0px"}},"backgroundColor":"background","borderColor":"secondary-shade-2","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-secondary-shade-2-border-color has-background-background-color has-background" style="border-width:1px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"0","bottom":"20px"},"blockGap":{"left":"16px"}}}} -->
+					<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0;margin-bottom:20px"><!-- wp:column {"verticalAlignment":"center","width":"64px"} -->
+						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:64px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}},"layout":{"type":"constrained","contentSize":"74px"}} -->
+							<div class="wp-block-group" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:image {"id":9362,"width":"64px","height":"64px","scale":"cover","focalPoint":{"x":0.5,"y":0},"sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}}} -->
+								<figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[3]) ?>" alt="" class="wp-image-9362" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;object-fit:cover;object-position:50% 0%;width:64px;height:64px" /></figure>
+								<!-- /wp:image -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
+
+						<!-- wp:column {"verticalAlignment":"center","width":""} -->
+						<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+							<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"fontSize":"20px"}},"textColor":"heading-color"} -->
+								<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color" style="font-size:20px"><?php esc_html_e('Emma Richardson', 'saaslauncher'); ?></h5>
+								<!-- /wp:heading -->
+
+								<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"14px"}},"textColor":"foreground"} -->
+								<p class="has-foreground-color has-text-color has-link-color" style="font-size:14px"><?php esc_html_e('Agency Owner, PixelCraft Studio', 'saaslauncher'); ?></p>
+								<!-- /wp:paragraph -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
+					</div>
+					<!-- /wp:columns -->
+
+					<!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+					<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[6]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
+					<!-- /wp:image -->
+
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"small"} -->
+					<p class="has-foreground-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('“We needed a modern website fast, and SaasLauncher delivered. Easy customization, and a smooth overall experience.”', 'saaslauncher'); ?></p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:group -->
+			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column {"width":""} -->
+			<div class="wp-block-column"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"},"border":{"width":"1px","radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"minHeight":"0px"}},"backgroundColor":"background","borderColor":"secondary-shade-2","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-secondary-shade-2-border-color has-background-background-color has-background" style="border-width:1px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"0","bottom":"20px"},"blockGap":{"left":"16px"}}}} -->
+					<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0;margin-bottom:20px"><!-- wp:column {"verticalAlignment":"center","width":"64px"} -->
+						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:64px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}},"layout":{"type":"constrained","contentSize":"74px"}} -->
+							<div class="wp-block-group" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:image {"id":9363,"width":"64px","height":"64px","scale":"cover","focalPoint":{"x":0.5,"y":0},"sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}}} -->
+								<figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[4]) ?>" alt="" class="wp-image-9363" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;object-fit:cover;object-position:50% 0%;width:64px;height:64px" /></figure>
+								<!-- /wp:image -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
+
+						<!-- wp:column {"verticalAlignment":"center","width":""} -->
+						<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+							<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"fontSize":"20px"}},"textColor":"heading-color"} -->
+								<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color" style="font-size:20px"><?php esc_html_e('Michael Turner', 'saaslauncher'); ?></h5>
+								<!-- /wp:heading -->
+
+								<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"14px"}},"textColor":"foreground"} -->
+								<p class="has-foreground-color has-text-color has-link-color" style="font-size:14px"><?php esc_html_e('Co-Founder, GrowthPilot', 'saaslauncher'); ?></p>
+								<!-- /wp:paragraph -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
+					</div>
+					<!-- /wp:columns -->
+
+					<!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+					<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[6]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
+					<!-- /wp:image -->
+
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"small"} -->
+					<p class="has-foreground-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('“The ready-made sections saved us hours of work. We quickly built a professional website that looks polished and performs beautifully.”', 'saaslauncher'); ?></p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:group -->
+			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column {"width":""} -->
+			<div class="wp-block-column"><!-- wp:group {"className":"is-style-saaslauncher-gradient-border","style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"},"border":{"width":"1px","radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"minHeight":"0px"}},"backgroundColor":"background","borderColor":"secondary-shade-2","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group is-style-saaslauncher-gradient-border has-border-color has-secondary-shade-2-border-color has-background-background-color has-background" style="border-width:1px;border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;min-height:0px;margin-top:0;margin-bottom:0;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"0","bottom":"20px"},"blockGap":{"left":"16px"}}}} -->
+					<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0;margin-bottom:20px"><!-- wp:column {"verticalAlignment":"center","width":"64px"} -->
+						<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:64px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}},"layout":{"type":"constrained","contentSize":"74px"}} -->
+							<div class="wp-block-group" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;margin-top:0;margin-bottom:0;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:image {"id":9364,"width":"64px","height":"64px","scale":"cover","focalPoint":{"x":0.5,"y":0},"sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"0"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}}}} -->
+								<figure class="wp-block-image size-full is-resized has-custom-border" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[5]) ?>" alt="" class="wp-image-9364" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;object-fit:cover;object-position:50% 0%;width:64px;height:64px" /></figure>
+								<!-- /wp:image -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
+
+						<!-- wp:column {"verticalAlignment":"center","width":""} -->
+						<div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+							<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:heading {"level":5,"style":{"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}},"typography":{"fontSize":"20px"}},"textColor":"heading-color"} -->
+								<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color" style="font-size:20px"><?php esc_html_e('Olivia Bennett', 'saaslauncher'); ?></h5>
+								<!-- /wp:heading -->
+
+								<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"14px"}},"textColor":"foreground"} -->
+								<p class="has-foreground-color has-text-color has-link-color" style="font-size:14px"><?php esc_html_e('Consultant, Elevate Advisory', 'saaslauncher'); ?></p>
+								<!-- /wp:paragraph -->
+							</div>
+							<!-- /wp:group -->
+						</div>
+						<!-- /wp:column -->
+					</div>
+					<!-- /wp:columns -->
+
+					<!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+					<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[6]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
+					<!-- /wp:image -->
+
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"small"} -->
+					<p class="has-foreground-color has-text-color has-link-color has-small-font-size"><?php esc_html_e('“SaasLauncher gave us the flexibility to build exactly what we wanted. The whole experience was genuinely enjoyable.”', 'saaslauncher'); ?></p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:group -->
+			</div>
+			<!-- /wp:column -->
+		</div>
+		<!-- /wp:columns -->
 	</div>
-	<!-- /wp:columns -->
-
-	<!-- wp:columns {"style":{"spacing":{"margin":{"top":"28px"},"blockGap":{"left":"28px"}}}} -->
-	<div class="wp-block-columns" style="margin-top:28px"><!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":"24px","width":"0px","style":"none"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-background-alt-background-color has-background" style="border-style:none;border-width:0px;border-radius:24px;margin-top:0;margin-bottom:0;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px"><!-- wp:cover {"dimRatio":0,"overlayColor":"transparent","isUserOverlayColor":true,"minHeight":100,"contentPosition":"top left","isDark":false,"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-cover is-light has-custom-content-position is-position-top-left" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-transparent-background-color has-background-dim-0 has-background-dim"></span>
-					<div class="wp-block-cover__inner-container"><!-- wp:image {"id":5945,"width":"100px","height":"19px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"8px","bottom":"0"}},"color":{"duotone":["#0f9d8a","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized" style="margin-top:8px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="object-fit:contain;width:100px;height:19px" /></figure>
-						<!-- /wp:image -->
-
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"20px"}}},"textColor":"foreground"} -->
-						<p class="has-foreground-color has-text-color has-link-color" style="margin-top:20px;font-size:16px;font-style:normal;font-weight:400">
-							<?php esc_html_e('The features are great, but the support team truly sets this SaaS apart. From onboarding to daily use, their quick responses and helpful guidance made the whole experience smooth and stress-free.', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
-					</div>
-				</div>
-				<!-- /wp:cover -->
-
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"40px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group" style="margin-top:40px"><!-- wp:image {"id":2075,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"},"color":{"duotone":"unset"}}} -->
-					<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[4]) ?>" alt="" class="wp-image-2075" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
-					<!-- /wp:image -->
-
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color","fontSize":"big"} -->
-						<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500">
-							<?php esc_html_e('Daniel Brooks', 'saaslauncher'); ?>
-						</h5>
-						<!-- /wp:heading -->
-
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"x-small"} -->
-						<p class="has-foreground-color has-text-color has-link-color has-x-small-font-size">
-							<?php esc_html_e('CEO, GrowthPilot', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
-				</div>
-				<!-- /wp:group -->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":"24px","width":"0px","style":"none"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-background-alt-background-color has-background" style="border-style:none;border-width:0px;border-radius:24px;margin-top:0;margin-bottom:0;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px"><!-- wp:cover {"dimRatio":0,"overlayColor":"transparent","isUserOverlayColor":true,"minHeight":100,"contentPosition":"top left","isDark":false,"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-cover is-light has-custom-content-position is-position-top-left" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-transparent-background-color has-background-dim-0 has-background-dim"></span>
-					<div class="wp-block-cover__inner-container"><!-- wp:image {"id":5945,"width":"100px","height":"19px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"8px","bottom":"0"}},"color":{"duotone":["#0f9d8a","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized" style="margin-top:8px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="object-fit:contain;width:100px;height:19px" /></figure>
-						<!-- /wp:image -->
-
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"20px"}}},"textColor":"foreground"} -->
-						<p class="has-foreground-color has-text-color has-link-color" style="margin-top:20px;font-size:16px;font-style:normal;font-weight:400">
-							<?php esc_html_e('The features are great, but the support team truly sets this SaaS apart. From onboarding to daily use, their quick responses and helpful guidance made the whole experience smooth and stress-free.', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
-					</div>
-				</div>
-				<!-- /wp:cover -->
-
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"40px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group" style="margin-top:40px"><!-- wp:image {"id":2076,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"},"color":{"duotone":"unset"}}} -->
-					<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[5]) ?>" alt="" class="wp-image-2076" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
-					<!-- /wp:image -->
-
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color","fontSize":"big"} -->
-						<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500">
-							<?php esc_html_e('Daniel Brooks', 'saaslauncher'); ?>
-						</h5>
-						<!-- /wp:heading -->
-
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"x-small"} -->
-						<p class="has-foreground-color has-text-color has-link-color has-x-small-font-size">
-							<?php esc_html_e('CEO, GrowthPilot', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
-				</div>
-				<!-- /wp:group -->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:group {"style":{"border":{"radius":"24px","width":"0px","style":"none"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"backgroundColor":"background-alt","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-background-alt-background-color has-background" style="border-style:none;border-width:0px;border-radius:24px;margin-top:0;margin-bottom:0;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px"><!-- wp:cover {"dimRatio":0,"overlayColor":"transparent","isUserOverlayColor":true,"minHeight":100,"contentPosition":"top left","isDark":false,"style":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-cover is-light has-custom-content-position is-position-top-left" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;min-height:100px"><span aria-hidden="true" class="wp-block-cover__background has-transparent-background-color has-background-dim-0 has-background-dim"></span>
-					<div class="wp-block-cover__inner-container"><!-- wp:image {"id":5945,"width":"100px","height":"19px","scale":"contain","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"right":"0","left":"0","top":"8px","bottom":"0"}},"color":{"duotone":["#0f9d8a","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized" style="margin-top:8px;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="object-fit:contain;width:100px;height:19px" /></figure>
-						<!-- /wp:image -->
-
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"20px"}}},"textColor":"foreground"} -->
-						<p class="has-foreground-color has-text-color has-link-color" style="margin-top:20px;font-size:16px;font-style:normal;font-weight:400">
-							<?php esc_html_e('The features are great, but the support team truly sets this SaaS apart. From onboarding to daily use, their quick responses and helpful guidance made the whole experience smooth and stress-free.', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
-					</div>
-				</div>
-				<!-- /wp:cover -->
-
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"40px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-				<div class="wp-block-group" style="margin-top:40px"><!-- wp:image {"id":2077,"width":"auto","height":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"50px"},"color":{"duotone":"unset"}}} -->
-					<figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url($saaslauncher_images[6]) ?>" alt="" class="wp-image-2077" style="border-radius:50px;aspect-ratio:1;object-fit:cover;width:auto;height:60px" /></figure>
-					<!-- /wp:image -->
-
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group"><!-- wp:heading {"level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color","fontSize":"big"} -->
-						<h5 class="wp-block-heading has-heading-color-color has-text-color has-link-color has-big-font-size" style="font-style:normal;font-weight:500">
-							<?php esc_html_e('Daniel Brooks', 'saaslauncher'); ?>
-						</h5>
-						<!-- /wp:heading -->
-
-						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"x-small"} -->
-						<p class="has-foreground-color has-text-color has-link-color has-x-small-font-size">
-							<?php esc_html_e('CEO, GrowthPilot', 'saaslauncher'); ?>
-						</p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
-				</div>
-				<!-- /wp:group -->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
-	</div>
-	<!-- /wp:columns -->
+	<!-- /wp:group -->
 </div>
 <!-- /wp:group -->

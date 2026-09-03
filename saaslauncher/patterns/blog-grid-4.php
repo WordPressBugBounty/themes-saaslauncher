@@ -6,7 +6,7 @@
  * Categories: saaslauncher-post
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"48px"}}},"layout":{"type":"constrained","contentSize":"1280px"}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"48px"}}},"layout":{"type":"constrained","contentSize":"1200px"}} -->
 <div class="wp-block-group" style="padding-bottom:48px"><!-- wp:heading {"level":3,"className":"is-style-heading-text-bullet-lead","style":{"typography":{"fontSize":"20px","textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"},"spacing":{"padding":{"left":"18px"}}}} -->
     <h3 class="wp-block-heading is-style-heading-text-bullet-lead" style="padding-left:18px;font-size:20px;font-style:normal;font-weight:600;text-transform:uppercase">
         <?php esc_html_e('Top Articles', 'saaslauncher'); ?></h3>

@@ -11,7 +11,7 @@
     <!-- wp:pattern {"slug":"saaslauncher/about-us-5"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/service-list"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/testimonials-single"} /-->
-    <!-- wp:pattern {"slug":"saaslauncher/logo-grid"} /-->
+    <!-- wp:pattern {"slug":"saaslauncher/logo-grid-2"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/faq-accordion"} /-->
 </main>
 <!-- /wp:group -->
