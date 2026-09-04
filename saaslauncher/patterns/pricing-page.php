@@ -10,6 +10,6 @@
 <main class="wp-block-group has-gradient-nine-gradient-background has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
     <!-- wp:pattern {"slug":"saaslauncher/pricing-tables-2"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/testimonials-grid"} /-->
-    <!-- wp:pattern {"slug":"saaslauncher/faq-accordion"} /-->
+    <!-- wp:pattern {"slug":"saaslauncher/faq-accordion-2"} /-->
 </main>
 <!-- /wp:group -->

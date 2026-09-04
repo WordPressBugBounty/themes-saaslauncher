@@ -485,7 +485,7 @@
     }
 
     & .banner-image {
-      margin: 0 0 -5px;
+      margin: 0;
       display: flex;
     }
     & .inner-wrap {

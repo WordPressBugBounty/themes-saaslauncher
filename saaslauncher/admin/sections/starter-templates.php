@@ -1,18 +1,18 @@
 <div class="starter-templates boxed-layout flex-layout flex-center">
 	<div>
-		<p class="section-pill"><?php esc_html_e( 'Starter Templates', 'saaslauncher' ); ?></p>
+		<p class="section-pill"><?php esc_html_e('Starter Templates', 'saaslauncher'); ?></p>
 		<h2 class="section-title">
-			<?php esc_html_e( 'Start Building Faster with Pre-Built Templates', 'saaslauncher' ); ?></h2>
+			<?php esc_html_e('Start Building Faster with Pre-Built Templates', 'saaslauncher'); ?></h2>
 
 		<div class="saaslauncher-spacer sm"></div>
 
-		<p><?php esc_html_e( 'Choose from free starter templates to launch fast, then customize with patterns from the Cozy Blocks library. Want more starting points? Pro unlocks 50+ templates across every niche.', 'saaslauncher' ); ?>
+		<p><?php esc_html_e('Choose from free starter templates to launch fast, then customize with patterns from the Cozy Blocks library. Want more starting points? Pro unlocks 50+ templates across every niche.', 'saaslauncher'); ?>
 		</p>
 
 		<div class="saaslauncher-spacer sm"></div>
 
 		<button class="btn btn-primary-alt">
-			<a href="https://cozythemes.com/website-templates?tab=template" target="_blank" rel="noopener"><?php esc_html_e( 'Explore Starter Templates →', 'saaslauncher' ); ?></a>
+			<a href="https://cozythemes.com/website-templates?tab=template" target="_blank" rel="noopener"><?php esc_html_e('Explore Starter Templates →', 'saaslauncher'); ?></a>
 		</button>
 	</div>
 	<figure class="featured-image">

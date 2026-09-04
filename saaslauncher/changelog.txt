@@ -1,3 +1,6 @@
+= 2.0.13 - September 04, 2026 =
+* Minor border issue for temlates fixed
+
 = 2.0.12 - September 03, 2026 =
 * Navigation fixed
 * Brand logo showcase url fixed
