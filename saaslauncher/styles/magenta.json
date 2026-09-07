@@ -7,32 +7,32 @@
       "palette": [
         {
           "slug": "primary",
-          "color": "#E553FF",
+          "color": "#E157FA",
           "name": "Primary"
         },
         {
           "slug": "secondary",
-          "color": "#4938FE",
+          "color": "#B224F9",
           "name": "Secondary"
         },
         {
           "slug": "primary-shade-one",
-          "color": "#E9A1F6",
+          "color": "#6E107E",
           "name": "Primary Shade 1"
         },
         {
           "slug": "primary-shade-2",
-          "color": "#480554",
+          "color": "#260D2B",
           "name": "Primary Shade 2"
         },
         {
           "slug": "secondary-shade-1",
-          "color": "#3C0AC6",
+          "color": "#450D4F",
           "name": "Secodnary Shade 1"
         },
         {
           "slug": "secondary-shade-2",
-          "color": "#3B038F",
+          "color": "#AA3CBE",
           "name": "Secodnary Shade 2"
         },
 
@@ -48,7 +48,7 @@
         },
         {
           "slug": "dark-shade",
-          "color": "#1B0120",
+          "color": "#210F24",
           "name": "Dark Shade"
         },
 
@@ -59,12 +59,12 @@
         },
         {
           "slug": "background",
-          "color": "#050006",
+          "color": "#0C010E",
           "name": "Background"
         },
         {
           "slug": "background-alt",
-          "color": "#281B2A",
+          "color": "#170A1A",
           "name": "Background Alt"
         },
         {
@@ -84,7 +84,7 @@
         },
         {
           "slug": "border-color",
-          "color": "#3F3441",
+          "color": "#2D1632",
           "name": "Border Color"
         },
         {
@@ -100,52 +100,52 @@
       ],
       "duotone": [
         {
-          "colors": ["#E553FF", "#ffffff"],
+          "colors": ["#E157FA", "#ffffff"],
           "slug": "primary-secondary",
           "name": "Duo 1"
         },
         {
-          "colors": ["#4938FE", "#E553FF"],
+          "colors": ["#B224F9", "#E157FA"],
           "slug": "secondary-primary",
           "name": "Duo 2"
         },
         {
-          "colors": ["#E553FF", "#000000"],
+          "colors": ["#E157FA", "#000000"],
           "slug": "primary-dark",
           "name": "Duo 3"
         },
         {
-          "colors": ["#000000", "#E553FF"],
+          "colors": ["#000000", "#E157FA"],
           "slug": "dark-primary",
           "name": "Duo 4"
         },
         {
-          "colors": ["#E553FF", "#ffffff"],
+          "colors": ["#E157FA", "#ffffff"],
           "slug": "primary-light",
           "name": "Duo 5"
         },
         {
-          "colors": ["#ffffff", "#E553FF"],
+          "colors": ["#ffffff", "#E157FA"],
           "slug": "light-primary",
           "name": "Duo 6"
         },
         {
-          "colors": ["#4938FE", "#000000"],
+          "colors": ["#B224F9", "#000000"],
           "slug": "secondary-dark",
           "name": "Duo 7"
         },
         {
-          "colors": ["#000000", "#4938FE"],
+          "colors": ["#000000", "#B224F9"],
           "slug": "dark-secondary",
           "name": "Duo 8"
         },
         {
-          "colors": ["#4938FE", "#ffffff"],
+          "colors": ["#B224F9", "#ffffff"],
           "slug": "secondary-light",
           "name": "Duo 9"
         },
         {
-          "colors": ["#ffffff", "#4938FE"],
+          "colors": ["#ffffff", "#B224F9"],
           "slug": "light-secondary",
           "name": "Duo 10"
         }

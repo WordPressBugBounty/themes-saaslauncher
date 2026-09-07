@@ -12,12 +12,12 @@
         },
         {
           "slug": "secondary",
-          "color": "#5A2EEB",
+          "color": "#6F12D9",
           "name": "Secondary"
         },
         {
           "slug": "primary-shade-one",
-          "color": "#6F97FD",
+          "color": "#3565DE",
           "name": "Primary Shade 1"
         },
         {
@@ -27,12 +27,12 @@
         },
         {
           "slug": "secondary-shade-1",
-          "color": "#4828B3",
+          "color": "#1C3573",
           "name": "Secodnary Shade 1"
         },
         {
           "slug": "secondary-shade-2",
-          "color": "#341B87",
+          "color": "#2462FF",
           "name": "Secodnary Shade 2"
         },
 
@@ -48,7 +48,7 @@
         },
         {
           "slug": "dark-shade",
-          "color": "#02010C",
+          "color": "#141A29",
           "name": "Dark Shade"
         },
 
@@ -59,12 +59,12 @@
         },
         {
           "slug": "background",
-          "color": "#02010B",
+          "color": "#00030A",
           "name": "Background"
         },
         {
           "slug": "background-alt",
-          "color": "#1B202F",
+          "color": "#0B0F18",
           "name": "Background Alt"
         },
         {
@@ -84,7 +84,7 @@
         },
         {
           "slug": "border-color",
-          "color": "#444555",
+          "color": "#111C37",
           "name": "Border Color"
         },
         {
@@ -105,7 +105,7 @@
           "name": "Duo 1"
         },
         {
-          "colors": ["#5A2EEB", "#2360FB"],
+          "colors": ["#6F12D9", "#2360FB"],
           "slug": "secondary-primary",
           "name": "Duo 2"
         },
@@ -130,22 +130,22 @@
           "name": "Duo 6"
         },
         {
-          "colors": ["#5A2EEB", "#000000"],
+          "colors": ["#6F12D9", "#000000"],
           "slug": "secondary-dark",
           "name": "Duo 7"
         },
         {
-          "colors": ["#000000", "#5A2EEB"],
+          "colors": ["#000000", "#6F12D9"],
           "slug": "dark-secondary",
           "name": "Duo 8"
         },
         {
-          "colors": ["#5A2EEB", "#ffffff"],
+          "colors": ["#6F12D9", "#ffffff"],
           "slug": "secondary-light",
           "name": "Duo 9"
         },
         {
-          "colors": ["#ffffff", "#5A2EEB"],
+          "colors": ["#ffffff", "#6F12D9"],
           "slug": "light-secondary",
           "name": "Duo 10"
         }

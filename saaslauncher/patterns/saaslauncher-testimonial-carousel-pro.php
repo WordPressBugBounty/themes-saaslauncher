@@ -78,7 +78,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -119,7 +119,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -160,7 +160,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -201,7 +201,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -242,7 +242,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -283,7 +283,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -332,7 +332,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -373,7 +373,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -414,7 +414,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -455,7 +455,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -496,7 +496,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 
@@ -537,7 +537,7 @@ $saaslauncher_images = array(
                             </div>
                             <!-- /wp:columns -->
 
-                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#7545fc","#7545fc"]}}} -->
+                            <!-- wp:image {"id":5945,"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":"var:preset|duotone|primary-secondary"}}} -->
                             <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url($saaslauncher_images[0]) ?>" alt="" class="wp-image-5945" style="width:100px;height:auto" /></figure>
                             <!-- /wp:image -->
 

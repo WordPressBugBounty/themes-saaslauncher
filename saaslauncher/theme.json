@@ -51,7 +51,7 @@
         },
         {
           "slug": "dark-shade",
-          "color": "#1F1E33",
+          "color": "#19192A",
           "name": "Dark Shade"
         },
 
@@ -62,12 +62,12 @@
         },
         {
           "slug": "background",
-          "color": "#0B0B0F",
+          "color": "#0C0C13",
           "name": "Background"
         },
         {
           "slug": "background-alt",
-          "color": "#0F0F19",
+          "color": "#0F0F1A",
           "name": "Background Alt"
         },
         {

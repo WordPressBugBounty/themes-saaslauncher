@@ -1293,7 +1293,8 @@ ul.wp-block-social-links.is-style-saaslauncher-social-links-half-width
 .wp-block-group.is-style-saaslauncher-group-hover-translate:hover
   .wp-block-group.service-box-icon
   img {
-  filter: grayscale(1) brightness(100);
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
 }
 .wp-block-group.is-style-saaslauncher-group-hover-translate:hover {
   border-color: var(--wp--preset--color--primary) !important;
@@ -1301,6 +1302,11 @@ ul.wp-block-social-links.is-style-saaslauncher-social-links-half-width
 .saaslauncher-faq .wp-block-accordion-item.is-open {
   border-color: var(--wp--preset--color--primary) !important;
   background: var(--wp--preset--color--primary) !important;
+}
+.saaslauncher-faq
+  .wp-block-accordion-item.is-open
+  span.wp-block-accordion-heading__toggle-title {
+  color: var(--wp--preset--color--light-color) !important;
 }
 figure.wp-block-gallery.saaslauncher-brands-2 figure.wp-block-image {
   border: 1px solid var(--wp--preset--color--border-color);

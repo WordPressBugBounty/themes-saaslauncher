@@ -12,27 +12,27 @@
         },
         {
           "slug": "secondary",
-          "color": "#0C8977",
+          "color": "#0D7787",
           "name": "Secondary"
         },
         {
           "slug": "primary-shade-one",
-          "color": "#04251F",
+          "color": "#BAD8D3",
           "name": "Primary Shade 1"
         },
         {
           "slug": "primary-shade-2",
-          "color": "#293635",
+          "color": "#E7F3F3",
           "name": "Primary Shade 2"
         },
         {
           "slug": "secondary-shade-1",
-          "color": "#0a35b8",
+          "color": "#B5D4D0",
           "name": "Secondary Shade 1"
         },
         {
           "slug": "secondary-shade-2",
-          "color": "#3B038F",
+          "color": "#38CCB8",
           "name": "Secondary Shade 2"
         },
         {
@@ -47,7 +47,7 @@
         },
         {
           "slug": "dark-shade",
-          "color": "#011A16",
+          "color": "#D8E8E5",
           "name": "Dark Shade"
         },
 
@@ -110,27 +110,27 @@
         },
 
         {
-          "colors": ["#0F9D8A", "#0C8977"],
+          "colors": ["#0F9D8A", "#0D7787"],
           "slug": "secondary-primary",
           "name": "Duo 2"
         },
         {
-          "colors": ["#0C8977", "#000000"],
+          "colors": ["#0D7787", "#000000"],
           "slug": "primary-dark",
           "name": "Duo 3"
         },
         {
-          "colors": ["#000000", "#0C8977"],
+          "colors": ["#000000", "#0D7787"],
           "slug": "dark-primary",
           "name": "Duo 4"
         },
         {
-          "colors": ["#0C8977", "#ffffff"],
+          "colors": ["#0D7787", "#ffffff"],
           "slug": "primary-light",
           "name": "Duo 5"
         },
         {
-          "colors": ["#ffffff", "#0C8977"],
+          "colors": ["#ffffff", "#0D7787"],
           "slug": "light-primary",
           "name": "Duo 6"
         },
@@ -162,7 +162,7 @@
       "h6": { "typography": { "fontWeight": "500" } },
       "heading": {
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--host-grotesk)"
+          "fontFamily": "var(--wp--preset--font-family--mona-sans)"
         }
       }
     },

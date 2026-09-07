@@ -18,7 +18,7 @@
 				<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group"><!-- wp:site-logo {"width":44,"shouldSyncIcon":false,"style":{"color":{"duotone":"unset"}}} /-->
 
-						<!-- wp:site-title {"style":{"typography":{"textTransform":"none","letterSpacing":"0px","lineHeight":"1","fontStyle":"normal","fontWeight":"500","fontSize":"28px"},"elements":{"link":{"color":{"text":"var:preset|color|light-color"},":hover":{"color":{"text":"var:preset|color|primary"}}}},"spacing":{"margin":{"top":"0px"}}},"textColor":"heading-color"} /-->
+						<!-- wp:site-title {"style":{"typography":{"textTransform":"none","letterSpacing":"0px","lineHeight":"1","fontStyle":"normal","fontWeight":"500","fontSize":"28px"},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"},":hover":{"color":{"text":"var:preset|color|primary"}}}},"spacing":{"margin":{"top":"0px","bottom":"var:preset|spacing|30"}}},"textColor":"heading-color"} /-->
 					</div>
 					<!-- /wp:group -->
 				</div>
@@ -30,7 +30,7 @@
 				<div class="wp-block-group"><!-- wp:group {"metadata":{"blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"className":"saaslauncher-nav-btn-group","style":{"spacing":{"blockGap":"var:preset|spacing|60"},"layout":{"selfStretch":"fixed","flexSize":""}},"layout":{"type":"constrained"}} -->
 					<div class="wp-block-group saaslauncher-nav-btn-group"><!-- wp:buttons {"className":"is-style-button-transofom-on-hover","layout":{"type":"flex","justifyContent":"right"}} -->
 						<div class="wp-block-buttons is-style-button-transofom-on-hover"><!-- wp:button {"backgroundColor":"primary","textColor":"light-color","style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"}},"spacing":{"padding":{"left":"24px","right":"24px","top":"12px","bottom":"12px"}}},"fontSize":"small"} -->
-							<div class="wp-block-button"><a class="wp-block-button__link has-light-color-color has-primary-background-color has-text-color has-background has-link-color has-small-font-size has-custom-font-size wp-element-button" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px"><?php esc_html_e('Get Started', 'saaslauncher'); ?></a></div>
+							<div class="wp-block-button"><a class="wp-block-button__link has-light-color-color has-primary-background-color has-text-color has-background has-link-color has-small-font-size has-custom-font-size wp-element-button" style="border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:12px;padding-right:24px;padding-bottom:12px;padding-left:24px"><?php esc_html_e('Get Started', 'saaslauncher') ?></a></div>
 							<!-- /wp:button -->
 						</div>
 						<!-- /wp:buttons -->
