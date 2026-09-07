@@ -1,3 +1,6 @@
+= 2.0.15 - September 07, 2026 =
+* Minor issue for button style fixed.
+
 = 2.0.14 - September 07, 2026 =
 * Global color palette refined for theme
 * Minor patterns styling improved as global style
