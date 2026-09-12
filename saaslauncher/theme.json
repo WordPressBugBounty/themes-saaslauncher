@@ -156,7 +156,7 @@
       ],
       "gradients": [
         {
-          "gradient": "radial-gradient(42.01% 37.76% at 0% 40%, var(--wp--preset--color--primary) -6%, var(--wp--preset--color--primary-shade-one) 27.4%, rgba(0, 0, 0, 0) 100%), var(--wp--preset--color--background)",
+          "gradient": "radial-gradient(44.89% 43.88% at -8.59% 50%, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--background) 100%)",
           "name": "Gradient 01",
           "slug": "gradient-one"
         },
@@ -166,17 +166,17 @@
           "slug": "gradient-two"
         },
         {
-          "gradient": "radial-gradient(62.6% 62.6% at 0% 37.4%, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--background-alt) 47.36%), var(--wp--preset--color--background-alt)",
+          "gradient": "radial-gradient(44.89% 43.88% at -8.59% 50%, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--background-alt) 100%);",
           "name": "Gradient 03",
           "slug": "gradient-three"
         },
         {
-          "gradient": "radial-gradient(70.12% 160.47% at 49.03% 176.56%, var(--wp--preset--color--background) 62.15%, var(--wp--preset--color--secondary-shade-2) 73.48%, var(--wp--preset--color--background) 84.92%, var(--wp--preset--color--background) 100%), var(--wp--preset--color--background);",
+          "gradient": "radial-gradient(72.12% 138.95% at 50% 143.42%, var(--wp--preset--color--background) 50.61%, var(--wp--preset--color--primary-shade-one) 60.82%, var(--wp--preset--color--primary) 66.38%, var(--wp--preset--color--primary-shade-one) 74.13%, var(--wp--preset--color--background) 87.53%)",
           "name": "Gradient 04",
           "slug": "gradient-four"
         },
         {
-          "gradient": "radial-gradient(34.34% 24.21% at 50% -11%, var(--wp--preset--color--primary-shade-2) 0%, var(--wp--preset--color--primary-shade-one) 20%, var(--wp--preset--color--primary-shade-2) 22%, var(--wp--preset--color--background) 100%)",
+          "gradient": "radial-gradient(32% 80% at 50% -42.18%, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--background) 100%);",
           "name": "Gradient 05",
           "slug": "gradient-five"
         },
@@ -206,7 +206,7 @@
           "slug": "gradient-ten"
         },
         {
-          "gradient": "radial-gradient(30.1% 47.59% at 95.55% 7.35%, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--secondary-shade-1) 22%, var(--wp--preset--color--secondary-shade-2) 44%, var(--wp--preset--color--dark-shade) 100%)",
+          "gradient": "radial-gradient(62.4% 53.39% at 127.76% 52.83%, var(--wp--preset--color--primary) 0% 0%, var(--wp--preset--color--background) 100%)",
           "name": "Gradient 11",
           "slug": "gradient-eleven"
         },
@@ -281,7 +281,7 @@
           "slug": "center-gradient"
         },
         {
-          "gradient": "radial-gradient(50% 20% at 50% 104%, var(--wp--preset--color--primary-shade-2) 0%, var(--wp--preset--color--background) 60%)",
+          "gradient": "radial-gradient(46.48% 91.55% at 50.02% 135.77%, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--background) 100%)",
           "name": "Center Bottom Gradient",
           "slug": "center-bottom-gradient"
         },
@@ -341,7 +341,7 @@
       "width": true
     },
     "layout": {
-      "contentSize": "1180px",
+      "contentSize": "1200px",
       "wideSize": "1960px"
     },
     "typography": {

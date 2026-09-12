@@ -13,8 +13,8 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/p4.jpg',
 );
 ?>
-<!-- wp:group {"metadata":{"categories":["saaslauncher-gallery"],"name":"portfolios"},"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"8rem","bottom":"8rem"}}},"layout":{"type":"constrained","contentSize":"1200px"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:8rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:8rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"84px"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
+<!-- wp:group {"metadata":{"categories":["saaslauncher-gallery"],"name":"Portfolio"},"style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"8rem","bottom":"8rem"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group has-background-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:8rem;padding-right:var(--wp--preset--spacing--40);padding-bottom:8rem;padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"84px"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
     <div class="wp-block-group" style="margin-top:0;margin-bottom:84px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"className":"is-style-default","style":{"spacing":{"padding":{"top":"0px","bottom":"0px","left":"0px","right":"0px"}},"border":{"radius":"60px","width":"0px","style":"none"}},"layout":{"type":"constrained","contentSize":"780px"}} -->
         <div class="wp-block-group is-style-default" style="border-style:none;border-width:0px;border-radius:60px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0px","left":"0px","top":"0px","bottom":"0px"}},"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"},"width":"0px","style":"none"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
             <div class="wp-block-group" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"padding":{"right":"12px","left":"12px","top":"5px","bottom":"5px"}},"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"},"width":"1px"}},"backgroundColor":"background-alt","borderColor":"border-color","layout":{"type":"constrained"}} -->
@@ -53,20 +53,12 @@ $saaslauncher_images = array(
 
             <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","margin":{"top":"40px"}}},"layout":{"type":"constrained"}} -->
             <div class="wp-block-group" style="margin-top:40px"><!-- wp:heading {"level":3,"fontSize":"large"} -->
-                <h3 class="wp-block-heading has-large-font-size"><?php esc_html_e('Brand Identity & Website Redesign', 'saaslauncher'); ?></h3>
+                <h3 class="wp-block-heading has-large-font-size"><?php esc_html_e('Brand Identity &amp; Website Redesign', 'saaslauncher'); ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph -->
-                <p><?php esc_html_e('Automated dashboards reduced manual reporting time and improved client delivery speed.', 'saaslauncher'); ?>
-                </p>
+                <p><?php esc_html_e('Automated dashboards reduced manual reporting time and improved client delivery speed.', 'saaslauncher'); ?> </p>
                 <!-- /wp:paragraph -->
-
-                <!-- wp:buttons {"className":"is-style-button-transofom-on-hover","style":{"spacing":{"margin":{"top":"24px"}}}} -->
-                <div class="wp-block-buttons is-style-button-transofom-on-hover" style="margin-top:24px"><!-- wp:button {"className":"is-style-button-with-uparrow-icon","style":{"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"},"width":"0px","style":"none"},"spacing":{"padding":{"left":"24px","right":"24px","top":"16px","bottom":"16px"}}},"fontSize":"normal"} -->
-                    <div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link has-normal-font-size has-custom-font-size wp-element-button" style="border-style:none;border-width:0px;border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:16px;padding-right:24px;padding-bottom:16px;padding-left:24px"><?php esc_html_e('Learn More', 'saaslauncher'); ?></a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
             </div>
             <!-- /wp:group -->
         </div>
@@ -85,13 +77,6 @@ $saaslauncher_images = array(
                 <!-- wp:paragraph -->
                 <p><?php esc_html_e('Designed and developed a high-performance online store with seamless shopping experiences, resulting in higher sales and customer engagement.', 'saaslauncher'); ?></p>
                 <!-- /wp:paragraph -->
-
-                <!-- wp:buttons {"className":"is-style-button-transofom-on-hover","style":{"spacing":{"margin":{"top":"24px"}}}} -->
-                <div class="wp-block-buttons is-style-button-transofom-on-hover" style="margin-top:24px"><!-- wp:button {"className":"is-style-button-with-uparrow-icon","style":{"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"},"width":"0px","style":"none"},"spacing":{"padding":{"left":"24px","right":"24px","top":"16px","bottom":"16px"}}},"fontSize":"normal"} -->
-                    <div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link has-normal-font-size has-custom-font-size wp-element-button" style="border-style:none;border-width:0px;border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:16px;padding-right:24px;padding-bottom:16px;padding-left:24px"><?php esc_html_e('Learn More', 'saaslauncher'); ?></a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
             </div>
             <!-- /wp:group -->
         </div>
@@ -113,13 +98,6 @@ $saaslauncher_images = array(
                 <!-- wp:paragraph -->
                 <p><?php esc_html_e('Built a fast, responsive, and SEO-friendly corporate website that enhanced credibility, showcased services, and generated qualified leads.', 'saaslauncher'); ?></p>
                 <!-- /wp:paragraph -->
-
-                <!-- wp:buttons {"className":"is-style-button-transofom-on-hover","style":{"spacing":{"margin":{"top":"24px"}}}} -->
-                <div class="wp-block-buttons is-style-button-transofom-on-hover" style="margin-top:24px"><!-- wp:button {"className":"is-style-button-with-uparrow-icon","style":{"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"},"width":"0px","style":"none"},"spacing":{"padding":{"left":"24px","right":"24px","top":"16px","bottom":"16px"}}},"fontSize":"normal"} -->
-                    <div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link has-normal-font-size has-custom-font-size wp-element-button" style="border-style:none;border-width:0px;border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:16px;padding-right:24px;padding-bottom:16px;padding-left:24px"><?php esc_html_e('Learn More', 'saaslauncher'); ?></a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
             </div>
             <!-- /wp:group -->
         </div>
@@ -138,13 +116,6 @@ $saaslauncher_images = array(
                 <!-- wp:paragraph -->
                 <p><?php esc_html_e('Executed a data-driven marketing strategy combining SEO, PPC, and social media to boost traffic, leads, and overall business growth.', 'saaslauncher'); ?></p>
                 <!-- /wp:paragraph -->
-
-                <!-- wp:buttons {"className":"is-style-button-transofom-on-hover","style":{"spacing":{"margin":{"top":"24px"}}}} -->
-                <div class="wp-block-buttons is-style-button-transofom-on-hover" style="margin-top:24px"><!-- wp:button {"className":"is-style-button-with-uparrow-icon","style":{"border":{"radius":{"topLeft":"80px","topRight":"80px","bottomLeft":"80px","bottomRight":"80px"},"width":"0px","style":"none"},"spacing":{"padding":{"left":"24px","right":"24px","top":"16px","bottom":"16px"}}},"fontSize":"normal"} -->
-                    <div class="wp-block-button is-style-button-with-uparrow-icon"><a class="wp-block-button__link has-normal-font-size has-custom-font-size wp-element-button" style="border-style:none;border-width:0px;border-top-left-radius:80px;border-top-right-radius:80px;border-bottom-left-radius:80px;border-bottom-right-radius:80px;padding-top:16px;padding-right:24px;padding-bottom:16px;padding-left:24px"><?php esc_html_e('Learn More', 'saaslauncher'); ?></a></div>
-                    <!-- /wp:button -->
-                </div>
-                <!-- /wp:buttons -->
             </div>
             <!-- /wp:group -->
         </div>

@@ -7,7 +7,7 @@
  */
 $saaslauncher_url = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
-    $saaslauncher_url . 'assets/images/step_image_2.jpg',
+    $saaslauncher_url . 'assets/images/about_5.jpg',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"How It Works 2"},"style":{"spacing":{"padding":{"top":"8rem","bottom":"var:preset|spacing|80","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"1230px"}} -->

@@ -3,7 +3,7 @@
 /**
  * Title: Hero Banner Pro
  * Slug: saaslauncher/saaslauncher-hero
- * Categories: ct-saaslauncher-pro
+ * Categories: ct-saaslauncher-patterns-pro
  */
 $saaslauncher_url    = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
@@ -11,7 +11,7 @@ $saaslauncher_images = array(
     $saaslauncher_url . 'assets/images/play_icon.png',
 );
 ?>
-<!-- wp:group {"metadata":{"name":"Hero Banner Pro","categories":["ct-saaslauncher-pro"]},"align":"full","style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"100%"}} -->
+<!-- wp:group {"metadata":{"name":"Hero Banner Pro","categories":["ct-saaslauncher-patterns-pro"]},"align":"full","style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"},"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"backgroundColor":"dark-shade","layout":{"type":"constrained","contentSize":"100%"}} -->
 <div class="wp-block-group alignfull has-dark-shade-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:cover {"isUserOverlayColor":true,"gradient":"gradient-one","style":{"elements":{"link":{"color":{"text":"var:preset|color|light-color"}}},"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"0","bottom":"0"}}},"textColor":"light-color","layout":{"type":"constrained","contentSize":"1200px"}} -->
     <div class="wp-block-cover has-light-color-color has-text-color has-link-color" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:0;padding-left:var(--wp--preset--spacing--40)"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-gradient-one-gradient-background"></span>
         <div class="wp-block-cover__inner-container"><!-- wp:group {"className":"saaslauncher-fade-up","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"5rem"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->

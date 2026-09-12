@@ -1,3 +1,8 @@
+= 2.0.16 - September 12, 2026 =
+* Added: Privacy Policy Page Template
+* Added: Terms and Conditions Page Template
+* Update: minor patterns improvements
+
 = 2.0.15 - September 07, 2026 =
 * Minor issue for button style fixed.
 

@@ -13,5 +13,6 @@
     <!-- wp:pattern {"slug":"saaslauncher/testimonials-single"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/logo-grid-2"} /-->
     <!-- wp:pattern {"slug":"saaslauncher/faq-accordion-2"} /-->
+    <!-- wp:pattern {"slug":"saaslauncher/cta-with-background-image"} /-->
 </main>
 <!-- /wp:group -->

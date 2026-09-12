@@ -3,7 +3,7 @@
 /**
  * Title: Process Steps Pro
  * Slug: saaslauncher/saaslauncher-steps-pro
- * Categories: ct-saaslauncher-pro
+ * Categories: ct-saaslauncher-patterns-pro
  */
 ?>
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"7rem"}}},"backgroundColor":"background-alt","layout":{"type":"constrained","contentSize":"1200px"}} -->

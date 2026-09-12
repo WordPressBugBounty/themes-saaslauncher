@@ -23,8 +23,8 @@ $saaslauncher_images = array(
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:heading {"level":1,"style":{"typography":{"lineHeight":"1.3","fontSize":"60px"},"spacing":{"margin":{"top":"10px","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color"} -->
-			<h1 class="wp-block-heading has-heading-color-color has-text-color has-link-color" style="margin-top:10px;margin-bottom:0;font-size:60px;line-height:1.3">
+			<!-- wp:heading {"level":1,"style":{"typography":{"lineHeight":"1.2","fontSize":"64px"},"spacing":{"margin":{"top":"10px","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|heading-color"}}}},"textColor":"heading-color"} -->
+			<h1 class="wp-block-heading has-heading-color-color has-text-color has-link-color" style="margin-top:10px;margin-bottom:0;font-size:64px;line-height:1.2">
 				<?php esc_html_e('Strategic thinking, creative vision, and experience — united to build your brand.', 'saaslauncher'); ?> </h1>
 			<!-- /wp:heading -->
 
@@ -44,8 +44,8 @@ $saaslauncher_images = array(
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:cover {"url":"<?php echo esc_url($saaslauncher_images[0]) ?>","id":1991,"dimRatio":0,"isUserOverlayColor":true,"minHeight":640,"gradient":"gradient-twelve","isDark":false,"sizeSlug":"large","style":{"color":{"duotone":"unset"},"border":{"radius":"24px"}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-cover is-light" style="border-radius:24px;min-height:640px"><img class="wp-block-cover__image-background wp-image-1991 size-large" alt="" src="<?php echo esc_url($saaslauncher_images[0]) ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim has-background-gradient has-gradient-twelve-gradient-background"></span>
+	<!-- wp:cover {"url":"<?php echo esc_url($saaslauncher_images[0]) ?>","id":1991,"dimRatio":0,"isUserOverlayColor":true,"minHeight":640,"gradient":"gradient-twelve","isDark":false,"sizeSlug":"large","style":{"color":{"duotone":"unset"},"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"150px"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-cover is-light" style="border-top-left-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-radius:150px;min-height:640px"><img class="wp-block-cover__image-background wp-image-1991 size-large" alt="" src="<?php echo esc_url($saaslauncher_images[0]) ?>" data-object-fit="cover" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim has-background-gradient has-gradient-twelve-gradient-background"></span>
 		<div class="wp-block-cover__inner-container"><!-- wp:paragraph {"placeholder":"Write title…","style":{"typography":{"textAlign":"center"}},"fontSize":"large"} -->
 			<p class="has-text-align-center has-large-font-size"></p>
 			<!-- /wp:paragraph -->

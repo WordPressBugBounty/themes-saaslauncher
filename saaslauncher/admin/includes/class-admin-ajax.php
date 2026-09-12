@@ -74,7 +74,7 @@ class SaasLauncher_Admin_Ajax {
 			}
 
 			if ( $this->is_plugin_installed( $plugin_slug . '/' . $plugin_file ) ) {
-				activate_plugin( $plugin_slug . '/' . $plugin_file );
+				activate_plugin( $plugin_slug . '/' . $plugin_file, '', false, true );
 				continue;
 			}
 
@@ -95,7 +95,7 @@ class SaasLauncher_Admin_Ajax {
 
 			if ( $install ) {
 				// Activate the plugin.
-				$activate = activate_plugin( $plugin_slug . '/' . $plugin_file );
+				$activate = activate_plugin( $plugin_slug . '/' . $plugin_file, '', false, true );
 
 				// Check if activation is successful.
 				if ( is_wp_error( $activate ) ) {

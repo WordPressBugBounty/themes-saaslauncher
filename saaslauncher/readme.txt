@@ -5,7 +5,7 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.15
+Stable tag: 2.0.16
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,11 @@ SaasLauncher is a modern Full Site Editing (FSE) WordPress theme for SaaS busine
 "SaasLauncher" includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 2.0.16 - September 12, 2026 =
+* Added: Privacy Policy Page Template
+* Added: Terms and Conditions Page Template
+* Update: minor patterns improvements
+
 = 2.0.15 - September 07, 2026 =
 * Minor issue for button style fixed.
 
@@ -119,6 +124,13 @@ Source: https://pxhere.com/en/photo/1508425
 Source: https://pxhere.com/en/photo/1709468
 Source: https://pxhere.com/en/photo/1528229
 Source: https://pxhere.com/en/photo/1697520
+Source: https://pxhere.com/en/photo/1717734
+Source: https://pxhere.com/en/photo/1731640
+Source: https://pxhere.com/en/photo/1705228
+Source: https://pxhere.com/en/photo/1703128
+Source: https://pxhere.com/en/photo/1732152
+Source: https://pxhere.com/en/photo/1724176
+Source: https://pxhere.com/en/photo/1639848
 
 
 Team,Testimonials and author Images =========
