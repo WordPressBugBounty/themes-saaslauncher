@@ -7,7 +7,7 @@
  */
 $saaslauncher_url    = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
-    $saaslauncher_url . 'assets/images/team_1.jpg',
+    $saaslauncher_url . 'assets/images/person_1.jpg',
 );
 ?>
 <!-- wp:group {"metadata":{"name":"PRO: Chairperson Message","categories":["ct-saaslauncher-patterns-pro"]},"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"8rem","bottom":"8rem"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"760px"}} -->

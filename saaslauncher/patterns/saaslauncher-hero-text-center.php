@@ -7,7 +7,7 @@
  */
 $saaslauncher_url    = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
-    $saaslauncher_url . 'assets/images/about_6.png',
+    $saaslauncher_url . 'assets/images/about_6.jpg',
 );
 ?>
 <!-- wp:group {"metadata":{"name":"PRO: Hero with Text Center","categories":["ct-saaslauncher-patterns-pro"]},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"8rem","bottom":"8rem"}},"background":{"gradient":"var:preset|gradient|gradient-five"}},"layout":{"type":"constrained","contentSize":"1180px"}} -->
