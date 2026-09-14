@@ -168,7 +168,7 @@ if (! defined('ABSPATH')) {
 						<div class="saaslauncher-spacer sm"></div>
 
 						<button class="btn btn-secondary is-full-width">
-							<a href="https://cozythemes.com/pricing-and-plans/#free-vs-pro" target="_blank" rel="noopener nofollow">
+							<a href="https://cozythemes.com/saaslauncher-wordpress-theme/#saaslauncher-free-vs-pro" target="_blank" rel="noopener nofollow">
 								<?php esc_html_e('Check Full Free vs Pro Comparison →', 'saaslauncher'); ?>
 							</a>
 						</button>

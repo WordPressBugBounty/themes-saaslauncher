@@ -7,7 +7,7 @@
  */
 $saaslauncher_url    = trailingslashit(get_template_directory_uri());
 $saaslauncher_images = array(
-	$saaslauncher_url . 'assets/images/about_44.jpg',
+	$saaslauncher_url . 'assets/images/about_5.jpg',
 );
 ?>
 <!-- wp:group {"metadata":{"categories":["saaslauncher-about"],"name":"About Us 5"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"7rem","bottom":"8rem"},"margin":{"top":"0","bottom":"0"}},"border":{"top":{"color":"var:preset|color|border-color","width":"1px"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"backgroundColor":"background","layout":{"type":"constrained","contentSize":"1200px"}} -->
