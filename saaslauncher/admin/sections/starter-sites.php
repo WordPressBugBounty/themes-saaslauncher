@@ -39,6 +39,24 @@
 			</figure>
 			<h3 class="template-title"><?php esc_html_e('AI/App SaaS', 'saaslauncher'); ?></h3>
 		</div>
+		<div class="template-item">
+			<figure class="template-image">
+				<img src="<?php echo esc_url(SAASLAUNCHER_URL . 'admin/images/template-4.png'); ?>" />
+			</figure>
+			<h3 class="template-title"><?php esc_html_e('Creative Agency', 'saaslauncher'); ?></h3>
+		</div>
+		<div class="template-item">
+			<figure class="template-image">
+				<img src="<?php echo esc_url(SAASLAUNCHER_URL . 'admin/images/template-5.png'); ?>" />
+			</figure>
+			<h3 class="template-title"><?php esc_html_e('App Landing Page', 'saaslauncher'); ?></h3>
+		</div>
+		<div class="template-item">
+			<figure class="template-image">
+				<img src="<?php echo esc_url(SAASLAUNCHER_URL . 'admin/images/template-6.png'); ?>" />
+			</figure>
+			<h3 class="template-title"><?php esc_html_e('AI Startup / App', 'saaslauncher'); ?></h3>
+		</div>
 	</div>
 
 	<div class="saaslauncher-spacer md"></div>

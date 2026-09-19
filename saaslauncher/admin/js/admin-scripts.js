@@ -5,6 +5,21 @@
     const { ajaxURL, welcomeNonce, redirectURL } = ajaxObj;
 
     const $dashboard = $("#saaslauncher-dashboard");
+    const $tabItems = $("#saaslauncher-admin-header .nav-menu-item");
+    const $tabContents = $dashboard.find(".tab-content");
+
+    $tabItems.each(function () {
+      const $this = $(this);
+      const slug = $this.attr("data-tab");
+
+      $this.click(function () {
+        $tabItems.removeClass("is-active");
+        $tabContents.removeClass("is-active");
+
+        $this.addClass("is-active");
+        $dashboard.find(`#${slug}.tab-content`).addClass("is-active");
+      });
+    });
 
     /* Welcome notice script */
     $("#saaslauncher-welcome-notice").on(
@@ -45,10 +60,10 @@
     });
 
     /* Plugin Installation */
-    // Cozy Blocks installation
-    $(".cozy-addons-install").click(function () {
+    $(".saaslauncher-install-plugin").click(function () {
       const $this = $(this);
-      const $spinner = $this.find("#saaslauncher-admin-spinner");
+      const $spinner = $this.find(".spinner");
+      const pluginSlug = $this.attr("data-plugin-slug");
 
       $spinner.removeClass("saaslauncher-display-none");
       $this.addClass("saaslauncher-disabled");
@@ -57,7 +72,7 @@
         ajaxURL,
         {
           action: "saaslauncher_install_and_activate_plugins",
-          plugins: JSON.stringify(["cozy-addons"]),
+          plugins: JSON.stringify([pluginSlug]),
           nonce: welcomeNonce,
         },
         function (response) {
@@ -90,7 +105,7 @@
     });
 
     // Install Cozy Essential Addons/Advanced Import
-    $("#install-required-plugins").click(function () {
+    $(".saaslauncher-install-required-plugins").click(function () {
       const $this = $(this);
       const $spinner = $this.find("#saaslauncher-admin-spinner");
 
