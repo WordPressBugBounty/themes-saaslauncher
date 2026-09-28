@@ -1,3 +1,6 @@
+= 2.0.21 - September 28, 2026 =
+* Update: Plugin activation flow
+
 = 2.0.20 - September 19, 2026 =
 * Update: demo importer button link fixed
 
